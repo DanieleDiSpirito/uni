@@ -1,0 +1,4634 @@
+INSERT INTO film VALUES(19995,'Avatar','action',162,2009,1.34,4.4);
+
+INSERT INTO film VALUES(194,'Amelie','comedy',129,2001,7.22,1.9);
+
+INSERT INTO film VALUES(600,'Full Metal Jacket','action',116,1987,2.33,1.9);
+
+INSERT INTO film VALUES(601,'E.T.: The Extra-Terrestrial','action',115,1982,5.05,3.4);
+
+INSERT INTO film VALUES(602,'Independence Day','action',145,1996,3.93,3.0);
+
+INSERT INTO film VALUES(603,'The Matrix','action',136,1999,4.59,2.1);
+
+INSERT INTO film VALUES(604,'The Matrix Reloaded','action',138,2003,2.0,3.0);
+
+INSERT INTO film VALUES(605,'The Matrix Revolutions','action',129,2003,6.73,1.3);
+
+INSERT INTO film VALUES(606,'Out of Africa','drama',161,1985,4.74,1.1);
+
+INSERT INTO film VALUES(607,'Men In Black','action',98,1997,6.78,3.2);
+
+INSERT INTO film VALUES(608,'Men In Black II','action',88,2002,8.59,2.2);
+
+INSERT INTO film VALUES(609,'Poltergeist','horror',114,1982,7.04,3.0);
+
+INSERT INTO film VALUES(13,'Forrest Gump','action',142,1994,9.0,1.1);
+
+INSERT INTO film VALUES(20526,'Tron Legacy','adventure',127,2010,7.59,3.4);
+
+INSERT INTO film VALUES(11,'Star Wars: Episode IV - A New Hope','action',121,1977,7.82,2.5);
+
+INSERT INTO film VALUES(1893,'Star Wars: Episode I - The Phantom Menace','action',133,1999,1.15,4.5);
+
+INSERT INTO film VALUES(1892,'Star Wars: Episode VI - Return of the Jedi','action',135,1983,0.4,1.0);
+
+INSERT INTO film VALUES(1894,'Star Wars: Episode II - Attack of the Clones','action',142,2002,6.88,3.6);
+
+INSERT INTO film VALUES(168,'Star Trek IV: The Voyage Home','action',119,1986,5.51,1.3);
+
+INSERT INTO film VALUES(193,'Star Trek: Generations','science fiction',118,1994,1.73,4.1);
+
+INSERT INTO film VALUES(200,'Star Trek: Insurrection','action',103,1998,8.04,4.6);
+
+INSERT INTO film VALUES(157,'Star Trek III: The Search for Spock','action',105,1984,8.08,3.2);
+
+INSERT INTO film VALUES(152,'Star Trek: The Motion Picture','action',132,1979,3.98,2.6);
+
+INSERT INTO film VALUES(201,'Star Trek: Nemesis','action',117,2002,4.79,1.9);
+
+INSERT INTO film VALUES(154,'Star Trek II: The Wrath of Khan','action',113,1982,7.66,4.5);
+
+INSERT INTO film VALUES(12155,'Alice in Wonderland','action',108,2010,2.51,1.9);
+
+INSERT INTO film VALUES(58,'Pirates of the Caribbean: Dead Man''s Chest','action',151,2006,8.42,3.6);
+
+INSERT INTO film VALUES(285,'Pirates of the Caribbean: At World''s End','action',168,2007,7.5,1.0);
+
+INSERT INTO film VALUES(118,'Charlie and the Chocolate Factory','action',106,2005,4.91,4.4);
+
+INSERT INTO film VALUES(22,'Pirates of the Caribbean: The Curse of the Black Pearl','action',143,2003,5.73,2.2);
+
+INSERT INTO film VALUES(392,'Chocolat','comedy',122,2000,5.98,4.5);
+
+INSERT INTO film VALUES(5255,'The Polar Express','adventure',100,2004,5.84,3.9);
+
+INSERT INTO film VALUES(568,'Apollo 13','action',140,1995,9.37,4.1);
+
+INSERT INTO film VALUES(9800,'Philadelphia','drama',125,1993,6.57,1.1);
+
+INSERT INTO film VALUES(497,'The Green Mile','crime',188,1999,6.05,1.8);
+
+INSERT INTO film VALUES(101,'Leon: The Professional','crime',110,1994,2.7,3.4);
+
+INSERT INTO film VALUES(120,'The Lord of the Rings: The Fellowship of the Ring','action',178,2001,8.44,1.1);
+
+INSERT INTO film VALUES(121,'The Lord of the Rings: The Two Towers','action',179,2002,3.61,4.0);
+
+INSERT INTO film VALUES(122,'The Lord of the Rings: The Return of the King','action',201,2003,8.38,1.5);
+
+INSERT INTO film VALUES(2,'Ariel','drama',69,1988,9.19,2.6);
+
+INSERT INTO film VALUES(3,'Shadows in Paradise','comedy',76,1986,0.15,1.6);
+
+INSERT INTO film VALUES(4,'State of Siege','drama',115,1972,1.3,2.9);
+
+INSERT INTO film VALUES(5,'Four Rooms','comedy',98,1995,0.43,2.1);
+
+INSERT INTO film VALUES(6,'Judgment Night','action',110,1993,8.8,2.7);
+
+INSERT INTO film VALUES(8,'Life in Loops (A Megacities RMX)','documentary',80,2005,9.76,1.6);
+
+INSERT INTO film VALUES(9,'Sunday in August','drama',15,2004,9.19,4.4);
+
+INSERT INTO film VALUES(10,'Star Wars Collection',null,null,null,0.91,4.3);
+
+INSERT INTO film VALUES(12,'Finding Nemo','animation',100,2003,4.69,2.5);
+
+INSERT INTO film VALUES(14,'American Beauty','comedy',117,1999,0.9,4.2);
+
+INSERT INTO film VALUES(15,'Citizen Kane','drama',117,1941,2.45,3.2);
+
+INSERT INTO film VALUES(16,'Dancer in the Dark','crime',140,2000,5.36,4.6);
+
+INSERT INTO film VALUES(17,'The Dark','horror',87,2005,3.28,1.3);
+
+INSERT INTO film VALUES(18,'The Fifth Element','action',127,1997,9.22,4.2);
+
+INSERT INTO film VALUES(19,'Metropolis','drama',210,1927,1.68,1.6);
+
+INSERT INTO film VALUES(20,'My Life Without Me','drama',106,2003,0.78,1.3);
+
+INSERT INTO film VALUES(21,'The Endless Summer','documentary',95,1966,8.93,2.7);
+
+INSERT INTO film VALUES(24,'Kill Bill Vol. 1','action',111,2003,9.45,4.2);
+
+INSERT INTO film VALUES(25,'Jarhead','action',123,2005,4.58,1.8);
+
+INSERT INTO film VALUES(26,'Walk on Water','drama',103,2004,8.87,4.0);
+
+INSERT INTO film VALUES(27,'9 Songs','drama',71,2005,9.53,2.6);
+
+INSERT INTO film VALUES(28,'Apocalypse Now','action',153,1979,9.95,3.9);
+
+INSERT INTO film VALUES(29,'Memories','animation',null,null,7.96,2.5);
+
+INSERT INTO film VALUES(30,'Magnetic Rose','animation',44,1995,7.49,2.9);
+
+INSERT INTO film VALUES(31,'Stink Bomb','action',40,1984,4.15,1.1);
+
+INSERT INTO film VALUES(32,'Cannon Fodder','animation',21,1994,1.72,2.0);
+
+INSERT INTO film VALUES(33,'Unforgiven','action',131,1992,8.58,3.4);
+
+INSERT INTO film VALUES(35,'The Simpsons Movie','animation',87,2007,9.71,3.9);
+
+INSERT INTO film VALUES(38,'Eternal Sunshine of the Spotless Mind','comedy',108,2004,6.12,5.0);
+
+INSERT INTO film VALUES(55,'Amores perros','drama',153,2000,3.9,3.7);
+
+INSERT INTO film VALUES(59,'A History of Violence','action',96,2005,8.95,3.2);
+
+INSERT INTO film VALUES(62,'2001: A Space Odyssey','adventure',141,1968,2.75,3.8);
+
+INSERT INTO film VALUES(63,'12 Monkeys','drama',130,1995,4.14,2.1);
+
+INSERT INTO film VALUES(64,'Talk to Her','drama',112,2002,8.8,3.8);
+
+INSERT INTO film VALUES(65,'8 Mile','drama',106,2002,2.26,1.8);
+
+INSERT INTO film VALUES(66,'Absolute Power','crime',121,1997,2.51,4.1);
+
+INSERT INTO film VALUES(67,'Paradise Now','action',90,2005,3.99,4.7);
+
+INSERT INTO film VALUES(68,'Brazil','comedy',131,1985,3.52,4.2);
+
+INSERT INTO film VALUES(69,'Walk the Line','drama',136,2005,8.98,3.5);
+
+INSERT INTO film VALUES(70,'Million Dollar Baby','drama',137,2004,5.45,4.4);
+
+INSERT INTO film VALUES(71,'Billy Elliot','comedy',110,2000,2.16,4.4);
+
+INSERT INTO film VALUES(73,'American History X','action',119,1998,6.01,2.1);
+
+INSERT INTO film VALUES(74,'War of the Worlds','science fiction',117,2005,0.53,2.9);
+
+INSERT INTO film VALUES(75,'Mars Attacks!','comedy',106,1996,2.71,4.9);
+
+INSERT INTO film VALUES(76,'Before Sunrise','comedy',105,1995,9.96,4.1);
+
+INSERT INTO film VALUES(77,'Memento','crime',113,2001,6.43,2.9);
+
+INSERT INTO film VALUES(78,'Blade Runner','action',117,1982,4.61,2.9);
+
+INSERT INTO film VALUES(79,'Hero','action',99,2002,3.76,1.4);
+
+INSERT INTO film VALUES(80,'Before Sunset','comedy',77,2004,9.47,1.1);
+
+INSERT INTO film VALUES(81,'Nausicaa of the Valley of the Wind','animation',116,1985,6.62,2.4);
+
+INSERT INTO film VALUES(82,'Miami Vice','action',134,2006,5.37,2.0);
+
+INSERT INTO film VALUES(83,'Open Water','drama',79,2004,5.95,4.9);
+
+INSERT INTO film VALUES(84,'Indiana Jones Collection',null,null,null,4.49,3.0);
+
+INSERT INTO film VALUES(85,'Indiana Jones and the Raiders of the Lost Ark','adventure',115,1981,4.18,1.7);
+
+INSERT INTO film VALUES(86,'Elementarteilchen','comedy',105,2006,2.55,2.4);
+
+INSERT INTO film VALUES(87,'Indiana Jones and the Temple of Doom','action',118,1984,8.39,1.9);
+
+INSERT INTO film VALUES(88,'Dirty Dancing','drama',96,1986,0.58,4.3);
+
+INSERT INTO film VALUES(89,'Indiana Jones and the Last Crusade','action',127,1989,6.38,3.7);
+
+INSERT INTO film VALUES(90,'Beverly Hills Cop','action',105,1984,5.39,4.7);
+
+INSERT INTO film VALUES(91,'Land Without Bread','documentary',29,1932,7.77,1.3);
+
+INSERT INTO film VALUES(92,'Megacities','documentary',94,1998,8.34,1.7);
+
+INSERT INTO attore VALUES (16861, 'John', 'Hawkes', null);
+
+INSERT INTO attore VALUES (4026, 'Ambrosia', 'Kelley', null);
+
+INSERT INTO attore VALUES (101763, 'Dee', 'Wallace', null);
+
+INSERT INTO attore VALUES (174923, 'Abel', 'Jacquin', null);
+
+INSERT INTO attore VALUES (1146, 'Julie', 'Delpy', null);
+
+INSERT INTO attore VALUES (4785, 'Jeff', 'Goldblum', null);
+
+INSERT INTO attore VALUES (3710, 'Jaimz', 'Woolvett', null);
+
+INSERT INTO attore VALUES (690, 'Jonathan', 'Ke Quan', 'Saigon');
+
+INSERT INTO attore VALUES (428, 'Dan', 'Beene', null);
+
+INSERT INTO attore VALUES (344, 'Larry', 'Hudson', null);
+
+INSERT INTO attore VALUES (345, 'DJ', 'Head', null);
+
+INSERT INTO attore VALUES (346, 'Mike', 'Bell', null);
+
+INSERT INTO attore VALUES (341, 'De''Angelo', 'Wilson', null);
+
+INSERT INTO attore VALUES (342, 'Eugene', 'Byrd', null);
+
+INSERT INTO attore VALUES (14, 'Ellen', 'DeGeneres', null);
+
+INSERT INTO attore VALUES (812, 'Mike', ',,Tone" P. Ross', null);
+
+INSERT INTO attore VALUES (33032, 'Phil', 'Brown', '');
+
+INSERT INTO attore VALUES (349, 'Scott', 'Glenn', 'USA');
+
+INSERT INTO attore VALUES (691, 'Amrish', 'Puri', null);
+
+INSERT INTO attore VALUES (454, 'Michael', 'Pena', null);
+
+INSERT INTO attore VALUES (1793, 'Ricardo', 'Montalban', null);
+
+INSERT INTO attore VALUES (663, 'William', 'Hootkins', null);
+
+INSERT INTO attore VALUES (426, 'Larry', 'Bagby', null);
+
+INSERT INTO attore VALUES (1796, 'Kirstie', 'Alley', null);
+
+INSERT INTO attore VALUES (1795, 'Merritt', 'Butrick', null);
+
+INSERT INTO attore VALUES (1794, 'Bibi', 'Besch', null);
+
+INSERT INTO attore VALUES (145110, 'Kis', 'Yurij', null);
+
+INSERT INTO attore VALUES (421, 'Shooter', 'Jennings', null);
+
+INSERT INTO attore VALUES (10205, 'Sigourney', 'Weaver', 'USA');
+
+INSERT INTO attore VALUES (5309, 'Judi', 'Dench', null);
+
+INSERT INTO attore VALUES (10964, 'Laz', 'Alonso', null);
+
+INSERT INTO attore VALUES (2319, 'Maria', 'de Medeiros', 'Portugal');
+
+INSERT INTO attore VALUES (1709, 'Jack', 'Davenport', null);
+
+INSERT INTO attore VALUES (1062, 'Christopher', 'Lloyd', null);
+
+INSERT INTO attore VALUES (1064, 'Crispin', 'Glover', null);
+
+INSERT INTO attore VALUES (573, 'Karl', 'Bruckschwaiger', null);
+
+INSERT INTO attore VALUES (15853, 'Wes', 'Studi', null);
+
+INSERT INTO attore VALUES (120724, 'Jaden', 'Smith', 'U.S');
+
+INSERT INTO attore VALUES (5916, 'Rosario', 'Dawson', 'USA');
+
+INSERT INTO attore VALUES (292, 'Frederick', 'Strother', null);
+
+INSERT INTO attore VALUES (6750, 'Vincent', 'Paterson', null);
+
+INSERT INTO attore VALUES (290, 'Christopher', 'Plummer', 'Canada');
+
+INSERT INTO attore VALUES (291, 'Frank', 'Gorshin', null);
+
+INSERT INTO attore VALUES (591, 'Brion', 'James', null);
+
+INSERT INTO attore VALUES (590, 'William', 'Sanderson', null);
+
+INSERT INTO attore VALUES (593, 'Joanna', 'Cassidy', null);
+
+INSERT INTO attore VALUES (592, 'Joe', 'Turkel', null);
+
+INSERT INTO attore VALUES (199, 'Julie', 'Kavner', null);
+
+INSERT INTO attore VALUES (198, 'Dan', 'Castellaneta', null);
+
+INSERT INTO attore VALUES (1081, 'Herbert', 'Knaup', null);
+
+INSERT INTO attore VALUES (194, 'Richard', 'Harris', 'Ireland');
+
+INSERT INTO attore VALUES (190, 'Clint', 'Eastwood', 'USA');
+
+INSERT INTO attore VALUES (193, 'Gene', 'Hackman', null);
+
+INSERT INTO attore VALUES (192, 'Morgan', 'Freeman', 'USA');
+
+INSERT INTO attore VALUES (37829, 'Michael', 'Mattison', '');
+
+INSERT INTO attore VALUES (6384, 'Keanu', 'Reeves', 'Lebanon');
+
+INSERT INTO attore VALUES (272, 'Lourdes', 'Echevarria', null);
+
+INSERT INTO attore VALUES (37980, 'Michael', 'Teigen', '');
+
+INSERT INTO attore VALUES (37821, 'Michael', 'Conner Humphreys', '');
+
+INSERT INTO attore VALUES (37823, 'Sonny', 'Shroyer', '');
+
+INSERT INTO attore VALUES (37822, 'Peter', 'Dobson', '');
+
+INSERT INTO attore VALUES (37825, 'Afemo', 'Omilami', '');
+
+INSERT INTO attore VALUES (25441, 'Steve', 'Speirs', '');
+
+INSERT INTO attore VALUES (37827, 'John', 'William Galt', '');
+
+INSERT INTO attore VALUES (37826, 'Steven', 'Griffith', '');
+
+INSERT INTO attore VALUES (2542, 'Kazuki', 'Kitamura', '');
+
+INSERT INTO attore VALUES (2541, 'Jun', 'Kunimura', null);
+
+INSERT INTO attore VALUES (2540, 'Chia', 'Hui Liu', '');
+
+INSERT INTO attore VALUES (2547, 'Bruce', 'Boxleitner', '');
+
+INSERT INTO attore VALUES (2545, 'Lawrence', 'Bender', null);
+
+INSERT INTO attore VALUES (8661, 'Kirk', 'Taylor', null);
+
+INSERT INTO attore VALUES (3087, 'Robert', 'Duvall', null);
+
+INSERT INTO attore VALUES (18, 'Brad', 'Garrett', null);
+
+INSERT INTO attore VALUES (524, 'Natalie', 'Portman', 'Israel');
+
+INSERT INTO attore VALUES (526, 'Lukas', 'Haas', null);
+
+INSERT INTO attore VALUES (12799, 'Jeremy', 'Piven', null);
+
+INSERT INTO attore VALUES (520, 'Sarah', 'Jessica Parker', null);
+
+INSERT INTO attore VALUES (521, 'Michael', 'J. Fox', 'AB Canada');
+
+INSERT INTO attore VALUES (2387, 'Patrick', 'Stewart', 'England');
+
+INSERT INTO attore VALUES (523, 'Tom', 'Jones', null);
+
+INSERT INTO attore VALUES (2389, 'Brent', 'Spiner', null);
+
+INSERT INTO attore VALUES (2388, 'Jonathan', 'Frakes', 'Pennsylvania');
+
+INSERT INTO attore VALUES (1010, 'Michael', 'Badalucco', null);
+
+INSERT INTO attore VALUES (529, 'Guy', 'Pearce', null);
+
+INSERT INTO attore VALUES (98215, 'Matt', 'Gerald', null);
+
+INSERT INTO attore VALUES (692, 'Jennifer', 'Ulrich', null);
+
+INSERT INTO attore VALUES (2440, 'Bill', 'Nighy', null);
+
+INSERT INTO attore VALUES (2441, 'Tom', 'Hollander', null);
+
+INSERT INTO attore VALUES (1339, 'Zhang', 'Ziyi', '');
+
+INSERT INTO attore VALUES (1338, 'Maggie', 'Cheung', '');
+
+INSERT INTO attore VALUES (4213, 'Dorian', 'Sanchez', null);
+
+INSERT INTO attore VALUES (693, 'Roshan', 'Seth', null);
+
+INSERT INTO attore VALUES (1337, 'Tony', 'Leung Chiu Wai', null);
+
+INSERT INTO attore VALUES (2449, 'Kevin', 'McNally', null);
+
+INSERT INTO attore VALUES (1331, 'Hugo', 'Weaving', 'Nigeria');
+
+INSERT INTO attore VALUES (1330, 'Dominic', 'Monaghan', null);
+
+INSERT INTO attore VALUES (1333, 'Andy', 'Serkis', null);
+
+INSERT INTO attore VALUES (1332, 'Craig', 'Parker', null);
+
+INSERT INTO attore VALUES (7908, 'Frank', 'Oz', null);
+
+INSERT INTO attore VALUES (141, 'David', 'Carradine', 'Hollywood');
+
+INSERT INTO attore VALUES (108, 'Peter', 'Jackson', null);
+
+INSERT INTO attore VALUES (109, 'Elijah', 'Wood', null);
+
+INSERT INTO attore VALUES (8669, 'Peter', 'Edmund', null);
+
+INSERT INTO attore VALUES (102, 'Deborah', 'Harry', null);
+
+INSERT INTO attore VALUES (103, 'Mark', 'Ruffalo', null);
+
+INSERT INTO attore VALUES (100, 'Scott', 'Speedman', null);
+
+INSERT INTO attore VALUES (101, 'Leonor', 'Watling', null);
+
+INSERT INTO attore VALUES (8691, 'Zoe', 'Saldana', 'U.S.');
+
+INSERT INTO attore VALUES (902, 'Milton', 'Welsh', null);
+
+INSERT INTO attore VALUES (4620, 'Thorsten', 'Merten', null);
+
+INSERT INTO attore VALUES (901, 'Rita', 'Lengyel', null);
+
+INSERT INTO attore VALUES (11007, 'Ray', 'Park', null);
+
+INSERT INTO attore VALUES (543, 'Marianne', 'Muellerleile', null);
+
+INSERT INTO attore VALUES (33, 'Gary', 'Sinise', null);
+
+INSERT INTO attore VALUES (32, 'Robin', 'Wright', 'USA');
+
+INSERT INTO attore VALUES (31, 'Tom', 'Hanks', 'USA');
+
+INSERT INTO attore VALUES (695, 'Roy', 'Chiao', null);
+
+INSERT INTO attore VALUES (35, 'Sally', 'Field', null);
+
+INSERT INTO attore VALUES (34, 'Mykelti', 'Williamson', null);
+
+INSERT INTO attore VALUES (1240, 'Jack', 'Kehler', null);
+
+INSERT INTO attore VALUES (643, 'Li', 'Gong', '');
+
+INSERT INTO attore VALUES (2169, 'Michael', 'Jeter', null);
+
+INSERT INTO attore VALUES (644, 'Blanchard', 'Ryan', null);
+
+INSERT INTO attore VALUES (646, 'Daniel', 'Travis', null);
+
+INSERT INTO attore VALUES (649, 'Vernon', 'Dobtcheff', null);
+
+INSERT INTO attore VALUES (430, 'Hailey', 'Anne Nelson', null);
+
+INSERT INTO attore VALUES (431, 'Victoria', 'Hester', null);
+
+INSERT INTO attore VALUES (2617, 'Cara', 'Seymour', null);
+
+INSERT INTO attore VALUES (4206, 'Heather', 'Lea Gerdes', null);
+
+INSERT INTO attore VALUES (338, 'Obie', 'Trice', null);
+
+INSERT INTO attore VALUES (271, 'Jose', 'Sefami', null);
+
+INSERT INTO attore VALUES (334, 'Omar', 'Benson Miller', null);
+
+INSERT INTO attore VALUES (337, 'Proof', '', null);
+
+INSERT INTO attore VALUES (336, 'Xzibit', '', null);
+
+INSERT INTO attore VALUES (333, 'Evan', 'Jones', null);
+
+INSERT INTO attore VALUES (8349, 'Martin', 'Sheen', null);
+
+INSERT INTO attore VALUES (6008, 'Harry', 'Shearer', null);
+
+INSERT INTO attore VALUES (9630, 'Sergio', 'Calderon', null);
+
+INSERT INTO attore VALUES (9631, 'Carel', 'Struycken', null);
+
+INSERT INTO attore VALUES (9632, 'Fredric', 'Lehne', null);
+
+INSERT INTO attore VALUES (9633, 'Richard', 'Hamilton', null);
+
+INSERT INTO attore VALUES (9634, 'Kent', 'Faulcon', null);
+
+INSERT INTO attore VALUES (8346, 'Jerry', 'Ziesmer', null);
+
+INSERT INTO attore VALUES (8192, 'Joe', 'Spano', null);
+
+INSERT INTO attore VALUES (542, 'Kimberly', 'Campbell', null);
+
+INSERT INTO attore VALUES (8190, 'Michele', 'Little', null);
+
+INSERT INTO attore VALUES (8191, 'Chris', 'Ellis', null);
+
+INSERT INTO attore VALUES (746, 'Alexei', 'Sayle', null);
+
+INSERT INTO attore VALUES (819, 'Edward', 'Norton', null);
+
+INSERT INTO attore VALUES (387, 'Kim', 'Greist', null);
+
+INSERT INTO attore VALUES (6, 'Anthony', 'Daniels', '');
+
+INSERT INTO attore VALUES (3896, 'Liam', 'Neeson', 'Northern Ireland');
+
+INSERT INTO attore VALUES (19, 'Allison', 'Janney', null);
+
+INSERT INTO attore VALUES (6806, 'Doug', 'Hutchison', null);
+
+INSERT INTO attore VALUES (5292, 'Denzel', 'Washington', 'USA');
+
+INSERT INTO attore VALUES (6804, 'Graham', 'Greene', null);
+
+INSERT INTO attore VALUES (6805, 'Dabbs', 'Greer', null);
+
+INSERT INTO attore VALUES (30485, 'CCH', 'Pounder', '');
+
+INSERT INTO attore VALUES (99, 'Amanda', 'Plummer', 'USA');
+
+INSERT INTO attore VALUES (98, 'Sarah', 'Polley', null);
+
+INSERT INTO attore VALUES (4774, 'Jim', 'Brown', null);
+
+INSERT INTO attore VALUES (92, 'Robert', 'August', null);
+
+INSERT INTO attore VALUES (4205, 'Thomas', 'Cannold', null);
+
+INSERT INTO attore VALUES (77013, 'Deirdre', 'O''Connell', '');
+
+INSERT INTO attore VALUES (10091, 'Zelda', 'Rubinstein', null);
+
+INSERT INTO attore VALUES (10090, 'Richard', 'Lawson', null);
+
+INSERT INTO attore VALUES (123457, 'Chloe', 'Greenfield', '');
+
+INSERT INTO attore VALUES (6752, 'Zeljko', 'Ivanek', null);
+
+INSERT INTO attore VALUES (6753, 'Reathel', 'Bean', null);
+
+INSERT INTO attore VALUES (4077, 'Harry', 'Shannon', null);
+
+INSERT INTO attore VALUES (6751, 'Siobhan', 'Fallon', null);
+
+INSERT INTO attore VALUES (6756, 'Katrine', 'Falkenberg', null);
+
+INSERT INTO attore VALUES (6757, 'Michael', 'Flessas', null);
+
+INSERT INTO attore VALUES (6754, 'Mette', 'Berggreen', null);
+
+INSERT INTO attore VALUES (6755, 'Lars', 'Michael Dinesen', null);
+
+INSERT INTO attore VALUES (343, 'Taryn', 'Manning', null);
+
+INSERT INTO attore VALUES (616, 'Goro', 'Naya', null);
+
+INSERT INTO attore VALUES (3968, 'Michael', 'Sheen', 'Wales');
+
+INSERT INTO attore VALUES (740, 'Julian', 'Glover', null);
+
+INSERT INTO attore VALUES (741, 'River', 'Phoenix', 'Oregon USA');
+
+INSERT INTO attore VALUES (742, 'Michael', 'Byrne', null);
+
+INSERT INTO attore VALUES (743, 'Kevork', 'Malikyan', null);
+
+INSERT INTO attore VALUES (744, 'Robert', 'Eddison', null);
+
+INSERT INTO attore VALUES (745, 'Richard', 'Young', null);
+
+INSERT INTO attore VALUES (47468, 'Frances', 'de la Tour', '');
+
+INSERT INTO attore VALUES (5064, 'Meryl', 'Streep', 'USA');
+
+INSERT INTO attore VALUES (748, 'Paul', 'Maxwell', null);
+
+INSERT INTO attore VALUES (749, 'Isla', 'Blair', null);
+
+INSERT INTO attore VALUES (3061, 'Ewan', 'McGregor', null);
+
+INSERT INTO attore VALUES (17941, 'Domenick', 'Lombardozzi', null);
+
+INSERT INTO attore VALUES (235, 'Deborah', 'Drakeford', null);
+
+INSERT INTO attore VALUES (234, 'Gerry', 'Quigley', null);
+
+INSERT INTO attore VALUES (131, 'Jake', 'Gyllenhaal', null);
+
+INSERT INTO attore VALUES (236, 'Bill', 'MacDonald', null);
+
+INSERT INTO attore VALUES (65731, 'Sam', 'Worthington', 'England');
+
+INSERT INTO attore VALUES (230, 'Stephen', 'McHattie', null);
+
+INSERT INTO attore VALUES (231, 'Greg', 'Bryk', null);
+
+INSERT INTO attore VALUES (232, 'Kyle', 'Schmid', null);
+
+INSERT INTO attore VALUES (233, 'Sumela', 'Kay', null);
+
+INSERT INTO attore VALUES (237, 'Aidan', 'Devine', null);
+
+INSERT INTO attore VALUES (448, 'Hilary', 'Swank', 'USA');
+
+INSERT INTO attore VALUES (518, 'Danny', 'DeVito', null);
+
+INSERT INTO attore VALUES (2851, 'Lou', 'Perryman', null);
+
+INSERT INTO attore VALUES (1759, 'Grace', 'Lee Whitney', null);
+
+INSERT INTO attore VALUES (1757, 'Persis', 'Khambatta', null);
+
+INSERT INTO attore VALUES (1756, 'Stephen', 'Collins', null);
+
+INSERT INTO attore VALUES (1755, 'Majel', 'Barrett', null);
+
+INSERT INTO attore VALUES (1754, 'Walter', 'Koenig', null);
+
+INSERT INTO attore VALUES (1753, 'Nichelle', 'Nichols', null);
+
+INSERT INTO attore VALUES (1752, 'George', 'Takei', null);
+
+INSERT INTO attore VALUES (1751, 'James', 'Doohan', null);
+
+INSERT INTO attore VALUES (1750, 'DeForest', 'Kelley', null);
+
+INSERT INTO attore VALUES (147, 'Michael', 'Madsen', null);
+
+INSERT INTO attore VALUES (618, 'Kohei', 'Miyauchi', null);
+
+INSERT INTO attore VALUES (23764, 'Erika', 'Eleniak', '');
+
+INSERT INTO attore VALUES (131625, 'Shelagh', 'Fraser', null);
+
+INSERT INTO attore VALUES (140, 'Lucy', 'Liu', null);
+
+INSERT INTO attore VALUES (9448, 'Adrian', 'Rayment', null);
+
+INSERT INTO attore VALUES (613, 'Sumi', 'Shimamoto', 'Japan');
+
+INSERT INTO attore VALUES (4252, 'Tony', 'Shalhoub', null);
+
+INSERT INTO attore VALUES (9443, 'Helmut', 'Bakaitis', null);
+
+INSERT INTO attore VALUES (617, 'Ichiro', 'Nagai', null);
+
+INSERT INTO attore VALUES (1276, 'Patricia', 'Clarkson', null);
+
+INSERT INTO attore VALUES (615, 'Hisako', 'Kyoda', null);
+
+INSERT INTO attore VALUES (65422, 'Vivienne', 'Sendaydiego', '');
+
+INSERT INTO attore VALUES (65423, 'Mike', 'Pniewski', '');
+
+INSERT INTO attore VALUES (65421, 'Elizabeth', 'Rodriguez', '');
+
+INSERT INTO attore VALUES (1345, 'Chang', 'Xiao Yang', null);
+
+INSERT INTO attore VALUES (39296, 'Simon', 'Licht', '');
+
+INSERT INTO attore VALUES (1285, 'AnnaSophia', 'Robb', null);
+
+INSERT INTO attore VALUES (1284, 'Noah', 'Taylor', 'England');
+
+INSERT INTO attore VALUES (1286, 'Julia', 'Winter', null);
+
+INSERT INTO attore VALUES (1281, 'Freddie', 'Highmore', null);
+
+INSERT INTO attore VALUES (1283, 'Helena', 'Bonham Carter', null);
+
+INSERT INTO attore VALUES (1282, 'David', 'Kelly', null);
+
+INSERT INTO attore VALUES (515, 'Glenn', 'Close', null);
+
+INSERT INTO attore VALUES (514, 'Jack', 'Nicholson', null);
+
+INSERT INTO attore VALUES (1187, 'Saul', 'Stein', null);
+
+INSERT INTO attore VALUES (2538, 'Chiaki', 'Kuriyama', null);
+
+INSERT INTO attore VALUES (2539, 'Julie', 'Dreyfus', 'France');
+
+INSERT INTO attore VALUES (10759, 'Michael', 'Nyman', null);
+
+INSERT INTO attore VALUES (517, 'Pierce', 'Brosnan', null);
+
+INSERT INTO attore VALUES (43165, 'Michael', 'Zuhlke', '');
+
+INSERT INTO attore VALUES (43164, 'Dieter', 'Bach', '');
+
+INSERT INTO attore VALUES (685, 'Nina', 'Kronjager', null);
+
+INSERT INTO attore VALUES (684, 'Tom', 'Schilling', 'Germany');
+
+INSERT INTO attore VALUES (43169, 'Christian', 'Schmidt', '');
+
+INSERT INTO attore VALUES (43168, 'Rainer', 'Heise', '');
+
+INSERT INTO attore VALUES (2536, 'Michael', 'Parks', null);
+
+INSERT INTO attore VALUES (2537, 'Sonny', 'Chiba', null);
+
+INSERT INTO attore VALUES (534, 'Mark', 'Boone Junior', null);
+
+INSERT INTO attore VALUES (2535, 'Vivica', 'A. Fox', '');
+
+INSERT INTO attore VALUES (42287, 'Leslie', 'Zemeckis', '');
+
+INSERT INTO attore VALUES (42286, 'Julene', 'Renee', '');
+
+INSERT INTO attore VALUES (9364, 'Gloria', 'Foster', null);
+
+INSERT INTO attore VALUES (8985, 'Margaret', 'Colin', null);
+
+INSERT INTO attore VALUES (8984, 'Bill', 'Pullman', 'U.S.');
+
+INSERT INTO attore VALUES (8987, 'Lisa', 'Jakub', null);
+
+INSERT INTO attore VALUES (8986, 'James', 'Rebhorn', null);
+
+INSERT INTO attore VALUES (12834, 'Barry', 'Pepper', 'Canada');
+
+INSERT INTO attore VALUES (139, 'Uma', 'Thurman', 'USA');
+
+INSERT INTO attore VALUES (138, 'Quentin', 'Tarantino', 'USA');
+
+INSERT INTO attore VALUES (12826, 'Charles', 'Fleischer', null);
+
+INSERT INTO attore VALUES (626, 'Tetsuo', 'Mizutori', '');
+
+INSERT INTO attore VALUES (1832, 'Joe', 'W. Davis', null);
+
+INSERT INTO attore VALUES (5587, 'Hank', 'Azaria', null);
+
+INSERT INTO attore VALUES (1830, 'Vadia', 'Potenza', null);
+
+INSERT INTO attore VALUES (1831, 'Stephen', 'Manley', null);
+
+INSERT INTO attore VALUES (3799, 'Billy', 'Dee Williams', 'USA');
+
+INSERT INTO attore VALUES (56890, 'Malcolm', 'McDowell', 'UK');
+
+INSERT INTO attore VALUES (22, 'Barry', 'Humphries', null);
+
+INSERT INTO attore VALUES (23, 'Bill', 'Hunter', null);
+
+INSERT INTO attore VALUES (27762, 'Ian', 'McDiarmid', '');
+
+INSERT INTO attore VALUES (3796, 'Michael', 'Gough', null);
+
+INSERT INTO attore VALUES (9983, 'Richard', 'Swingler', null);
+
+INSERT INTO attore VALUES (1371, 'David', 'Wenham', null);
+
+INSERT INTO attore VALUES (2407, 'Rufus', '', null);
+
+INSERT INTO attore VALUES (2405, 'Audrey', 'Tautou', 'France');
+
+INSERT INTO attore VALUES (402, 'Pina', 'Bausch', null);
+
+INSERT INTO attore VALUES (400, 'Geraldine', 'Chaplin', null);
+
+INSERT INTO attore VALUES (452, 'Margo', 'Martindale', null);
+
+INSERT INTO attore VALUES (2408, 'Jamel', 'Debbouze', null);
+
+INSERT INTO attore VALUES (2409, 'Lorella', 'Cravotta', null);
+
+INSERT INTO attore VALUES (36462, 'Franziska', 'Schlattner', '');
+
+INSERT INTO attore VALUES (453, 'Riki', 'Lindhome', 'New York');
+
+INSERT INTO attore VALUES (10651, 'Stephen', 'Kinyanjui', null);
+
+INSERT INTO attore VALUES (2450, 'Lauren', 'Maher', null);
+
+INSERT INTO attore VALUES (4031, 'Greg', 'Ellis', null);
+
+INSERT INTO attore VALUES (11275, 'Stephen', 'Fry', 'UK');
+
+INSERT INTO attore VALUES (11276, 'Tim', 'Pigott-Smith', null);
+
+INSERT INTO attore VALUES (229, 'Peter', 'MacNeill', null);
+
+INSERT INTO attore VALUES (10653, 'Rachel', 'Kempson', null);
+
+INSERT INTO attore VALUES (43263, 'Conrad', 'Coates', '');
+
+INSERT INTO attore VALUES (10652, 'Suzanna', 'Hamilton', null);
+
+INSERT INTO attore VALUES (5999, 'Kati', 'Outinen', null);
+
+INSERT INTO attore VALUES (12536, 'Jack', 'Thompson', null);
+
+INSERT INTO attore VALUES (4133, 'Giuseppe', 'Andrews', null);
+
+INSERT INTO attore VALUES (4134, 'Keram', 'Malicki-Sanchez', '');
+
+INSERT INTO attore VALUES (4135, 'Robert', 'Redford', null);
+
+INSERT INTO attore VALUES (378, 'Jonathan', 'Pryce', null);
+
+INSERT INTO attore VALUES (3620, 'Caetano', 'Veloso', null);
+
+INSERT INTO attore VALUES (829, 'William', 'Russ', null);
+
+INSERT INTO attore VALUES (828, 'Guy', 'Torry', null);
+
+INSERT INTO attore VALUES (825, 'Stacy', 'Keach', null);
+
+INSERT INTO attore VALUES (824, 'Ethan', 'Suplee', null);
+
+INSERT INTO attore VALUES (827, 'Elliott', 'Gould', 'USA');
+
+INSERT INTO attore VALUES (826, 'Fairuza', 'Balk', 'Point Reyes,California,USA');
+
+INSERT INTO attore VALUES (821, 'Beverly', 'D''Angelo', null);
+
+INSERT INTO attore VALUES (820, 'Edward', 'Furlong', null);
+
+INSERT INTO attore VALUES (823, 'Jennifer', 'Lien', null);
+
+INSERT INTO attore VALUES (8977, 'Craig', 'T. Nelson', null);
+
+INSERT INTO attore VALUES (707, 'Dan', 'Aykroyd', 'Canada');
+
+INSERT INTO attore VALUES (701, 'Rex', 'Ngui', null);
+
+INSERT INTO attore VALUES (702, 'Philip', 'Tan', null);
+
+INSERT INTO attore VALUES (11028, 'George', 'Coulouris', null);
+
+INSERT INTO attore VALUES (1665, 'Eddie', 'Marsan', null);
+
+INSERT INTO attore VALUES (619, 'Joji', 'Yanami', null);
+
+INSERT INTO attore VALUES (82, 'Olaf', 'Storm', null);
+
+INSERT INTO attore VALUES (83, 'Hanns', 'Leo Reich', null);
+
+INSERT INTO attore VALUES (80, 'Erwin', 'Biswanger', null);
+
+INSERT INTO attore VALUES (7132, 'Vincent', 'D''Onofrio', null);
+
+INSERT INTO attore VALUES (85, 'Johnny', 'Depp', 'USA ');
+
+INSERT INTO attore VALUES (9384, 'Marc', 'Aden', '');
+
+INSERT INTO attore VALUES (1712, 'Damian', 'O''Hare', null);
+
+INSERT INTO attore VALUES (1711, 'Mackenzie', 'Crook', null);
+
+INSERT INTO attore VALUES (5318, 'Elisabeth', 'Commelin', null);
+
+INSERT INTO attore VALUES (9380, 'Paul', 'Goddard', null);
+
+INSERT INTO attore VALUES (1716, 'Michael', 'Berry Jr.', null);
+
+INSERT INTO attore VALUES (1715, 'David', 'Bailie', null);
+
+INSERT INTO attore VALUES (1714, 'Angus', 'Barnett', null);
+
+INSERT INTO attore VALUES (5313, 'Lena', 'Olin', null);
+
+INSERT INTO attore VALUES (5312, 'Hugh', 'O''Conor', null);
+
+INSERT INTO attore VALUES (5311, 'Helene', 'Cardona', null);
+
+INSERT INTO attore VALUES (5310, 'Antonio', 'Gil', '');
+
+INSERT INTO attore VALUES (5317, 'Gaelan', 'Connell', null);
+
+INSERT INTO attore VALUES (5316, 'Harrison', 'Pratt', null);
+
+INSERT INTO attore VALUES (5315, 'Victoire', 'Thivisol', null);
+
+INSERT INTO attore VALUES (5314, 'Aurelien', 'Parent Koenig', null);
+
+INSERT INTO attore VALUES (417, 'Ginnifer', 'Goodwin', null);
+
+INSERT INTO attore VALUES (7, 'Andrew', 'Stanton', '');
+
+INSERT INTO attore VALUES (10874, 'Ron', 'Selmour', null);
+
+INSERT INTO attore VALUES (1654, 'Claire', 'Maurier', null);
+
+INSERT INTO attore VALUES (2414, 'Artus', 'de Penguern', null);
+
+INSERT INTO attore VALUES (586, 'Sean', 'Young', null);
+
+INSERT INTO attore VALUES (587, 'Edward', 'James Olmos', null);
+
+INSERT INTO attore VALUES (585, 'Rutger', 'Hauer', 'Netherlands');
+
+INSERT INTO attore VALUES (9575, 'Jada', 'Pinkett Smith', 'USA');
+
+INSERT INTO attore VALUES (17237, 'Hanna', 'R. Hall', null);
+
+INSERT INTO attore VALUES (1137, 'Juliette', 'Binoche', null);
+
+INSERT INTO attore VALUES (2880, 'Emilio', 'Estevez', null);
+
+INSERT INTO attore VALUES (588, 'M.', 'Emmet Walsh', null);
+
+INSERT INTO attore VALUES (589, 'Daryl', 'Hannah', null);
+
+INSERT INTO attore VALUES (245, 'Keir', 'Dullea', null);
+
+INSERT INTO attore VALUES (247, 'William', 'Sylvester', null);
+
+INSERT INTO attore VALUES (246, 'Gary', 'Lockwood', null);
+
+INSERT INTO attore VALUES (780, 'Ronny', 'Cox', null);
+
+INSERT INTO attore VALUES (614, 'Mahito', 'Tsujimura', null);
+
+INSERT INTO attore VALUES (37832, 'Kevin', 'Mangan', '');
+
+INSERT INTO attore VALUES (714, 'Ulrike', 'Kriener', null);
+
+INSERT INTO attore VALUES (37830, 'Kitty', 'K. Green', '');
+
+INSERT INTO attore VALUES (37831, 'Marlena', 'Smalls', '');
+
+INSERT INTO attore VALUES (249, 'Leonard', 'Rossiter', null);
+
+INSERT INTO attore VALUES (248, 'Daniel', 'Richter', null);
+
+INSERT INTO attore VALUES (1430, 'Keith', 'Richards', null);
+
+INSERT INTO attore VALUES (419, 'Tyler', 'Hilton', null);
+
+INSERT INTO attore VALUES (519, 'Martin', 'Short', null);
+
+INSERT INTO attore VALUES (4826, 'Matti', 'Pellonpaa', null);
+
+INSERT INTO attore VALUES (1008, 'Keith', 'A. Glascoe', null);
+
+INSERT INTO attore VALUES (1007, 'Don', 'Creech', null);
+
+INSERT INTO attore VALUES (1006, 'Willi', 'One Blood', null);
+
+INSERT INTO attore VALUES (1005, 'Peter', 'Appel', null);
+
+INSERT INTO attore VALUES (1004, 'Danny', 'Aiello', null);
+
+INSERT INTO attore VALUES (1003, 'Jean', 'Reno', 'Morocco');
+
+INSERT INTO attore VALUES (3692, 'The', 'Von Bondies', null);
+
+INSERT INTO attore VALUES (2372, 'Ron', 'Perlman', null);
+
+INSERT INTO attore VALUES (516, 'Annette', 'Bening', null);
+
+INSERT INTO attore VALUES (623, 'Mina', 'Tominaga', null);
+
+INSERT INTO attore VALUES (622, 'Yoji', 'Matsuda', null);
+
+INSERT INTO attore VALUES (621, 'Rihoko', 'Yoshida', null);
+
+INSERT INTO attore VALUES (620, 'Minoru', 'Yada', null);
+
+INSERT INTO attore VALUES (10658, 'Job', 'Seda', null);
+
+INSERT INTO attore VALUES (625, 'Iemasa', 'Kayumi', null);
+
+INSERT INTO attore VALUES (624, 'Yoshiko', 'Sakakibara', null);
+
+INSERT INTO attore VALUES (10655, 'Leslie', 'Phillips', null);
+
+INSERT INTO attore VALUES (10654, 'Graham', 'Crowden', null);
+
+INSERT INTO attore VALUES (10657, 'Shane', 'Rimmer', null);
+
+INSERT INTO attore VALUES (10656, 'Mike', 'Bugara', null);
+
+INSERT INTO attore VALUES (2451, 'Alex', 'Norton', null);
+
+INSERT INTO attore VALUES (10650, 'Joseph', 'Thiaka', null);
+
+INSERT INTO attore VALUES (1229, 'Jeff', 'Bridges', 'USA');
+
+INSERT INTO attore VALUES (2452, 'Vanessa', 'Branch', null);
+
+INSERT INTO attore VALUES (2155, 'Thora', 'Birch', 'USA');
+
+INSERT INTO attore VALUES (177, 'Margo', 'Stilley', null);
+
+INSERT INTO attore VALUES (176, 'Kieran', 'O''Brien', null);
+
+INSERT INTO attore VALUES (15009, 'Justin', 'Theroux', null);
+
+INSERT INTO attore VALUES (170, 'Ernest', 'Lenart', null);
+
+INSERT INTO attore VALUES (2053, 'Bill', 'Paxton', null);
+
+INSERT INTO attore VALUES (4828, 'Sakari', 'Kuosmanen', null);
+
+INSERT INTO attore VALUES (2059, 'Adam', 'Baldwin', 'USA ');
+
+INSERT INTO attore VALUES (3691, 'Black', 'Rebel Motorcycle Club', null);
+
+INSERT INTO attore VALUES (2888, 'Will', 'Smith', 'USA');
+
+INSERT INTO attore VALUES (3694, 'Super', 'Furry Animals', null);
+
+INSERT INTO attore VALUES (656, 'Denholm', 'Elliott', null);
+
+INSERT INTO attore VALUES (657, 'Mariane', 'Plasteig', null);
+
+INSERT INTO attore VALUES (654, 'Rodolphe', 'Pauly', null);
+
+INSERT INTO attore VALUES (2, 'Mark', 'Hamill', '');
+
+INSERT INTO attore VALUES (652, 'Paul', 'Freeman', null);
+
+INSERT INTO attore VALUES (653, 'Ronald', 'Lacey', null);
+
+INSERT INTO attore VALUES (650, 'Karen', 'Allen', 'Illinois');
+
+INSERT INTO attore VALUES (651, 'Louise', 'Lemoine Torres', null);
+
+INSERT INTO attore VALUES (3084, 'Marlon', 'Brando', null);
+
+INSERT INTO attore VALUES (188, 'Mike', 'Hynson', null);
+
+INSERT INTO attore VALUES (658, 'Alfred', 'Molina', 'UK');
+
+INSERT INTO attore VALUES (659, 'Wolf', 'Kahler', null);
+
+INSERT INTO attore VALUES (33198, 'Andrew', 'Secombe', '');
+
+INSERT INTO attore VALUES (174950, 'Alexandre', 'O''Neill', null);
+
+INSERT INTO attore VALUES (33191, 'Ayesha', 'Dharker', '');
+
+INSERT INTO attore VALUES (33190, 'Pernilla', 'August', '');
+
+INSERT INTO attore VALUES (33192, 'Joel', 'Edgerton', '');
+
+INSERT INTO attore VALUES (33197, 'Ahmed', 'Best', '');
+
+INSERT INTO attore VALUES (33196, 'Jake', 'Lloyd', '');
+
+INSERT INTO attore VALUES (9629, 'Jon', 'Gries', 'California');
+
+INSERT INTO attore VALUES (9628, 'Mike', 'Nussbaum', null);
+
+INSERT INTO attore VALUES (67931, 'Daft', 'Punk', '');
+
+INSERT INTO attore VALUES (9626, 'Rip', 'Torn', null);
+
+INSERT INTO attore VALUES (9625, 'Linda', 'Fiorentino', null);
+
+INSERT INTO attore VALUES (7219, 'David', 'Andrews', null);
+
+INSERT INTO attore VALUES (13, 'Albert', 'Brooks', null);
+
+INSERT INTO attore VALUES (12, 'Alexander', 'Gould', null);
+
+INSERT INTO attore VALUES (8189, 'Tracy', 'Reiner', null);
+
+INSERT INTO attore VALUES (8188, 'Jean', 'Speegle Howard', null);
+
+INSERT INTO attore VALUES (37828, 'Nora', 'Dunfee', '');
+
+INSERT INTO attore VALUES (8185, 'Emily', 'Ann Lloyd', null);
+
+INSERT INTO attore VALUES (8184, 'Mary', 'Kate Schellhardt', null);
+
+INSERT INTO attore VALUES (8187, 'Max', 'Elliott Slade', null);
+
+INSERT INTO attore VALUES (8186, 'Miko', 'Hughes', null);
+
+INSERT INTO attore VALUES (8183, 'Kathleen', 'Quinlan', null);
+
+INSERT INTO attore VALUES (2021, 'Jane', 'Wyatt', null);
+
+INSERT INTO attore VALUES (2022, 'Catherine', 'Hicks', null);
+
+INSERT INTO attore VALUES (9572, 'Mary', 'Alice', null);
+
+INSERT INTO attore VALUES (7400, 'Lee', 'Evans', null);
+
+INSERT INTO attore VALUES (2759, 'Lola', 'Duenas', null);
+
+INSERT INTO attore VALUES (4198, 'Charles', '''Honi'' Coles', null);
+
+INSERT INTO attore VALUES (882, 'Liv', 'Tyler', 'USA');
+
+INSERT INTO attore VALUES (831, 'Jason', 'Bose Smith', null);
+
+INSERT INTO attore VALUES (1340, 'Daoming', 'Chen', null);
+
+INSERT INTO attore VALUES (86269, 'Amy', 'Esterle', '');
+
+INSERT INTO attore VALUES (86268, 'Serinda', 'Swan', 'British Columbia');
+
+INSERT INTO attore VALUES (6749, 'Vladica', 'Kostic', null);
+
+INSERT INTO attore VALUES (6748, 'Joel', 'Grey', null);
+
+INSERT INTO attore VALUES (4199, 'Neal', 'Jones', null);
+
+INSERT INTO attore VALUES (43163, 'Ursula', 'Karusseit', '');
+
+INSERT INTO attore VALUES (10088, 'Virginia', 'Kiser', null);
+
+INSERT INTO attore VALUES (10089, 'Martin', 'Casella', null);
+
+INSERT INTO attore VALUES (3729, 'Denis', 'Evrard', null);
+
+INSERT INTO attore VALUES (1619, 'Chow', 'Yun-Fat', 'Hong Kong');
+
+INSERT INTO attore VALUES (10084, 'Dominique', 'Dunne', null);
+
+INSERT INTO attore VALUES (10085, 'Oliver', 'Robins', null);
+
+INSERT INTO attore VALUES (10086, 'Heather', 'O''Rourke', null);
+
+INSERT INTO attore VALUES (10087, 'Michael', 'McManus', null);
+
+INSERT INTO attore VALUES (10080, 'JoBeth', 'Williams', null);
+
+INSERT INTO attore VALUES (1610, 'Javier', 'Camara', null);
+
+INSERT INTO attore VALUES (10083, 'Beatrice', 'Straight', null);
+
+INSERT INTO attore VALUES (326, 'Kim', 'Basinger', null);
+
+INSERT INTO attore VALUES (327, 'Mekhi', 'Phifer', 'New York');
+
+INSERT INTO attore VALUES (325, 'Eminem', '', null);
+
+INSERT INTO attore VALUES (43167, 'Bernd', 'Stempel', '');
+
+INSERT INTO attore VALUES (328, 'Brittany', 'Murphy', 'Georgia');
+
+INSERT INTO attore VALUES (12248, 'Alec', 'Guinness', null);
+
+INSERT INTO attore VALUES (335, 'Michael', 'Shannon', null);
+
+INSERT INTO attore VALUES (43166, 'Tyra', 'Misoux', '');
+
+INSERT INTO attore VALUES (200, 'Nancy', 'Cartwright', null);
+
+INSERT INTO attore VALUES (777, 'Judge', 'Reinhold', null);
+
+INSERT INTO attore VALUES (776, 'Eddie', 'Murphy', '');
+
+INSERT INTO attore VALUES (205, 'Kirsten', 'Dunst', 'New Jersey');
+
+INSERT INTO attore VALUES (204, 'Kate', 'Winslet', 'UK');
+
+INSERT INTO attore VALUES (207, 'Tom', 'Wilkinson', 'UK');
+
+INSERT INTO attore VALUES (206, 'Jim', 'Carrey', 'Canada');
+
+INSERT INTO attore VALUES (209, 'Jane', 'Adams', null);
+
+INSERT INTO attore VALUES (2518, 'Gregg', 'Henry', null);
+
+INSERT INTO attore VALUES (3623, 'Elena', 'Anaya', null);
+
+INSERT INTO attore VALUES (2878, 'C.', 'Thomas Howell', null);
+
+INSERT INTO attore VALUES (3625, 'Ana', 'Fernandez', null);
+
+INSERT INTO attore VALUES (3624, 'Adolfo', 'Fernandez', null);
+
+INSERT INTO attore VALUES (3627, 'Paz', 'Vega', null);
+
+INSERT INTO attore VALUES (3626, 'Helio', 'Pedregal', null);
+
+INSERT INTO attore VALUES (22063, 'James', 'Frain', null);
+
+INSERT INTO attore VALUES (75, 'Brigitte', 'Helm', null);
+
+INSERT INTO attore VALUES (74, 'Gustav', 'Frohlich', null);
+
+INSERT INTO attore VALUES (73, 'Alfred', 'Abel', null);
+
+INSERT INTO attore VALUES (655, 'John', 'Rhys-Davies', null);
+
+INSERT INTO attore VALUES (7664, 'Joseph', 'Cotten', null);
+
+INSERT INTO attore VALUES (79, 'Theodor', 'Loos', null);
+
+INSERT INTO attore VALUES (2975, 'Laurence', 'Fishburne', 'United States');
+
+INSERT INTO attore VALUES (2231, 'Samuel', 'L. Jackson', 'U.S.');
+
+INSERT INTO attore VALUES (2230, 'Pam', 'Grier', null);
+
+INSERT INTO attore VALUES (2544, 'Akaji', 'Maro', null);
+
+INSERT INTO attore VALUES (1341, 'Donnie', 'Yen', null);
+
+INSERT INTO attore VALUES (266, 'Humberto', 'Busto', null);
+
+INSERT INTO attore VALUES (6036, 'Marcia', 'Wallace', null);
+
+INSERT INTO attore VALUES (270, 'Adriana', 'Barraza', null);
+
+INSERT INTO attore VALUES (208, 'Ryan', 'Whitney', null);
+
+INSERT INTO attore VALUES (1769, 'Sofia', 'Coppola', null);
+
+INSERT INTO attore VALUES (683, 'Jasmin', 'Tabatabai', null);
+
+INSERT INTO attore VALUES (682, 'Uwe', 'Ochsenknecht', null);
+
+INSERT INTO attore VALUES (572, 'Hanno', 'Poschl', null);
+
+INSERT INTO attore VALUES (3715, 'Anthony', 'James', null);
+
+INSERT INTO attore VALUES (3714, 'David', 'Mucci', null);
+
+INSERT INTO attore VALUES (3711, 'Anna', 'Levine', null);
+
+INSERT INTO attore VALUES (38898, 'Jean-Luc', 'Bideau', '');
+
+INSERT INTO attore VALUES (3713, 'Frances', 'Fisher', null);
+
+INSERT INTO attore VALUES (3712, 'Saul', 'Rubinek', null);
+
+INSERT INTO attore VALUES (1342, 'Liu', 'Zhong Yuan', null);
+
+INSERT INTO attore VALUES (228, 'Ed', 'Harris', null);
+
+INSERT INTO attore VALUES (265, 'Rodrigo', 'Murray', null);
+
+INSERT INTO attore VALUES (662, 'Don', 'Fellows', null);
+
+INSERT INTO attore VALUES (661, 'Vic', 'Tablian', null);
+
+INSERT INTO attore VALUES (660, 'Anthony', 'Higgins', null);
+
+INSERT INTO attore VALUES (226, 'Heidi', 'Hayes', null);
+
+INSERT INTO attore VALUES (3690, 'Franz', 'Ferdinand', null);
+
+INSERT INTO attore VALUES (225, 'Ashton', 'Holmes', null);
+
+INSERT INTO attore VALUES (8785, 'Ciaran', 'Hinds', '');
+
+INSERT INTO attore VALUES (2525, 'Shannon', 'Cochran', null);
+
+INSERT INTO attore VALUES (2524, 'Tom', 'Hardy', 'UK');
+
+INSERT INTO attore VALUES (3128, 'Alicia', 'Witt', null);
+
+INSERT INTO attore VALUES (3129, 'Tim', 'Roth', 'UK');
+
+INSERT INTO attore VALUES (696, 'David', 'Yip', null);
+
+INSERT INTO attore VALUES (697, 'Michael', 'Gwisdek', null);
+
+INSERT INTO attore VALUES (694, 'Philip', 'Stone', null);
+
+INSERT INTO attore VALUES (130108, 'Elizabeth', 'Mathis', '');
+
+INSERT INTO attore VALUES (3122, 'Sammi', 'Davis', null);
+
+INSERT INTO attore VALUES (3123, 'Amanda', 'De Cadenet', null);
+
+INSERT INTO attore VALUES (699, 'Chua', 'Kah Joo', null);
+
+INSERT INTO attore VALUES (3126, 'Ione', 'Skye', null);
+
+INSERT INTO attore VALUES (3127, 'Lili', 'Taylor', null);
+
+INSERT INTO attore VALUES (3124, 'Valeria', 'Golino', null);
+
+INSERT INTO attore VALUES (3125, 'Madonna', 'Louise Veronica Ciccone', 'Michigan');
+
+INSERT INTO attore VALUES (8659, 'John', 'Terry', null);
+
+INSERT INTO attore VALUES (8658, 'Ed', 'O''Ross', null);
+
+INSERT INTO attore VALUES (540, 'Callum', 'Keith Rennie', null);
+
+INSERT INTO attore VALUES (544, 'Larry', 'Holden', null);
+
+INSERT INTO attore VALUES (549, 'Buzz', 'Visconti', null);
+
+INSERT INTO attore VALUES (8655, 'R.', 'Lee Ermey', null);
+
+INSERT INTO attore VALUES (8654, 'Matthew', 'Modine', null);
+
+INSERT INTO attore VALUES (8657, 'Kevyn', 'Major Howard', null);
+
+INSERT INTO attore VALUES (8656, 'Dorian', 'Harewood', null);
+
+INSERT INTO attore VALUES (9378, 'Anthony', 'Ray Parker', null);
+
+INSERT INTO attore VALUES (761, 'Kais', 'Nashif', '');
+
+INSERT INTO attore VALUES (522, 'Rod', 'Steiger', null);
+
+INSERT INTO attore VALUES (1344, 'Yan', 'Qin', null);
+
+INSERT INTO attore VALUES (5149, 'Bonnie', 'Hunt', 'USA');
+
+INSERT INTO attore VALUES (258, 'Gael', 'Garcia Bernal', null);
+
+INSERT INTO attore VALUES (9372, 'Marcus', 'Chong', null);
+
+INSERT INTO attore VALUES (9374, 'Matt', 'Doran', null);
+
+INSERT INTO attore VALUES (9376, 'Belinda', 'McClory', null);
+
+INSERT INTO attore VALUES (9827, 'Rose', 'Byrne', 'Australia');
+
+INSERT INTO attore VALUES (9984, 'Frank', 'Toth', null);
+
+INSERT INTO attore VALUES (9985, 'Pat', 'Welsh', null);
+
+INSERT INTO attore VALUES (9982, 'David', 'M. O''Dell', null);
+
+INSERT INTO attore VALUES (9828, 'Garrett', 'Hedlund', 'USA ');
+
+INSERT INTO attore VALUES (9980, 'K.C.', 'Martel', null);
+
+INSERT INTO attore VALUES (9981, 'Sean', 'Frye', null);
+
+INSERT INTO attore VALUES (11025, 'Agnes', 'Moorehead', null);
+
+INSERT INTO attore VALUES (133, 'Peter', 'Sarsgaard', '');
+
+INSERT INTO attore VALUES (11027, 'Everett', 'Sloane', null);
+
+INSERT INTO attore VALUES (11026, 'Ruth', 'Warrick', null);
+
+INSERT INTO attore VALUES (1829, 'Carl', 'Steven', null);
+
+INSERT INTO attore VALUES (59315, 'Olivia', 'Wilde', 'USA');
+
+INSERT INTO attore VALUES (132, 'Scott', 'MacDonald', null);
+
+INSERT INTO attore VALUES (259, 'Vanessa', 'Bauche', null);
+
+INSERT INTO attore VALUES (528, 'Sylvia', 'Sidney', null);
+
+INSERT INTO attore VALUES (11029, 'Dorothy', 'Comingore', null);
+
+INSERT INTO attore VALUES (1820, 'Mark', 'Lenard', null);
+
+INSERT INTO attore VALUES (2411, 'Clotilde', 'Mollet', null);
+
+INSERT INTO attore VALUES (2410, 'Serge', 'Merlin', null);
+
+INSERT INTO attore VALUES (2413, 'Dominique', 'Pinon', null);
+
+INSERT INTO attore VALUES (2412, 'Isabelle', 'Nanty', null);
+
+INSERT INTO attore VALUES (2415, 'Yolande', 'Moreau', null);
+
+INSERT INTO attore VALUES (9576, 'Gina', 'Torres', 'New York');
+
+INSERT INTO attore VALUES (2417, 'Maurice', 'Benichou', null);
+
+INSERT INTO attore VALUES (2416, 'Urbain', 'Cancelier', null);
+
+INSERT INTO attore VALUES (418, 'Robert', 'Patrick', null);
+
+INSERT INTO attore VALUES (1381, 'John', 'Noble', null);
+
+INSERT INTO attore VALUES (1382, 'Paul', 'Norell', null);
+
+INSERT INTO attore VALUES (1383, 'Thomas', 'Robins', null);
+
+INSERT INTO attore VALUES (4215, 'Manfred', 'Mock', null);
+
+INSERT INTO attore VALUES (4689, 'Bronson', 'Pinchot', null);
+
+INSERT INTO attore VALUES (11803, 'Peter', 'Greene', 'USA');
+
+INSERT INTO attore VALUES (134, 'Jamie', 'Foxx', 'Texas');
+
+INSERT INTO attore VALUES (449, 'Jay', 'Baruchel', null);
+
+INSERT INTO attore VALUES (98216, 'Dean', 'Knowsley', null);
+
+INSERT INTO attore VALUES (9656, 'Johnny', 'Knoxville', null);
+
+INSERT INTO attore VALUES (9657, 'Patrick', 'Warburton', 'USA');
+
+INSERT INTO attore VALUES (289, 'Madeleine', 'Stowe', null);
+
+INSERT INTO attore VALUES (4211, 'D.A.', 'Pauley', null);
+
+INSERT INTO attore VALUES (9658, 'Colombe', 'Jacobsen-Derstine', null);
+
+INSERT INTO attore VALUES (9659, 'Peter', 'Spellos', null);
+
+INSERT INTO attore VALUES (4210, 'Andrew', 'Charles Koch', null);
+
+INSERT INTO attore VALUES (832, 'Antonio', 'David Lyons', null);
+
+INSERT INTO attore VALUES (833, 'Alex', 'Sol', null);
+
+INSERT INTO attore VALUES (830, 'Joseph', 'Cortese', null);
+
+INSERT INTO attore VALUES (7244, 'Julian', 'Arahanga', null);
+
+INSERT INTO attore VALUES (7242, 'Temuera', 'Morrison', null);
+
+INSERT INTO attore VALUES (3140, 'Marc', 'Lawrence', null);
+
+INSERT INTO attore VALUES (4212, 'Jennifer', 'Stahl', null);
+
+INSERT INTO attore VALUES (2406, 'Mathieu', 'Kassovitz', null);
+
+INSERT INTO attore VALUES (689, 'Kate', 'Capshaw', null);
+
+INSERT INTO attore VALUES (3, 'Harrison', 'Ford', 'United States');
+
+INSERT INTO attore VALUES (725, 'Jerry', 'Orbach', '');
+
+INSERT INTO attore VALUES (368, 'Reese', 'Witherspoon', 'USA');
+
+INSERT INTO attore VALUES (722, 'Jennifer', 'Grey', 'USA');
+
+INSERT INTO attore VALUES (20982, 'Marton', 'Csokas', null);
+
+INSERT INTO attore VALUES (723, 'Patrick', 'Swayze', 'USA');
+
+INSERT INTO attore VALUES (5586, 'Yeardley', 'Smith', null);
+
+INSERT INTO attore VALUES (1336, 'Jet', 'Li', 'China');
+
+INSERT INTO attore VALUES (54770, 'Eetu', 'Hilkamo', '');
+
+INSERT INTO attore VALUES (3141, 'Marisa', 'Tomei', null);
+
+INSERT INTO attore VALUES (688, 'Hermann', 'Beyer', null);
+
+INSERT INTO attore VALUES (37935, 'Steven', 'Tyler', 'USA ');
+
+INSERT INTO attore VALUES (380, 'Robert', 'De Niro', 'New York');
+
+INSERT INTO attore VALUES (381, 'Katherine', 'Helmond', null);
+
+INSERT INTO attore VALUES (382, 'Bob', 'Hoskins', 'UK');
+
+INSERT INTO attore VALUES (2320, 'Julian', 'Richings', null);
+
+INSERT INTO attore VALUES (385, 'Ian', 'Richardson', null);
+
+INSERT INTO attore VALUES (5320, 'Leslie', 'Caron', null);
+
+INSERT INTO attore VALUES (5321, 'John', 'Wood', null);
+
+INSERT INTO attore VALUES (388, 'Jim', 'Broadbent', null);
+
+INSERT INTO attore VALUES (20, 'Elizabeth', 'Perkins', null);
+
+INSERT INTO attore VALUES (58371, 'Brandon', 'Jay McLaren', '');
+
+INSERT INTO attore VALUES (785, 'James', 'Russo', null);
+
+INSERT INTO attore VALUES (82636, 'Luke', 'de Woolfson', 'England');
+
+INSERT INTO attore VALUES (1646, 'Udo', 'Kier', null);
+
+INSERT INTO attore VALUES (5249, 'E.G.', 'Marshall', 'USA');
+
+INSERT INTO attore VALUES (1640, 'Stellan', 'Skarsgard', 'Sweden');
+
+INSERT INTO attore VALUES (782, 'Steven', 'Berkoff', null);
+
+INSERT INTO attore VALUES (1642, 'Jean-Marc', 'Barr', null);
+
+INSERT INTO attore VALUES (20021, 'Wilfried', 'Hochholdinger', null);
+
+INSERT INTO attore VALUES (788, 'Art', 'Kimbro', null);
+
+INSERT INTO attore VALUES (789, 'Joel', 'Bailey', null);
+
+INSERT INTO attore VALUES (383, 'Michael', 'Palin', null);
+
+INSERT INTO attore VALUES (728, 'Kelly', 'Bishop', null);
+
+INSERT INTO attore VALUES (37336, 'Kimberly', 'Blair', '');
+
+INSERT INTO attore VALUES (386, 'Peter', 'Vaughan', null);
+
+INSERT INTO attore VALUES (8211, 'Mena', 'Suvari', 'USA');
+
+INSERT INTO attore VALUES (8210, 'Wes', 'Bentley', null);
+
+INSERT INTO attore VALUES (8213, 'Sam', 'Robards', null);
+
+INSERT INTO attore VALUES (8212, 'Peter', 'Gallagher', null);
+
+INSERT INTO attore VALUES (8214, 'Barry', 'Del Sherman', null);
+
+INSERT INTO attore VALUES (575, 'Ernie', 'Mangold', null);
+
+INSERT INTO attore VALUES (574, 'Tex', 'Rubinowitz', null);
+
+INSERT INTO attore VALUES (404, 'Melora', 'Hardin', null);
+
+INSERT INTO attore VALUES (2192, 'Lambert', 'Wilson', null);
+
+INSERT INTO attore VALUES (63, 'Milla', 'Jovovich', 'Ukraine');
+
+INSERT INTO attore VALUES (64, 'Gary', 'Oldman', 'United Kingdom');
+
+INSERT INTO attore VALUES (65, 'Ian', 'Holm', null);
+
+INSERT INTO attore VALUES (66, 'Chris', 'Tucker', 'Georgia');
+
+INSERT INTO attore VALUES (389, 'Alison', 'Eastwood', null);
+
+INSERT INTO attore VALUES (252, 'Sean', 'Sullivan', null);
+
+INSERT INTO attore VALUES (36221, 'Sam', 'Anderson', '');
+
+INSERT INTO attore VALUES (28782, 'Monica', 'Bellucci', 'Italy');
+
+INSERT INTO attore VALUES (59329, 'Buzz', 'Kilman', '');
+
+INSERT INTO attore VALUES (253, 'Douglas', 'Rain', null);
+
+INSERT INTO attore VALUES (2154, 'Scott', 'Bakula', null);
+
+INSERT INTO attore VALUES (1162, 'Robert', 'Loggia', null);
+
+INSERT INTO attore VALUES (7090, 'Kelsey', 'Grammer', null);
+
+INSERT INTO attore VALUES (1370, 'Brad', 'Dourif', null);
+
+INSERT INTO attore VALUES (1582, 'James', 'Duval', '');
+
+INSERT INTO attore VALUES (790, 'Michael', 'Champion', null);
+
+INSERT INTO attore VALUES (1581, 'Mary', 'McDonnell', null);
+
+INSERT INTO attore VALUES (2565, 'Yves', 'Montand', null);
+
+INSERT INTO attore VALUES (3362, 'Judith', 'Anderson', null);
+
+INSERT INTO attore VALUES (730, 'Max', 'Cantor', null);
+
+INSERT INTO attore VALUES (733, 'Alvin', 'Myerovich', null);
+
+INSERT INTO attore VALUES (1372, 'Karl', 'Urban', null);
+
+INSERT INTO attore VALUES (734, 'Paula', 'Trueman', null);
+
+INSERT INTO attore VALUES (506, 'John', 'Scurti', null);
+
+INSERT INTO attore VALUES (738, 'Sean', 'Connery', 'Edinburgh');
+
+INSERT INTO attore VALUES (250, 'Margaret', 'Tyzack', null);
+
+INSERT INTO attore VALUES (505, 'Camillia', 'Sanes', null);
+
+INSERT INTO attore VALUES (6684, 'Lara', 'Flynn Boyle', null);
+
+INSERT INTO attore VALUES (503, 'Justin', 'Chatwin', 'Canada');
+
+INSERT INTO attore VALUES (500, 'Tom', 'Cruise', 'U.S');
+
+INSERT INTO attore VALUES (501, 'Dakota', 'Fanning', null);
+
+INSERT INTO attore VALUES (10648, 'Michael', 'Kitchen', null);
+
+INSERT INTO attore VALUES (10649, 'Malick', 'Bowens', null);
+
+INSERT INTO attore VALUES (10647, 'Klaus', 'Maria Brandauer', null);
+
+INSERT INTO attore VALUES (39863, 'Joachim', 'Kretzer', '');
+
+INSERT INTO attore VALUES (786, 'Stephen', 'Elliott', null);
+
+INSERT INTO attore VALUES (1343, 'Zheng', 'Tia Yong', null);
+
+INSERT INTO attore VALUES (787, 'Gilbert', 'R. Hill', null);
+
+INSERT INTO attore VALUES (168, 'Carola', 'Regnier', null);
+
+INSERT INTO attore VALUES (169, 'Hanns', 'Zischler', null);
+
+INSERT INTO attore VALUES (164, 'Lior', 'Ashkenazi', null);
+
+INSERT INTO attore VALUES (165, 'Knut', 'Berger', null);
+
+INSERT INTO attore VALUES (166, 'Caroline', 'Peters', null);
+
+INSERT INTO attore VALUES (167, 'Gideon', 'Shemer', null);
+
+INSERT INTO attore VALUES (3722, 'Hans', 'Weingartner', null);
+
+INSERT INTO attore VALUES (781, 'Paul', 'Reiser', null);
+
+INSERT INTO attore VALUES (3689, 'Elbow', '', null);
+
+INSERT INTO attore VALUES (3688, 'The', 'Dandy Warhols', null);
+
+INSERT INTO attore VALUES (38244, 'O.E.', 'Hasse', '');
+
+INSERT INTO attore VALUES (102429, 'Roger', 'Corman', null);
+
+INSERT INTO attore VALUES (6009, 'Pamela', 'Hayden', null);
+
+INSERT INTO attore VALUES (783, 'Jonathan', 'Banks', null);
+
+INSERT INTO attore VALUES (43170, 'Thomas', 'Huber', '');
+
+INSERT INTO attore VALUES (8660, 'Kieron', 'Jecchinis', null);
+
+INSERT INTO attore VALUES (6195, 'Harold', 'Perrineau', null);
+
+INSERT INTO attore VALUES (8662, 'Tim', 'Colceri', null);
+
+INSERT INTO attore VALUES (8663, 'Jon', 'Stafford', null);
+
+INSERT INTO attore VALUES (8664, 'Bruce', 'Boa', null);
+
+INSERT INTO attore VALUES (8665, 'Ian', 'Tyler', null);
+
+INSERT INTO attore VALUES (8666, 'Sal', 'Lopez', null);
+
+INSERT INTO attore VALUES (8667, 'Gary', 'Landon Mills', null);
+
+INSERT INTO attore VALUES (8668, 'Papillon', 'Soo', null);
+
+INSERT INTO attore VALUES (20806, 'Silas', 'Carson', null);
+
+INSERT INTO attore VALUES (2516, 'Anthony', 'Zerbe', null);
+
+INSERT INTO attore VALUES (2517, 'Donna', 'Murphy', null);
+
+INSERT INTO attore VALUES (36442, 'Ingeborg', 'Westphal', '');
+
+INSERT INTO attore VALUES (77498, 'Lubna', 'Azabal', '');
+
+INSERT INTO attore VALUES (33188, 'Ron', 'Falk', '');
+
+INSERT INTO attore VALUES (33189, 'Daniel', 'Logan', '');
+
+INSERT INTO attore VALUES (33182, 'Jay', 'Laga''aia', '');
+
+INSERT INTO attore VALUES (33181, 'Jimmy', 'Smits', '');
+
+INSERT INTO attore VALUES (33186, 'Alan', 'Ruscoe', '');
+
+INSERT INTO attore VALUES (33187, 'Veronica', 'Segura', '');
+
+INSERT INTO attore VALUES (8400, 'Kim', 'Chan', null);
+
+INSERT INTO attore VALUES (678, 'Martina', 'Gedeck', null);
+
+INSERT INTO attore VALUES (681, 'Nina', 'Hoss', null);
+
+INSERT INTO attore VALUES (10362, 'Roberta', 'Maxwell', null);
+
+INSERT INTO attore VALUES (1811, 'Randy', 'Quaid', 'USA');
+
+INSERT INTO attore VALUES (1813, 'Anne', 'Hathaway', 'USA');
+
+INSERT INTO attore VALUES (3621, 'Roberto', 'Alvarez', null);
+
+INSERT INTO attore VALUES (1818, 'Paul', 'Winfield', null);
+
+INSERT INTO attore VALUES (1819, 'Robin', 'Curtis', null);
+
+INSERT INTO attore VALUES (5724, 'Denis', 'Leary', 'US');
+
+INSERT INTO attore VALUES (5293, 'Willem', 'Dafoe', null);
+
+INSERT INTO attore VALUES (680, 'Corinna', 'Harfouch', null);
+
+INSERT INTO attore VALUES (2038, 'Naomie', 'Harris', null);
+
+INSERT INTO attore VALUES (677, 'Moritz', 'Bleibtreu', 'Germany');
+
+INSERT INTO attore VALUES (6758, 'John', 'Randolph Jones', null);
+
+INSERT INTO attore VALUES (11397, 'Ric', 'Young', null);
+
+INSERT INTO attore VALUES (263, 'Emilio', 'Echevarria', null);
+
+INSERT INTO attore VALUES (3229, 'Arliss', 'Howard', null);
+
+INSERT INTO attore VALUES (1979, 'Kevin', 'Spacey', 'USA');
+
+INSERT INTO attore VALUES (4030, 'Martin', 'Klebba', null);
+
+INSERT INTO attore VALUES (1602, 'Fele', 'Martinez', null);
+
+INSERT INTO attore VALUES (261, 'Goya', 'Toledo', 'Lanzarote');
+
+INSERT INTO attore VALUES (149891, 'Kelly', 'Williams', 'Ca');
+
+INSERT INTO attore VALUES (260, 'Marco', 'Perez', null);
+
+INSERT INTO attore VALUES (352, 'Dennis', 'Haysbert', null);
+
+INSERT INTO attore VALUES (351, 'Judy', 'Davis', null);
+
+INSERT INTO attore VALUES (350, 'Laura', 'Linney', null);
+
+INSERT INTO attore VALUES (267, 'Gerardo', 'Campbell', null);
+
+INSERT INTO attore VALUES (807, 'Modesto', 'Francisco Rodriguez', null);
+
+INSERT INTO attore VALUES (806, 'Shankar', 'Loutakke', null);
+
+INSERT INTO attore VALUES (3982, 'Xander', 'Berkeley', null);
+
+INSERT INTO attore VALUES (3130, 'Jennifer', 'Beals', null);
+
+INSERT INTO attore VALUES (216, 'Josh', 'Flitter', null);
+
+INSERT INTO attore VALUES (217, 'Paulie', 'Litt', '');
+
+INSERT INTO attore VALUES (214, 'Brian', 'Price', null);
+
+INSERT INTO attore VALUES (212, 'David', 'Cross', null);
+
+INSERT INTO attore VALUES (213, 'Gerry', 'Robert Byrne', '');
+
+INSERT INTO attore VALUES (210, 'Amir', 'Ali Said', null);
+
+INSERT INTO attore VALUES (211, 'Debbon', 'Ayer', null);
+
+INSERT INTO attore VALUES (762, 'Ali', 'Suliman', null);
+
+INSERT INTO attore VALUES (264, 'Jorge', 'Salinas', null);
+
+INSERT INTO attore VALUES (766, 'Ashraf', 'Barhom', '');
+
+INSERT INTO attore VALUES (2843, 'Rob', 'Campbell', null);
+
+INSERT INTO attore VALUES (764, 'Amer', 'Hlehel', null);
+
+INSERT INTO attore VALUES (765, 'Hiam', 'Abbass', 'Israel');
+
+INSERT INTO attore VALUES (6121, 'Jens', 'Albinus', null);
+
+INSERT INTO attore VALUES (2323, 'Camille', 'Martinez', null);
+
+INSERT INTO attore VALUES (2322, 'Kenya', 'Jo Kennedy', null);
+
+INSERT INTO attore VALUES (2321, 'Jessica', 'Amlee', null);
+
+INSERT INTO attore VALUES (31925, 'Hugh', 'Quarshie', '');
+
+INSERT INTO attore VALUES (1771, 'Giovanni', 'Ribisi', 'USA');
+
+INSERT INTO attore VALUES (31923, 'Oliver', 'Ford Davies', '');
+
+INSERT INTO attore VALUES (61981, 'Michael', 'Clarke Duncan', '');
+
+INSERT INTO attore VALUES (3138, 'Kathy', 'Griffin', 'IL');
+
+INSERT INTO attore VALUES (37824, 'Jed', 'Gillin', '');
+
+INSERT INTO attore VALUES (288, 'Jon', 'Seda', null);
+
+INSERT INTO attore VALUES (4, 'Carrie', 'Fisher', '');
+
+INSERT INTO attore VALUES (3619, 'Malou', 'Airaudo', null);
+
+INSERT INTO attore VALUES (280, 'Terry', 'Gilliam', null);
+
+INSERT INTO attore VALUES (287, 'Brad', 'Pitt', 'United States');
+
+INSERT INTO attore VALUES (571, 'Andrea', 'Eckert', null);
+
+INSERT INTO attore VALUES (40942, 'Barbara', 'Windsor', '');
+
+INSERT INTO attore VALUES (40543, 'John', 'Ortiz', '');
+
+INSERT INTO attore VALUES (398, 'Rosario', 'Flores', null);
+
+INSERT INTO attore VALUES (679, 'Franka', 'Potente', 'Germany');
+
+INSERT INTO attore VALUES (675, 'Christian', 'Ulmen', null);
+
+INSERT INTO attore VALUES (3482, 'Chus', 'Lampreave', null);
+
+INSERT INTO attore VALUES (3135, 'Danny', 'Verduzco', null);
+
+INSERT INTO attore VALUES (3134, 'Tamlyn', 'Tomita', null);
+
+INSERT INTO attore VALUES (3137, 'Paul', 'Calderon', null);
+
+INSERT INTO attore VALUES (3136, 'Salma', 'Hayek', null);
+
+INSERT INTO attore VALUES (3131, 'Antonio', 'Banderas', 'Spain ');
+
+INSERT INTO attore VALUES (4566, 'Alan', 'Rickman', 'UK');
+
+INSERT INTO attore VALUES (3133, 'Patricia', 'Vonne', null);
+
+INSERT INTO attore VALUES (3132, 'Lana', 'McKissack', null);
+
+INSERT INTO attore VALUES (269, 'Dunia', 'Saldivar', null);
+
+INSERT INTO attore VALUES (268, 'Rosa', 'Maria Bianchi', null);
+
+INSERT INTO attore VALUES (17647, 'Michelle', 'Rodriguez', 'USA');
+
+INSERT INTO attore VALUES (2505, 'James', 'Cromwell', 'USA');
+
+INSERT INTO attore VALUES (42362, 'Eddie', 'Deezen', '');
+
+INSERT INTO attore VALUES (42363, 'Peter', 'Scolari', '');
+
+INSERT INTO attore VALUES (2555, 'David', 'Proval', null);
+
+INSERT INTO attore VALUES (480, 'Gary', 'Lewis', null);
+
+INSERT INTO attore VALUES (55, 'Abigail', 'Stone', null);
+
+INSERT INTO attore VALUES (54, 'Maurice', 'Roeves', '');
+
+INSERT INTO attore VALUES (56, 'Sophie', 'Stuckey', null);
+
+INSERT INTO attore VALUES (51, 'Richard', 'Elfyn', null);
+
+INSERT INTO attore VALUES (62, 'Bruce', 'Willis', 'Germany');
+
+INSERT INTO attore VALUES (53, 'Peter', 'Stormare', 'Kumla');
+
+INSERT INTO attore VALUES (52, 'David', 'Morse', null);
+
+INSERT INTO attore VALUES (537, 'Stephen', 'Tobolowsky', null);
+
+INSERT INTO attore VALUES (76070, 'Mia', 'Wasikowska', 'Australia');
+
+INSERT INTO attore VALUES (2394, 'Alan', 'Ruck', null);
+
+INSERT INTO attore VALUES (2395, 'Whoopi', 'Goldberg', 'USA');
+
+INSERT INTO attore VALUES (2392, 'Gates', 'McFadden', 'USA');
+
+INSERT INTO attore VALUES (532, 'Joe', 'Pantoliano', 'NJ');
+
+INSERT INTO attore VALUES (2390, 'LeVar', 'Burton', 'West Germany');
+
+INSERT INTO attore VALUES (2391, 'Michael', 'Dorn', 'US');
+
+INSERT INTO attore VALUES (17244, 'Hayden', 'Christensen', null);
+
+INSERT INTO attore VALUES (539, 'Thomas', 'Lennon', null);
+
+INSERT INTO attore VALUES (538, 'Harriet', 'Sansom Harris', null);
+
+INSERT INTO attore VALUES (2778, 'Dennis', 'Hopper', 'USA');
+
+INSERT INTO attore VALUES (1327, 'Ian', 'McKellen', 'England');
+
+INSERT INTO attore VALUES (1328, 'Sean', 'Astin', '');
+
+INSERT INTO attore VALUES (1329, 'Billy', 'Boyd', null);
+
+INSERT INTO attore VALUES (50, 'Catherine', 'Deneuve', null);
+
+INSERT INTO attore VALUES (114, 'Orlando', 'Bloom', 'UK');
+
+INSERT INTO attore VALUES (4208, 'M.R.', 'Fletcher', null);
+
+INSERT INTO attore VALUES (116, 'Keira', 'Knightley', 'United Kingdom');
+
+INSERT INTO attore VALUES (60033, 'Yaya', 'DaCosta', '');
+
+INSERT INTO attore VALUES (113, 'Christopher', 'Lee', null);
+
+INSERT INTO attore VALUES (112, 'Cate', 'Blanchett', null);
+
+INSERT INTO attore VALUES (4202, 'Miranda', 'Garrison', null);
+
+INSERT INTO attore VALUES (4203, 'Garry', 'Goodrow', null);
+
+INSERT INTO attore VALUES (4200, '''Cousin', 'Brucie'' Morrow', null);
+
+INSERT INTO attore VALUES (4201, 'Wayne', 'Knight', null);
+
+INSERT INTO attore VALUES (17140, 'Abigail', 'Breslin', null);
+
+INSERT INTO attore VALUES (118, 'Geoffrey', 'Rush', null);
+
+INSERT INTO attore VALUES (4204, 'Antone', 'Pagan', null);
+
+INSERT INTO attore VALUES (8399, 'Christopher', 'Fairbank', null);
+
+INSERT INTO attore VALUES (28235, 'Sebastian', 'Shaw', '');
+
+INSERT INTO attore VALUES (251, 'Robert', 'Beatty', null);
+
+INSERT INTO attore VALUES (11032, 'Buddy', 'Swan', null);
+
+INSERT INTO attore VALUES (11033, 'Paul', 'Stewart', 'USA');
+
+INSERT INTO attore VALUES (11030, 'William', 'Alland', null);
+
+INSERT INTO attore VALUES (11031, 'Philip', 'Van Zandt', null);
+
+INSERT INTO attore VALUES (72466, 'Colin', 'Farrell', '');
+
+INSERT INTO attore VALUES (130, 'Kenny', 'Baker', null);
+
+INSERT INTO attore VALUES (16867, 'Luis', 'Tosar', null);
+
+INSERT INTO attore VALUES (3618, 'Dario', 'Grandinetti', null);
+
+INSERT INTO attore VALUES (535, 'Russ', 'Fega', null);
+
+INSERT INTO attore VALUES (429, 'Lucas', 'Till', null);
+
+INSERT INTO attore VALUES (9464, 'Harry', 'Lennix', '');
+
+INSERT INTO attore VALUES (9466, 'Matt', 'McColm', null);
+
+INSERT INTO attore VALUES (2176, 'Tommy', 'Lee Jones', '');
+
+INSERT INTO attore VALUES (9462, 'Randall', 'Duk Kim', null);
+
+INSERT INTO attore VALUES (81024, 'Roger', 'Lloyd-Pack', '');
+
+INSERT INTO attore VALUES (420, 'Johnathan', 'Rice', null);
+
+INSERT INTO attore VALUES (422, 'Waylon', 'Payne', null);
+
+INSERT INTO attore VALUES (425, 'Dan', 'John Miller', null);
+
+INSERT INTO attore VALUES (424, 'Dallas', 'Roberts', null);
+
+INSERT INTO attore VALUES (427, 'Sandra', 'Ellis Lafferty', null);
+
+INSERT INTO attore VALUES (2393, 'Marina', 'Sirtis', 'UK');
+
+INSERT INTO attore VALUES (20535, 'Fritz', 'Alberti', null);
+
+INSERT INTO attore VALUES (20534, 'Margarete', 'Lanner', null);
+
+INSERT INTO attore VALUES (20533, 'Heinrich', 'Gotho', null);
+
+INSERT INTO attore VALUES (779, 'Lisa', 'Eilbacher', null);
+
+INSERT INTO attore VALUES (530, 'Carrie-Anne', 'Moss', 'Canada');
+
+INSERT INTO attore VALUES (778, 'John', 'Ashton', null);
+
+INSERT INTO attore VALUES (3266, 'Joe', 'Mantegna', null);
+
+INSERT INTO attore VALUES (8350, 'Sam', 'Bottoms', null);
+
+INSERT INTO attore VALUES (8351, 'Frederic', 'Forrest', null);
+
+INSERT INTO attore VALUES (8354, 'Albert', 'Hall', null);
+
+INSERT INTO attore VALUES (9640, 'Haley', 'Joel Osment', null);
+
+INSERT INTO attore VALUES (77, 'Rudolf', 'Klein-Rogge', null);
+
+INSERT INTO attore VALUES (729, 'Lonny', 'Price', null);
+
+INSERT INTO attore VALUES (24683, 'Jacques', 'Weber', '');
+
+INSERT INTO attore VALUES (2671, 'John', 'Alexander', null);
+
+INSERT INTO attore VALUES (7420, 'Harvey', 'Fierstein', null);
+
+INSERT INTO attore VALUES (822, 'Avery', 'Brooks', null);
+
+INSERT INTO attore VALUES (54769, 'Susanna', 'Haavisto', '');
+
+INSERT INTO attore VALUES (54768, 'Turo', 'Pajala', '');
+
+INSERT INTO attore VALUES (73421, 'Joaquin', 'Phoenix', 'Puerto Rico');
+
+INSERT INTO attore VALUES (69597, 'Drew', 'Barrymore', 'Culver City');
+
+INSERT INTO attore VALUES (20403, 'Beau', 'Garrett', null);
+
+INSERT INTO attore VALUES (487, 'Janine', 'Birkett', null);
+
+INSERT INTO attore VALUES (20662, 'Ami', 'Hasegawa', null);
+
+INSERT INTO attore VALUES (6167, 'Judd', 'Hirsch', null);
+
+INSERT INTO attore VALUES (52908, 'Collin', 'Chou', '');
+
+INSERT INTO attore VALUES (23791, 'Chris', 'Coppola', '');
+
+INSERT INTO attore VALUES (9976, 'Henry', 'Thomas', null);
+
+INSERT INTO attore VALUES (78, 'Fritz', 'Rasp', null);
+
+INSERT INTO attore VALUES (536, 'Jorja', 'Fox', null);
+
+INSERT INTO attore VALUES (9979, 'Peter', 'Coyote', null);
+
+INSERT INTO attore VALUES (9978, 'Robert', 'MacNaughton', null);
+
+INSERT INTO attore VALUES (569, 'Ethan', 'Hawke', null);
+
+INSERT INTO attore VALUES (15152, 'James', 'Earl Jones', '');
+
+INSERT INTO attore VALUES (726, 'Jack', 'Weston', null);
+
+INSERT INTO attore VALUES (18286, 'Nona', 'Gaye', null);
+
+INSERT INTO attore VALUES (739, 'Alison', 'Doody', null);
+
+INSERT INTO attore VALUES (9777, 'Cuba', 'Gooding Jr.', 'USA');
+
+INSERT INTO attore VALUES (24342, 'David', 'Prowse', '');
+
+INSERT INTO attore VALUES (24343, 'Peter', 'Mayhew', '');
+
+INSERT INTO attore VALUES (227, 'William', 'Hurt', 'D.C');
+
+INSERT INTO attore VALUES (2955, 'Chris', 'Cooper', null);
+
+INSERT INTO attore VALUES (3173, 'G.D.', 'Spradlin', null);
+
+INSERT INTO attore VALUES (504, 'Tim', 'Robbins', 'US');
+
+INSERT INTO attore VALUES (221, 'Lauren', 'Adler', null);
+
+INSERT INTO attore VALUES (220, 'Lola', 'Daehler', null);
+
+INSERT INTO attore VALUES (27442, 'Renato', 'Salvatori', '');
+
+INSERT INTO attore VALUES (502, 'Miranda', 'Otto', 'Australia');
+
+INSERT INTO attore VALUES (26209, 'Matt', 'Lucas', '');
+
+INSERT INTO attore VALUES (32747, 'Stephen', 'Lang', '');
+
+INSERT INTO attore VALUES (727, 'Jane', 'Brucker', null);
+
+INSERT INTO attore VALUES (724, 'Cynthia', 'Rhodes', null);
+
+INSERT INTO attore VALUES (4209, 'Karen', 'Getz', null);
+
+INSERT INTO attore VALUES (1748, 'William', 'Shatner', 'Canada');
+
+INSERT INTO attore VALUES (1749, 'Leonard', 'Nimoy', null);
+
+INSERT INTO attore VALUES (2350, 'Helene', 'Weigel', null);
+
+INSERT INTO attore VALUES (262, 'Alvaro', 'Guerrero', null);
+
+INSERT INTO attore VALUES (110, 'Viggo', 'Mortensen', 'USA');
+
+INSERT INTO attore VALUES (1164, 'F.', 'Murray Abraham', null);
+
+INSERT INTO attore VALUES (23530, 'Rudiger', 'Klink', '');
+
+INSERT INTO attore VALUES (155, 'Lucas', 'Black', null);
+
+INSERT INTO attore VALUES (9459, 'David', 'Kilde', '');
+
+INSERT INTO attore VALUES (131634, 'Bonnie', 'Piesse', '');
+
+INSERT INTO attore VALUES (9457, 'Roy', 'Jones Jr.', null);
+
+INSERT INTO attore VALUES (9450, 'Neil', 'Rayment', null);
+
+INSERT INTO attore VALUES (9452, 'Daniel', 'Bernhardt', null);
+
+INSERT INTO attore VALUES (4452, 'Lisa', 'Marie', null);
+
+INSERT INTO attore VALUES (3739, 'Kurti', '', null);
+
+INSERT INTO attore VALUES (3738, 'Haymon', 'Maria Buttinger', null);
+
+INSERT INTO attore VALUES (3737, 'Harold', 'Waiglein', null);
+
+INSERT INTO attore VALUES (3736, 'Bilge', 'Jeschim', null);
+
+INSERT INTO attore VALUES (3735, 'Dominik', 'Castell', null);
+
+INSERT INTO attore VALUES (4458, 'Paprika', 'Steen', null);
+
+INSERT INTO attore VALUES (399, 'Mariola', 'Fuentes', null);
+
+INSERT INTO attore VALUES (3731, 'Marie', 'Pillet', null);
+
+INSERT INTO attore VALUES (3730, 'Albert', 'Delpy', null);
+
+INSERT INTO attore VALUES (81, 'Heinrich', 'George', null);
+
+INSERT INTO attore VALUES (2133, 'Dina', 'Meyer', null);
+
+INSERT INTO attore VALUES (48, 'Sean', 'Bean', null);
+
+INSERT INTO attore VALUES (49, 'Maria', 'Bello', 'Pennsylvania');
+
+INSERT INTO attore VALUES (47, 'Bjork', '', null);
+
+INSERT INTO attore VALUES (40, 'Orson', 'Welles', '');
+
+INSERT INTO attore VALUES (4207, 'Jesus', 'Fuentes', null);
+
+INSERT INTO attore VALUES (43156, 'Deborah', 'Kaufmann', '');
+
+INSERT INTO attore VALUES (8672, 'Costas', 'Dino Chimona', null);
+
+INSERT INTO attore VALUES (8671, 'Tan', 'Hung Francione', null);
+
+INSERT INTO attore VALUES (8670, 'Ngoc', 'Le', null);
+
+INSERT INTO attore VALUES (5, 'Peter', 'Cushing', '');
+
+INSERT INTO attore VALUES (52422, 'Michael', 'DeLorenzo', '');
+
+INSERT INTO attore VALUES (6807, 'Sam', 'Rockwell', 'California');
+
+INSERT INTO attore VALUES (1292, 'James', 'Fox', null);
+
+INSERT INTO attore VALUES (1293, 'Franziska', 'Troegner', null);
+
+INSERT INTO attore VALUES (1290, 'Jordan', 'Fry', null);
+
+INSERT INTO attore VALUES (1291, 'Philip', 'Wiegratz', null);
+
+INSERT INTO attore VALUES (30083, 'Lindsay', 'Duncan', '');
+
+INSERT INTO attore VALUES (1294, 'Missi', 'Pyle', null);
+
+INSERT INTO attore VALUES (1295, 'Deep', 'Roy', null);
+
+INSERT INTO attore VALUES (1713, 'Giles', 'New', null);
+
+INSERT INTO attore VALUES (8398, 'John', 'Bluthal', null);
+
+INSERT INTO attore VALUES (95697, 'Dileep', 'Rao', null);
+
+INSERT INTO attore VALUES (23211, 'Maile', 'Flanagan', '');
+
+INSERT INTO attore VALUES (8395, 'Luke', 'Perry', null);
+
+INSERT INTO attore VALUES (8396, 'Tommy', '''Tiny'' Lister', null);
+
+INSERT INTO attore VALUES (8397, 'Charlie', 'Creed-Miles', null);
+
+INSERT INTO attore VALUES (5319, 'Ron', 'Cook', null);
+
+INSERT INTO attore VALUES (450, 'Mike', 'Colter', null);
+
+INSERT INTO attore VALUES (9191, 'Timothy', 'Spall', null);
+
+INSERT INTO attore VALUES (109205, 'Owen', 'Best', null);
+
+INSERT INTO attore VALUES (1710, 'Lee', 'Arenberg', null);
+
+INSERT INTO attore VALUES (20663, 'Gara', 'Takashima', null);
+
+INSERT INTO attore VALUES (1717, 'Isaac', 'C. Singleton Jr.', null);
+
+INSERT INTO attore VALUES (20661, 'Tsutomu', 'Isobe', null);
+
+INSERT INTO attore VALUES (483, 'Nicola', 'Blackwell', null);
+
+INSERT INTO attore VALUES (482, 'Stuart', 'Wells', null);
+
+INSERT INTO attore VALUES (481, 'Jean', 'Heywood', null);
+
+INSERT INTO attore VALUES (20664, 'Koichi', 'Yamadera', '');
+
+INSERT INTO attore VALUES (791, 'Mohammad', 'Bustami', null);
+
+INSERT INTO attore VALUES (9383, 'David', 'Aston', null);
+
+INSERT INTO attore VALUES (451, 'Lucia', 'Rijker', null);
+
+INSERT INTO attore VALUES (59231, 'Joel', 'Moore', '');
+
+INSERT INTO attore VALUES (1366, 'Sala', 'Baker', null);
+
+INSERT INTO attore VALUES (1367, 'Alan', 'Howard', 'UK');
+
+INSERT INTO attore VALUES (1365, 'Lawrence', 'Makoare', 'New Zealand');
+
+INSERT INTO attore VALUES (477, 'Julie', 'Walters', 'UK');
+
+INSERT INTO attore VALUES (4724, 'Kevin', 'Bacon', 'Philadelphia');
+
+INSERT INTO attore VALUES (3728, 'Diabolo', '', null);
+
+INSERT INTO attore VALUES (478, 'Jamie', 'Bell', null);
+
+INSERT INTO attore VALUES (479, 'Jamie', 'Draven', null);
+
+INSERT INTO attore VALUES (1369, 'Bernard', 'Hill', null);
+
+INSERT INTO interpreta VALUES (19995, 98216, 'Samson Pilot', 1.53);
+
+INSERT INTO interpreta VALUES (19995, 98215, 'Lyle Wainfleet', 0.51);
+
+INSERT INTO interpreta VALUES (19995, 95697, 'Dr. Max Patel', 0.99);
+
+INSERT INTO interpreta VALUES (19995, 15853, 'Eytukan', 0.9);
+
+INSERT INTO interpreta VALUES (19995, 10964, 'Tsu''Tey', 1.3);
+
+INSERT INTO interpreta VALUES (19995, 30485, 'Moha', 1.58);
+
+INSERT INTO interpreta VALUES (19995, 1771, 'Selfridge', 0.19);
+
+INSERT INTO interpreta VALUES (19995, 59231, 'Norm Spellman', 0.06);
+
+INSERT INTO interpreta VALUES (19995, 17647, 'Trudy Chacon', 1.67);
+
+INSERT INTO interpreta VALUES (19995, 32747, 'Col. Quaritch', 0.87);
+
+INSERT INTO interpreta VALUES (19995, 10205, 'Dr. Grace Augustine', 1.52);
+
+INSERT INTO interpreta VALUES (19995, 8691, 'Neytiri', 0.0);
+
+INSERT INTO interpreta VALUES (19995, 65731, 'Jake Sully', 0.89);
+
+INSERT INTO interpreta VALUES (194, 2417, 'Dominique Bretodeau', 1.89);
+
+INSERT INTO interpreta VALUES (194, 2416, 'Mr. Collignon', 1.8);
+
+INSERT INTO interpreta VALUES (194, 2411, 'Gina', 0.06);
+
+INSERT INTO interpreta VALUES (194, 2410, 'Raymond Dufayel', 0.05);
+
+INSERT INTO interpreta VALUES (194, 2409, 'Amandine Poulain', 1.08);
+
+INSERT INTO interpreta VALUES (194, 2415, 'Madeleine Wallace', 1.88);
+
+INSERT INTO interpreta VALUES (194, 2414, 'Hipolito', 0.76);
+
+INSERT INTO interpreta VALUES (194, 2413, 'Joseph', 0.43);
+
+INSERT INTO interpreta VALUES (194, 2412, 'Georgette', 0.84);
+
+INSERT INTO interpreta VALUES (194, 1654, 'Suzanne', 0.06);
+
+INSERT INTO interpreta VALUES (194, 2408, 'Lucien', 0.44);
+
+INSERT INTO interpreta VALUES (194, 2407, 'Raphael Poulain', 0.88);
+
+INSERT INTO interpreta VALUES (194, 2405, 'Amelie Poulain', 0.99);
+
+INSERT INTO interpreta VALUES (600, 8672, 'Chili', 0.44);
+
+INSERT INTO interpreta VALUES (600, 8671, 'ARVN Pimp', 0.92);
+
+INSERT INTO interpreta VALUES (600, 8670, 'VC Sniper', 0.58);
+
+INSERT INTO interpreta VALUES (600, 8669, 'Snowball', 0.04);
+
+INSERT INTO interpreta VALUES (600, 8668, 'Da Nang Hooker', 1.68);
+
+INSERT INTO interpreta VALUES (600, 8667, 'Donlon', 1.11);
+
+INSERT INTO interpreta VALUES (600, 8666, 'T.H.E. Rock', 1.28);
+
+INSERT INTO interpreta VALUES (600, 8665, 'Lt. Cleves', 0.37);
+
+INSERT INTO interpreta VALUES (600, 8664, 'Poge Colonel', 1.99);
+
+INSERT INTO interpreta VALUES (600, 8663, 'Doc Jay', 1.72);
+
+INSERT INTO interpreta VALUES (600, 8662, 'Doorgunner', 0.24);
+
+INSERT INTO interpreta VALUES (600, 8661, 'Payback', 0.67);
+
+INSERT INTO interpreta VALUES (600, 8660, 'Crazy Earl', 1.44);
+
+INSERT INTO interpreta VALUES (600, 8659, 'Lt. Lockhart', 1.42);
+
+INSERT INTO interpreta VALUES (600, 8658, 'Lt. Touchdown', 1.87);
+
+INSERT INTO interpreta VALUES (600, 3229, 'Pvt. Cowboy', 0.84);
+
+INSERT INTO interpreta VALUES (600, 8657, 'Rafterman', 1.66);
+
+INSERT INTO interpreta VALUES (600, 8656, 'Eightball', 1.34);
+
+INSERT INTO interpreta VALUES (600, 8655, 'Gny. Sgt. Hartman', 0.61);
+
+INSERT INTO interpreta VALUES (600, 7132, 'Pvt. Pyle', 1.18);
+
+INSERT INTO interpreta VALUES (600, 2059, 'Animal Mother', 1.76);
+
+INSERT INTO interpreta VALUES (600, 8654, 'Pvt. Joker', 1.69);
+
+INSERT INTO interpreta VALUES (601, 23764, 'Pretty Girl', 0.07);
+
+INSERT INTO interpreta VALUES (601, 101763, 'Mary', 0.49);
+
+INSERT INTO interpreta VALUES (601, 9985, 'E.T. (voice)', 1.59);
+
+INSERT INTO interpreta VALUES (601, 9984, 'Policeman', 0.83);
+
+INSERT INTO interpreta VALUES (601, 9983, 'Science Teacher', 0.35);
+
+INSERT INTO interpreta VALUES (601, 9982, 'Schoolboy', 1.1);
+
+INSERT INTO interpreta VALUES (601, 2878, 'Tyler', 1.41);
+
+INSERT INTO interpreta VALUES (601, 9981, 'Steve', 1.35);
+
+INSERT INTO interpreta VALUES (601, 9980, 'Greg', 0.75);
+
+INSERT INTO interpreta VALUES (601, 9979, 'Keys', 0.88);
+
+INSERT INTO interpreta VALUES (601, 69597, 'Gertie', 1.02);
+
+INSERT INTO interpreta VALUES (601, 9978, 'Michael', 1.56);
+
+INSERT INTO interpreta VALUES (601, 9976, 'Elliott', 1.04);
+
+INSERT INTO interpreta VALUES (602, 4133, 'Troy Casse', 0.06);
+
+INSERT INTO interpreta VALUES (602, 8987, 'Alicia Casse', 0.09);
+
+INSERT INTO interpreta VALUES (602, 1582, 'Miguel Casse', 1.41);
+
+INSERT INTO interpreta VALUES (602, 2389, 'Dr. Brackish Okun', 1.97);
+
+INSERT INTO interpreta VALUES (602, 2059, 'Major Mitchell', 1.19);
+
+INSERT INTO interpreta VALUES (602, 7420, 'Marty Gilbert', 0.79);
+
+INSERT INTO interpreta VALUES (602, 8986, 'Albert Nimzicki', 0.34);
+
+INSERT INTO interpreta VALUES (602, 2535, 'Jasmine Dubrow', 1.0);
+
+INSERT INTO interpreta VALUES (602, 8985, 'Constance Spano', 1.96);
+
+INSERT INTO interpreta VALUES (602, 1811, 'Russell Casse', 1.54);
+
+INSERT INTO interpreta VALUES (602, 1162, 'General William Grey', 1.08);
+
+INSERT INTO interpreta VALUES (602, 6167, 'Julius Levinson', 1.72);
+
+INSERT INTO interpreta VALUES (602, 1581, 'First Lady Marilyn Whitmore', 0.46);
+
+INSERT INTO interpreta VALUES (602, 4785, 'David Levinson', 1.03);
+
+INSERT INTO interpreta VALUES (602, 8984, 'President Thomas J. Whitmore', 1.9);
+
+INSERT INTO interpreta VALUES (602, 2888, 'Captain Steven Hiller', 1.16);
+
+INSERT INTO interpreta VALUES (603, 9384, 'Choi', 1.1);
+
+INSERT INTO interpreta VALUES (603, 9383, 'Rhineheart', 1.91);
+
+INSERT INTO interpreta VALUES (603, 9380, 'Agent Brown', 0.01);
+
+INSERT INTO interpreta VALUES (603, 9378, 'Dozer', 1.57);
+
+INSERT INTO interpreta VALUES (603, 9374, 'Mouse', 1.64);
+
+INSERT INTO interpreta VALUES (603, 532, 'Cypher', 1.77);
+
+INSERT INTO interpreta VALUES (603, 9376, 'Switch', 1.48);
+
+INSERT INTO interpreta VALUES (603, 7244, 'Apoc', 1.62);
+
+INSERT INTO interpreta VALUES (603, 9364, 'Oracle', 1.04);
+
+INSERT INTO interpreta VALUES (603, 9372, 'Tank', 1.12);
+
+INSERT INTO interpreta VALUES (603, 1331, 'Agent Smith', 0.85);
+
+INSERT INTO interpreta VALUES (603, 2975, 'Morpheus', 0.11);
+
+INSERT INTO interpreta VALUES (603, 530, 'Trinity', 1.74);
+
+INSERT INTO interpreta VALUES (603, 6384, 'Neo', 1.14);
+
+INSERT INTO interpreta VALUES (604, 52908, 'Seraph', 0.97);
+
+INSERT INTO interpreta VALUES (604, 9466, 'Agent Thompson', 0.71);
+
+INSERT INTO interpreta VALUES (604, 9464, 'Commander Lock', 0.69);
+
+INSERT INTO interpreta VALUES (604, 9462, 'The Keymaker', 1.08);
+
+INSERT INTO interpreta VALUES (604, 9459, 'Agent Jackson', 1.25);
+
+INSERT INTO interpreta VALUES (604, 9457, 'Captain Ballard', 1.22);
+
+INSERT INTO interpreta VALUES (604, 9452, 'Agent Johnson', 0.92);
+
+INSERT INTO interpreta VALUES (604, 9450, 'Twin #1', 0.06);
+
+INSERT INTO interpreta VALUES (604, 9448, 'Twin #2', 0.46);
+
+INSERT INTO interpreta VALUES (604, 28782, 'Persephone', 0.35);
+
+INSERT INTO interpreta VALUES (604, 2192, 'The Merovingian', 1.17);
+
+INSERT INTO interpreta VALUES (604, 9443, 'The Architect', 1.72);
+
+INSERT INTO interpreta VALUES (604, 9364, 'Oracle', 1.6);
+
+INSERT INTO interpreta VALUES (604, 1331, 'Agent Smith', 1.59);
+
+INSERT INTO interpreta VALUES (604, 530, 'Trinity', 1.63);
+
+INSERT INTO interpreta VALUES (604, 2975, 'Morpheus', 0.51);
+
+INSERT INTO interpreta VALUES (604, 6384, 'Neo', 1.68);
+
+INSERT INTO interpreta VALUES (605, 52908, 'Seraph', 0.03);
+
+INSERT INTO interpreta VALUES (605, 9576, 'Cas', 0.03);
+
+INSERT INTO interpreta VALUES (605, 9575, 'Niobe', 1.51);
+
+INSERT INTO interpreta VALUES (605, 6195, 'Link', 0.5);
+
+INSERT INTO interpreta VALUES (605, 9466, 'Agent Thompson', 0.22);
+
+INSERT INTO interpreta VALUES (605, 9464, 'Commander Lock', 1.25);
+
+INSERT INTO interpreta VALUES (605, 9462, 'The Keymaker', 0.69);
+
+INSERT INTO interpreta VALUES (605, 9457, 'Captain Ballard', 0.14);
+
+INSERT INTO interpreta VALUES (605, 2192, 'The Merovingian', 0.32);
+
+INSERT INTO interpreta VALUES (605, 9443, 'The Architect', 1.05);
+
+INSERT INTO interpreta VALUES (605, 9572, 'Oracle', 0.34);
+
+INSERT INTO interpreta VALUES (605, 1331, 'Agent Smith', 0.55);
+
+INSERT INTO interpreta VALUES (605, 530, 'Trinity', 1.42);
+
+INSERT INTO interpreta VALUES (605, 2975, 'Morpheus', 0.91);
+
+INSERT INTO interpreta VALUES (605, 6384, 'Neo', 0.64);
+
+INSERT INTO interpreta VALUES (606, 10658, 'Kanuthia', 0.77);
+
+INSERT INTO interpreta VALUES (606, 10657, 'Belknap, farm manager', 0.84);
+
+INSERT INTO interpreta VALUES (606, 10656, 'Juma', 0.38);
+
+INSERT INTO interpreta VALUES (606, 10655, 'Sir Joseph', 0.22);
+
+INSERT INTO interpreta VALUES (606, 10654, 'Lord Belfield', 1.8);
+
+INSERT INTO interpreta VALUES (606, 10653, 'Lady Belfield', 1.02);
+
+INSERT INTO interpreta VALUES (606, 10652, 'Felicity', 0.42);
+
+INSERT INTO interpreta VALUES (606, 3796, 'Lord Delamere', 1.21);
+
+INSERT INTO interpreta VALUES (606, 10651, 'Kinanjui', 1.63);
+
+INSERT INTO interpreta VALUES (606, 10650, 'Kamante', 0.04);
+
+INSERT INTO interpreta VALUES (606, 10649, 'Farah', 0.04);
+
+INSERT INTO interpreta VALUES (606, 10648, 'Berkeley Cole', 0.29);
+
+INSERT INTO interpreta VALUES (606, 10647, 'Baron Bror Blixen/Baron Hans Blixen', 1.44);
+
+INSERT INTO interpreta VALUES (606, 4135, 'Denys George Finch Hatton', 0.32);
+
+INSERT INTO interpreta VALUES (606, 5064, 'Karen Christence Dinesen Blixen', 1.41);
+
+INSERT INTO interpreta VALUES (607, 6751, 'Beatrice', 0.44);
+
+INSERT INTO interpreta VALUES (607, 2671, 'Mikey', 1.95);
+
+INSERT INTO interpreta VALUES (607, 9634, '2nd Lt. Jake Jensen', 1.6);
+
+INSERT INTO interpreta VALUES (607, 9633, 'Agent D', 1.03);
+
+INSERT INTO interpreta VALUES (607, 9632, 'INS agent Janus', 0.45);
+
+INSERT INTO interpreta VALUES (607, 9631, 'Arquillian', 1.3);
+
+INSERT INTO interpreta VALUES (607, 9630, 'Jose', 0.79);
+
+INSERT INTO interpreta VALUES (607, 9629, 'Van driver', 1.15);
+
+INSERT INTO interpreta VALUES (607, 9628, 'Gentle Rosenburg the Arquillian Jeweler', 0.64);
+
+INSERT INTO interpreta VALUES (607, 4252, 'Jack Jeebs', 1.26);
+
+INSERT INTO interpreta VALUES (607, 9626, 'Chief Zed', 0.12);
+
+INSERT INTO interpreta VALUES (607, 7132, 'Edgar / The Bug', 0.6);
+
+INSERT INTO interpreta VALUES (607, 9625, 'Dr. Laurel Weaver / Agent L', 1.94);
+
+INSERT INTO interpreta VALUES (607, 2888, 'James Edwards / Agent J', 1.75);
+
+INSERT INTO interpreta VALUES (607, 2176, 'Agent K', 0.61);
+
+INSERT INTO interpreta VALUES (608, 120724, 'Cameo', 1.88);
+
+INSERT INTO interpreta VALUES (608, 9659, 'Captain Larry Bridgewater, The Motorman', 1.49);
+
+INSERT INTO interpreta VALUES (608, 9658, 'Hailey', 0.83);
+
+INSERT INTO interpreta VALUES (608, 212, 'Newton', 0.5);
+
+INSERT INTO interpreta VALUES (608, 1240, 'Ben', 0.02);
+
+INSERT INTO interpreta VALUES (608, 9657, 'Agent Tee', 1.76);
+
+INSERT INTO interpreta VALUES (608, 4252, 'Jack Jeebs', 0.08);
+
+INSERT INTO interpreta VALUES (608, 5916, 'Laura Vasquez', 1.64);
+
+INSERT INTO interpreta VALUES (608, 9656, 'Scrad/Charlie', 1.92);
+
+INSERT INTO interpreta VALUES (608, 6684, 'Serleena', 1.14);
+
+INSERT INTO interpreta VALUES (608, 9626, 'Zed', 0.34);
+
+INSERT INTO interpreta VALUES (608, 2888, 'Agent Jay', 1.74);
+
+INSERT INTO interpreta VALUES (608, 2176, 'Kevin Brown, Agent Kay', 1.95);
+
+INSERT INTO interpreta VALUES (609, 2851, 'Pugsley', 0.76);
+
+INSERT INTO interpreta VALUES (609, 10091, 'Tangina Barrons', 0.69);
+
+INSERT INTO interpreta VALUES (609, 10090, 'Ryan', 0.41);
+
+INSERT INTO interpreta VALUES (609, 10089, 'Dr. Marty Casey', 1.35);
+
+INSERT INTO interpreta VALUES (609, 10088, 'Mrs. Tuthill', 0.87);
+
+INSERT INTO interpreta VALUES (609, 10087, 'Ben Tuthill', 0.39);
+
+INSERT INTO interpreta VALUES (609, 10086, 'Carol Anne Freeling', 0.21);
+
+INSERT INTO interpreta VALUES (609, 10085, 'Robbie Freeling', 1.33);
+
+INSERT INTO interpreta VALUES (609, 10084, 'Dana Freeling', 0.59);
+
+INSERT INTO interpreta VALUES (609, 10083, 'Dr. Lesh', 1.0);
+
+INSERT INTO interpreta VALUES (609, 10080, 'Diane Freeling', 0.65);
+
+INSERT INTO interpreta VALUES (609, 8977, 'Steve Freeling', 1.74);
+
+INSERT INTO interpreta VALUES (13, 36221, 'Principal', 0.4);
+
+INSERT INTO interpreta VALUES (13, 37832, 'Jenny''s Father', 0.66);
+
+INSERT INTO interpreta VALUES (13, 37831, 'Mrs. Blue, Bubba''s Mother', 1.97);
+
+INSERT INTO interpreta VALUES (13, 37830, 'Bubba''s Great-Grandmother', 1.57);
+
+INSERT INTO interpreta VALUES (13, 9640, 'Forrest Gump Jr.', 0.68);
+
+INSERT INTO interpreta VALUES (13, 37829, 'Taxi Driver', 0.43);
+
+INSERT INTO interpreta VALUES (13, 37828, 'Elderly Southern Woman on Park Bench', 1.35);
+
+INSERT INTO interpreta VALUES (13, 37827, 'President Johnson', 1.68);
+
+INSERT INTO interpreta VALUES (13, 37826, 'Tex', 1.86);
+
+INSERT INTO interpreta VALUES (13, 37825, 'Drill Sergeant', 0.69);
+
+INSERT INTO interpreta VALUES (13, 37824, 'President John F. Kennedy', 1.76);
+
+INSERT INTO interpreta VALUES (13, 37823, 'Coach', 1.37);
+
+INSERT INTO interpreta VALUES (13, 17237, 'Young Jenny Curran', 0.97);
+
+INSERT INTO interpreta VALUES (13, 37822, 'Elvis Presley', 1.97);
+
+INSERT INTO interpreta VALUES (13, 37821, 'Young Forrest Gump', 0.47);
+
+INSERT INTO interpreta VALUES (13, 35, 'Mrs. Gump', 1.45);
+
+INSERT INTO interpreta VALUES (13, 34, 'Bubba', 0.17);
+
+INSERT INTO interpreta VALUES (13, 33, 'Lt. Dan Taylor', 0.34);
+
+INSERT INTO interpreta VALUES (13, 32, 'Jenny Curran', 1.82);
+
+INSERT INTO interpreta VALUES (13, 31, 'Forrest Gump', 0.43);
+
+INSERT INTO interpreta VALUES (20526, 145110, 'Half Faced Man (as Yurij Kis)', 1.68);
+
+INSERT INTO interpreta VALUES (20526, 43263, 'Bartik', 0.74);
+
+INSERT INTO interpreta VALUES (20526, 10874, 'Chattering Homeless Man', 0.68);
+
+INSERT INTO interpreta VALUES (20526, 67931, 'Masked DJ''s', 0.58);
+
+INSERT INTO interpreta VALUES (20526, 37980, 'Green Light Cycle Rider', 1.73);
+
+INSERT INTO interpreta VALUES (20526, 109205, 'Young Sam', 1.21);
+
+INSERT INTO interpreta VALUES (20526, 3968, 'Castor / Zuse', 1.91);
+
+INSERT INTO interpreta VALUES (20526, 58371, 'Sobel', 1.77);
+
+INSERT INTO interpreta VALUES (20526, 86269, 'Young Mrs. Flynn', 0.27);
+
+INSERT INTO interpreta VALUES (20526, 22063, 'Jarvis', 1.1);
+
+INSERT INTO interpreta VALUES (20526, 130108, 'Siren', 0.21);
+
+INSERT INTO interpreta VALUES (20526, 20403, 'Siren', 0.08);
+
+INSERT INTO interpreta VALUES (20526, 86268, 'Siren', 0.15);
+
+INSERT INTO interpreta VALUES (20526, 60033, 'Siren', 1.73);
+
+INSERT INTO interpreta VALUES (20526, 2547, 'Alan Bradley / Tron', 1.58);
+
+INSERT INTO interpreta VALUES (20526, 59315, 'Quorra', 1.66);
+
+INSERT INTO interpreta VALUES (20526, 1229, 'Kevin Flynn / Clu', 0.68);
+
+INSERT INTO interpreta VALUES (20526, 9828, 'Sam Flynn', 1.23);
+
+INSERT INTO interpreta VALUES (11, 149891, 'Thrill', 1.14);
+
+INSERT INTO interpreta VALUES (11, 81024, 'Advisor to Grand Moff Tarkin', 0.45);
+
+INSERT INTO interpreta VALUES (11, 131625, 'Aunt Beru', 0.16);
+
+INSERT INTO interpreta VALUES (11, 33032, 'Uncle Owen', 0.53);
+
+INSERT INTO interpreta VALUES (11, 15152, 'Darth Vader (voice)', 1.78);
+
+INSERT INTO interpreta VALUES (11, 24342, 'Darth Vader', 1.13);
+
+INSERT INTO interpreta VALUES (11, 24343, 'Chewbacca', 1.85);
+
+INSERT INTO interpreta VALUES (11, 12248, 'Obi-Wan Kenobi', 0.92);
+
+INSERT INTO interpreta VALUES (11, 130, 'R2-D2', 0.55);
+
+INSERT INTO interpreta VALUES (11, 6, 'C-3PO', 1.57);
+
+INSERT INTO interpreta VALUES (11, 5, 'Grand Moff Tarkin', 1.66);
+
+INSERT INTO interpreta VALUES (11, 3, 'Han Solo', 0.02);
+
+INSERT INTO interpreta VALUES (11, 4, 'Leia Organa', 1.34);
+
+INSERT INTO interpreta VALUES (11, 2, 'Luke Skywalker', 0.18);
+
+INSERT INTO interpreta VALUES (1893, 1769, 'Sache', 0.08);
+
+INSERT INTO interpreta VALUES (1893, 116, 'Sabe', 0.48);
+
+INSERT INTO interpreta VALUES (1893, 2231, 'Mace Windu', 1.98);
+
+INSERT INTO interpreta VALUES (1893, 25441, 'Capt. Tarpals', 0.84);
+
+INSERT INTO interpreta VALUES (1893, 33198, 'Watto', 0.23);
+
+INSERT INTO interpreta VALUES (1893, 33197, 'Jar Jar Binks (Voice)', 0.33);
+
+INSERT INTO interpreta VALUES (1893, 31925, 'Capt. Panaka', 0.48);
+
+INSERT INTO interpreta VALUES (1893, 11007, 'Darth Maul', 1.49);
+
+INSERT INTO interpreta VALUES (1893, 31923, 'Governor Bibble', 0.21);
+
+INSERT INTO interpreta VALUES (1893, 7908, 'Yoda (voice)', 1.82);
+
+INSERT INTO interpreta VALUES (1893, 33190, 'Shmi Skywalker', 0.76);
+
+INSERT INTO interpreta VALUES (1893, 33196, 'Anakin Skywalker', 1.94);
+
+INSERT INTO interpreta VALUES (1893, 130, 'R2-D2', 1.82);
+
+INSERT INTO interpreta VALUES (1893, 6, 'C-3PO', 0.59);
+
+INSERT INTO interpreta VALUES (1893, 27762, 'Senator Palpatine', 0.51);
+
+INSERT INTO interpreta VALUES (1893, 3896, 'Qui-Gon Jinn', 0.95);
+
+INSERT INTO interpreta VALUES (1893, 3061, 'Obi Wan Kenobi', 0.2);
+
+INSERT INTO interpreta VALUES (1893, 524, 'Queen Amidala', 1.3);
+
+INSERT INTO interpreta VALUES (1892, 149891, 'Thrill', 1.97);
+
+INSERT INTO interpreta VALUES (1892, 130, 'R2-D2 / Paploo', 0.59);
+
+INSERT INTO interpreta VALUES (1892, 12248, 'Ben ''Obi-Wan'' Kenobi', 1.19);
+
+INSERT INTO interpreta VALUES (1892, 24342, 'Darth Vader', 0.9);
+
+INSERT INTO interpreta VALUES (1892, 28235, 'Anakin Skywalker', 0.63);
+
+INSERT INTO interpreta VALUES (1892, 27762, 'The Emperor', 0.13);
+
+INSERT INTO interpreta VALUES (1892, 7908, 'Yoda (voice)', 1.83);
+
+INSERT INTO interpreta VALUES (1892, 15152, 'Voice of Darth Vader (voice)', 1.94);
+
+INSERT INTO interpreta VALUES (1892, 24343, 'Chewbacca', 1.94);
+
+INSERT INTO interpreta VALUES (1892, 6, 'C-3PO', 0.22);
+
+INSERT INTO interpreta VALUES (1892, 3799, 'Lando Calrissian', 0.43);
+
+INSERT INTO interpreta VALUES (1892, 4, 'Princess Leia', 1.24);
+
+INSERT INTO interpreta VALUES (1892, 3, 'Han Solo', 1.96);
+
+INSERT INTO interpreta VALUES (1892, 2, 'Luke Skywalker', 1.09);
+
+INSERT INTO interpreta VALUES (1894, 33198, 'Watto (voice)', 0.52);
+
+INSERT INTO interpreta VALUES (1894, 131634, 'Beru', 1.08);
+
+INSERT INTO interpreta VALUES (1894, 12536, 'Cliegg Lars', 0.61);
+
+INSERT INTO interpreta VALUES (1894, 33192, 'Owen Lars', 0.49);
+
+INSERT INTO interpreta VALUES (1894, 33191, 'Queen Jamillia', 0.16);
+
+INSERT INTO interpreta VALUES (1894, 33190, 'Shmi Skywalker', 0.56);
+
+INSERT INTO interpreta VALUES (1894, 7242, 'Jango Fett', 1.97);
+
+INSERT INTO interpreta VALUES (1894, 33189, 'Boba Fett', 0.9);
+
+INSERT INTO interpreta VALUES (1894, 33181, 'Senator Bail Organa', 1.3);
+
+INSERT INTO interpreta VALUES (1894, 33182, 'Capt. Typho', 1.29);
+
+INSERT INTO interpreta VALUES (1894, 33188, 'Dexter Jettster', 1.88);
+
+INSERT INTO interpreta VALUES (1894, 31923, 'Govenor Sio Bibble', 0.78);
+
+INSERT INTO interpreta VALUES (1894, 20806, 'Viceroy Nute Gunray', 0.61);
+
+INSERT INTO interpreta VALUES (1894, 33187, 'Corde', 0.65);
+
+INSERT INTO interpreta VALUES (1894, 33186, 'Gilramos Libkath', 0.63);
+
+INSERT INTO interpreta VALUES (1894, 9374, 'Elan Sleazebaggano', 1.69);
+
+INSERT INTO interpreta VALUES (1894, 130, 'R2-D2', 1.79);
+
+INSERT INTO interpreta VALUES (1894, 6, 'C-3PO', 0.61);
+
+INSERT INTO interpreta VALUES (1894, 7908, 'Yoda (Voice)', 0.67);
+
+INSERT INTO interpreta VALUES (1894, 9827, 'Dorme', 1.09);
+
+INSERT INTO interpreta VALUES (1894, 2231, 'Mace Windu', 1.16);
+
+INSERT INTO interpreta VALUES (1894, 27762, 'Chancellor Palpatine', 1.19);
+
+INSERT INTO interpreta VALUES (1894, 113, 'Count Dooku', 0.49);
+
+INSERT INTO interpreta VALUES (1894, 17244, 'Anakin Skywalker', 0.04);
+
+INSERT INTO interpreta VALUES (1894, 524, 'Padme Amidala', 0.49);
+
+INSERT INTO interpreta VALUES (1894, 3061, 'Obi Wan Kenobi', 0.14);
+
+INSERT INTO interpreta VALUES (168, 1819, 'Lt. Saavik', 0.15);
+
+INSERT INTO interpreta VALUES (168, 1820, 'Ambassador Sarek', 1.27);
+
+INSERT INTO interpreta VALUES (168, 2022, 'Dr. Gillian Taylor', 0.58);
+
+INSERT INTO interpreta VALUES (168, 2021, 'Amanda', 1.58);
+
+INSERT INTO interpreta VALUES (168, 1753, 'Cmdr. Uhura', 0.99);
+
+INSERT INTO interpreta VALUES (168, 1754, 'Cmdr. Pavel Chekov', 1.73);
+
+INSERT INTO interpreta VALUES (168, 1752, 'Cmdr. Hikaru Sulu', 0.31);
+
+INSERT INTO interpreta VALUES (168, 1751, 'Montgomery Scott', 1.0);
+
+INSERT INTO interpreta VALUES (168, 1750, 'Dr. Leonard McCoy', 1.59);
+
+INSERT INTO interpreta VALUES (168, 1749, 'Captain Spock', 0.15);
+
+INSERT INTO interpreta VALUES (168, 1748, 'Admiral/Captain James T. Kirk', 1.9);
+
+INSERT INTO interpreta VALUES (193, 2395, 'Guinan', 1.97);
+
+INSERT INTO interpreta VALUES (193, 2394, 'Capt. John Harriman', 1.64);
+
+INSERT INTO interpreta VALUES (193, 56890, 'Dr. Tolian Soran', 0.64);
+
+INSERT INTO interpreta VALUES (193, 1754, '', 0.21);
+
+INSERT INTO interpreta VALUES (193, 1751, '', 1.03);
+
+INSERT INTO interpreta VALUES (193, 1748, 'james', 1.84);
+
+INSERT INTO interpreta VALUES (193, 2393, 'Commander Deanna Troi', 0.59);
+
+INSERT INTO interpreta VALUES (193, 2392, 'Dr. Beverly Crusher', 1.79);
+
+INSERT INTO interpreta VALUES (193, 2391, 'Lt. Commander Worf', 0.28);
+
+INSERT INTO interpreta VALUES (193, 2390, 'Lt. Commander Geordi La Forge', 1.82);
+
+INSERT INTO interpreta VALUES (193, 2389, 'Lt. Commander Data', 0.06);
+
+INSERT INTO interpreta VALUES (193, 2388, 'Commander William T. Riker', 0.63);
+
+INSERT INTO interpreta VALUES (193, 2387, 'Captain Jean-Luc Picard', 1.81);
+
+INSERT INTO interpreta VALUES (200, 2518, 'Gallatin', 1.68);
+
+INSERT INTO interpreta VALUES (200, 2517, 'Anij', 1.49);
+
+INSERT INTO interpreta VALUES (200, 2516, 'Vice-Adm. Dougherty', 1.38);
+
+INSERT INTO interpreta VALUES (200, 1164, 'Ad''har Ru''afo', 0.36);
+
+INSERT INTO interpreta VALUES (200, 2393, '', 0.87);
+
+INSERT INTO interpreta VALUES (200, 2392, '', 0.32);
+
+INSERT INTO interpreta VALUES (200, 2391, '', 1.43);
+
+INSERT INTO interpreta VALUES (200, 2390, '', 1.34);
+
+INSERT INTO interpreta VALUES (200, 2389, '', 0.51);
+
+INSERT INTO interpreta VALUES (200, 2388, '', 0.13);
+
+INSERT INTO interpreta VALUES (200, 2387, '', 1.93);
+
+INSERT INTO interpreta VALUES (157, 3362, 'Vulcan High Priestess', 1.08);
+
+INSERT INTO interpreta VALUES (157, 1832, 'Spock at age 25', 1.7);
+
+INSERT INTO interpreta VALUES (157, 1831, 'Spock...Age 17', 0.91);
+
+INSERT INTO interpreta VALUES (157, 1830, 'Spock...Age 13', 0.79);
+
+INSERT INTO interpreta VALUES (157, 1829, 'Spock...Age 9', 0.68);
+
+INSERT INTO interpreta VALUES (157, 1820, 'Ambassador Sarek', 0.52);
+
+INSERT INTO interpreta VALUES (157, 1819, 'Lt. Saavik', 0.05);
+
+INSERT INTO interpreta VALUES (157, 1062, 'Cmdr. Kruge', 1.29);
+
+INSERT INTO interpreta VALUES (157, 1795, 'Dr. David Marcus', 0.83);
+
+INSERT INTO interpreta VALUES (157, 1754, 'Pavel Chekov', 1.14);
+
+INSERT INTO interpreta VALUES (157, 1753, 'Cmdr. Uhura', 0.12);
+
+INSERT INTO interpreta VALUES (157, 1752, 'Hikaru Sulu', 0.71);
+
+INSERT INTO interpreta VALUES (157, 1751, 'Montgomery Scott', 0.28);
+
+INSERT INTO interpreta VALUES (157, 1750, 'Dr. Leonard McCoy', 0.25);
+
+INSERT INTO interpreta VALUES (157, 1749, 'Capt. Spock/Elevator Voice', 0.52);
+
+INSERT INTO interpreta VALUES (157, 1748, 'Admiral James T. Kirk', 1.66);
+
+INSERT INTO interpreta VALUES (152, 1759, 'CPO Janice Rand', 1.22);
+
+INSERT INTO interpreta VALUES (152, 1757, 'Lieutenant Ilia', 0.47);
+
+INSERT INTO interpreta VALUES (152, 1756, 'Capt./Cmdr. Willard Decker', 0.01);
+
+INSERT INTO interpreta VALUES (152, 1755, 'Dr. Christine Chapel', 1.06);
+
+INSERT INTO interpreta VALUES (152, 1750, 'Dr. Leonard McCoy', 1.0);
+
+INSERT INTO interpreta VALUES (152, 1753, 'Lt. Cmdr. Uhura', 1.3);
+
+INSERT INTO interpreta VALUES (152, 1754, 'Lt. Pavel Chekov', 0.88);
+
+INSERT INTO interpreta VALUES (152, 1751, 'Montgomery Scott', 1.37);
+
+INSERT INTO interpreta VALUES (152, 1752, 'Lt. Cmdr. Hikaru Sulu', 1.46);
+
+INSERT INTO interpreta VALUES (152, 1749, 'Mr. Spock', 0.48);
+
+INSERT INTO interpreta VALUES (152, 1748, 'Captain James T. Kirk', 0.99);
+
+INSERT INTO interpreta VALUES (201, 2133, 'Commander Donatra', 0.82);
+
+INSERT INTO interpreta VALUES (201, 2525, 'Senator Tal''aura', 1.12);
+
+INSERT INTO interpreta VALUES (201, 2372, 'The Reman Viceroy', 1.81);
+
+INSERT INTO interpreta VALUES (201, 2524, 'Praetor Shinzon', 1.84);
+
+INSERT INTO interpreta VALUES (201, 2393, '', 0.55);
+
+INSERT INTO interpreta VALUES (201, 2392, '', 1.29);
+
+INSERT INTO interpreta VALUES (201, 2391, '', 0.1);
+
+INSERT INTO interpreta VALUES (201, 2390, '', 0.14);
+
+INSERT INTO interpreta VALUES (201, 2389, '', 1.02);
+
+INSERT INTO interpreta VALUES (201, 2388, '', 1.75);
+
+INSERT INTO interpreta VALUES (201, 2387, '', 0.32);
+
+INSERT INTO interpreta VALUES (154, 1818, 'Captain Clark Terrell', 0.62);
+
+INSERT INTO interpreta VALUES (154, 1796, 'Lt. Saavik', 1.39);
+
+INSERT INTO interpreta VALUES (154, 1795, 'Dr. David Marcus', 1.7);
+
+INSERT INTO interpreta VALUES (154, 1794, 'Dr. Carol Marcus', 0.74);
+
+INSERT INTO interpreta VALUES (154, 1793, 'Khan Noonien Singh', 1.4);
+
+INSERT INTO interpreta VALUES (154, 1754, 'Cmdr. Pavel Chekov', 1.47);
+
+INSERT INTO interpreta VALUES (154, 1753, 'Cmdr. Uhura', 1.19);
+
+INSERT INTO interpreta VALUES (154, 1752, 'Cmdr. Hikaru Sulu', 1.71);
+
+INSERT INTO interpreta VALUES (154, 1751, 'Montgomery Scott', 1.79);
+
+INSERT INTO interpreta VALUES (154, 1750, 'Dr. Leonard McCoy', 1.92);
+
+INSERT INTO interpreta VALUES (154, 1749, 'Captain Spock', 1.14);
+
+INSERT INTO interpreta VALUES (154, 1748, 'Admiral James T. Kirk', 0.35);
+
+INSERT INTO interpreta VALUES (12155, 47468, 'Aunt Imogene', 1.14);
+
+INSERT INTO interpreta VALUES (12155, 11276, 'Lord Ascot', 1.52);
+
+INSERT INTO interpreta VALUES (12155, 30083, 'Helen Kingsley', 0.1);
+
+INSERT INTO interpreta VALUES (12155, 3796, 'The Dodo', 1.36);
+
+INSERT INTO interpreta VALUES (12155, 40942, 'The Dormouse', 1.43);
+
+INSERT INTO interpreta VALUES (12155, 26209, 'Tweedledee / Tweedledum', 0.7);
+
+INSERT INTO interpreta VALUES (12155, 1284, 'The March Hare', 1.03);
+
+INSERT INTO interpreta VALUES (12155, 20982, 'Charles Kingsley', 0.33);
+
+INSERT INTO interpreta VALUES (12155, 9191, 'The Bloodhound', 1.46);
+
+INSERT INTO interpreta VALUES (12155, 11275, 'The Cheshire Cat', 0.08);
+
+INSERT INTO interpreta VALUES (12155, 113, 'The Jabberwock', 1.96);
+
+INSERT INTO interpreta VALUES (12155, 76070, 'Alice Kingsley', 1.62);
+
+INSERT INTO interpreta VALUES (12155, 1064, 'The Knave of Hearts', 1.26);
+
+INSERT INTO interpreta VALUES (12155, 4566, 'The Caterpillar', 0.54);
+
+INSERT INTO interpreta VALUES (12155, 1283, 'The Red Queen', 1.83);
+
+INSERT INTO interpreta VALUES (12155, 1813, 'The White Queen', 1.92);
+
+INSERT INTO interpreta VALUES (12155, 3968, 'The White Rabbit', 0.28);
+
+INSERT INTO interpreta VALUES (12155, 85, 'The Mad Hatter', 1.55);
+
+INSERT INTO interpreta VALUES (58, 82636, 'Frightened Sailor', 1.4);
+
+INSERT INTO interpreta VALUES (58, 2452, 'Giselle', 0.89);
+
+INSERT INTO interpreta VALUES (58, 2450, 'Scarlet', 1.85);
+
+INSERT INTO interpreta VALUES (58, 2451, 'Captain Bellamy', 1.94);
+
+INSERT INTO interpreta VALUES (58, 1715, 'Cotton', 0.76);
+
+INSERT INTO interpreta VALUES (58, 1711, 'Ragetti', 1.61);
+
+INSERT INTO interpreta VALUES (58, 1710, 'Pintel', 0.87);
+
+INSERT INTO interpreta VALUES (58, 2449, 'Joshamee Gibbs', 0.33);
+
+INSERT INTO interpreta VALUES (58, 118, 'Captain Barbossa', 0.65);
+
+INSERT INTO interpreta VALUES (58, 2038, 'Tia Dalma', 0.25);
+
+INSERT INTO interpreta VALUES (58, 378, 'Governor Weatherby Swann', 1.82);
+
+INSERT INTO interpreta VALUES (58, 2441, 'Lord Beckett', 1.92);
+
+INSERT INTO interpreta VALUES (58, 1640, 'Bootstrap Bill', 0.24);
+
+INSERT INTO interpreta VALUES (58, 2440, 'Davy Jones', 1.2);
+
+INSERT INTO interpreta VALUES (58, 1709, 'James Norrington', 0.82);
+
+INSERT INTO interpreta VALUES (58, 114, 'Will Turner', 0.24);
+
+INSERT INTO interpreta VALUES (58, 116, 'Elizabeth Swann', 0.59);
+
+INSERT INTO interpreta VALUES (58, 85, 'Captain Jack Sparrow', 0.5);
+
+INSERT INTO interpreta VALUES (285, 1430, 'Teague Sparrow', 0.38);
+
+INSERT INTO interpreta VALUES (285, 2038, 'Tia Dalma', 0.88);
+
+INSERT INTO interpreta VALUES (285, 4031, 'Lieutenant Groves', 0.04);
+
+INSERT INTO interpreta VALUES (285, 4030, 'Marty', 1.26);
+
+INSERT INTO interpreta VALUES (285, 1710, 'Pintel', 1.21);
+
+INSERT INTO interpreta VALUES (285, 1711, 'Ragetti', 1.67);
+
+INSERT INTO interpreta VALUES (285, 1709, 'Admiral James Norrington', 0.41);
+
+INSERT INTO interpreta VALUES (285, 2449, 'Joshamee Gibbs', 0.57);
+
+INSERT INTO interpreta VALUES (285, 1640, 'Bootstrap'' Bill Turner', 1.08);
+
+INSERT INTO interpreta VALUES (285, 2441, 'Lord Cutler Beckett', 0.55);
+
+INSERT INTO interpreta VALUES (285, 2440, 'Davy Jones', 1.17);
+
+INSERT INTO interpreta VALUES (285, 378, 'Governor Weatherby Swann', 0.5);
+
+INSERT INTO interpreta VALUES (285, 118, 'Barbossa', 1.37);
+
+INSERT INTO interpreta VALUES (285, 1619, 'Captain Sao Feng', 1.58);
+
+INSERT INTO interpreta VALUES (285, 116, 'Elizabeth Swann', 1.62);
+
+INSERT INTO interpreta VALUES (285, 114, 'Will Turner', 1.95);
+
+INSERT INTO interpreta VALUES (285, 85, 'Jack Sparrow', 1.09);
+
+INSERT INTO interpreta VALUES (118, 1295, 'Oompa Loompa', 1.54);
+
+INSERT INTO interpreta VALUES (118, 113, 'Dr. Wonka', 1.14);
+
+INSERT INTO interpreta VALUES (118, 1294, 'Mrs. Beauregard', 0.77);
+
+INSERT INTO interpreta VALUES (118, 1293, 'Mrs. Glupsch', 0.57);
+
+INSERT INTO interpreta VALUES (118, 1292, 'Mr. Salt', 0.22);
+
+INSERT INTO interpreta VALUES (118, 1291, 'Augustus Glupsch', 1.62);
+
+INSERT INTO interpreta VALUES (118, 1290, 'Mike Teavee', 0.24);
+
+INSERT INTO interpreta VALUES (118, 1284, 'Mr. Bucket', 1.49);
+
+INSERT INTO interpreta VALUES (118, 1283, 'Mrs. Bucket', 1.09);
+
+INSERT INTO interpreta VALUES (118, 1282, 'Grandpa Joe', 1.93);
+
+INSERT INTO interpreta VALUES (118, 1286, 'Veruca Salt', 1.52);
+
+INSERT INTO interpreta VALUES (118, 1285, 'Violet Beauregarde', 1.95);
+
+INSERT INTO interpreta VALUES (118, 1281, 'Charlie Bucket', 0.27);
+
+INSERT INTO interpreta VALUES (118, 85, 'Willy Wonka', 1.0);
+
+INSERT INTO interpreta VALUES (22, 82636, 'Frightened Sailor', 1.01);
+
+INSERT INTO interpreta VALUES (22, 8691, 'Anamaria', 0.71);
+
+INSERT INTO interpreta VALUES (22, 1717, 'Bo''sun', 1.06);
+
+INSERT INTO interpreta VALUES (22, 1716, 'Twigg', 0.0);
+
+INSERT INTO interpreta VALUES (22, 1715, 'Cotton', 0.88);
+
+INSERT INTO interpreta VALUES (22, 1714, 'Mullroy', 0.9);
+
+INSERT INTO interpreta VALUES (22, 1713, 'Murtogg', 0.61);
+
+INSERT INTO interpreta VALUES (22, 1712, 'Lt. Gillette', 0.8);
+
+INSERT INTO interpreta VALUES (22, 1711, 'Ragetti', 1.57);
+
+INSERT INTO interpreta VALUES (22, 1710, 'Pintel', 1.37);
+
+INSERT INTO interpreta VALUES (22, 378, 'Governor Weatherby Swann', 0.98);
+
+INSERT INTO interpreta VALUES (22, 1709, 'Captain Norrington', 1.3);
+
+INSERT INTO interpreta VALUES (22, 118, 'Barbossa', 0.76);
+
+INSERT INTO interpreta VALUES (22, 116, 'Elizabeth Swann', 0.41);
+
+INSERT INTO interpreta VALUES (22, 114, 'Will Turner', 0.01);
+
+INSERT INTO interpreta VALUES (22, 85, 'Jack Sparrow', 0.56);
+
+INSERT INTO interpreta VALUES (392, 5321, 'Guillaume Blerot', 1.66);
+
+INSERT INTO interpreta VALUES (392, 5320, 'Madame Audel', 1.02);
+
+INSERT INTO interpreta VALUES (392, 5319, 'Alphonse Marceau', 1.97);
+
+INSERT INTO interpreta VALUES (392, 5318, 'Yvette Marceau', 0.92);
+
+INSERT INTO interpreta VALUES (392, 5317, 'Didi Drou', 1.67);
+
+INSERT INTO interpreta VALUES (392, 5316, 'Dedou Drou', 0.82);
+
+INSERT INTO interpreta VALUES (392, 5315, 'Anouk Rocher', 1.49);
+
+INSERT INTO interpreta VALUES (392, 5314, 'Luc Clairmont', 1.98);
+
+INSERT INTO interpreta VALUES (392, 53, 'Serge Muscat', 0.61);
+
+INSERT INTO interpreta VALUES (392, 5313, 'Josephine Muscat', 0.34);
+
+INSERT INTO interpreta VALUES (392, 5312, 'Pere Henri', 1.24);
+
+INSERT INTO interpreta VALUES (392, 5311, 'Francoise Drou', 1.06);
+
+INSERT INTO interpreta VALUES (392, 5310, 'Jean-Marc Drou', 0.72);
+
+INSERT INTO interpreta VALUES (392, 5309, 'Armande Voizin', 0.01);
+
+INSERT INTO interpreta VALUES (392, 530, 'Caroline Clairmont', 0.78);
+
+INSERT INTO interpreta VALUES (392, 85, 'Roux', 0.85);
+
+INSERT INTO interpreta VALUES (392, 658, 'Comte Paul de Reynaud', 0.81);
+
+INSERT INTO interpreta VALUES (392, 1137, 'Vianne Rocher', 1.72);
+
+INSERT INTO interpreta VALUES (5255, 42286, 'Red Head Girl', 1.8);
+
+INSERT INTO interpreta VALUES (5255, 42287, 'Mother', 1.5);
+
+INSERT INTO interpreta VALUES (5255, 37935, 'Elf Lieutenant', 0.99);
+
+INSERT INTO interpreta VALUES (5255, 12826, 'Elf General', 1.49);
+
+INSERT INTO interpreta VALUES (5255, 42363, 'Lonely Boy', 1.28);
+
+INSERT INTO interpreta VALUES (5255, 18286, 'Hero Girl', 1.3);
+
+INSERT INTO interpreta VALUES (5255, 23791, 'Toothless Boy', 1.26);
+
+INSERT INTO interpreta VALUES (5255, 42362, 'Know-It-All', 0.81);
+
+INSERT INTO interpreta VALUES (5255, 2169, 'Steamer', 1.26);
+
+INSERT INTO interpreta VALUES (5255, 31, 'Hobo', 1.27);
+
+INSERT INTO interpreta VALUES (568, 102429, 'Congressman', 1.69);
+
+INSERT INTO interpreta VALUES (568, 3982, 'Henry Hurt', 1.53);
+
+INSERT INTO interpreta VALUES (568, 8192, 'NASA Director', 1.63);
+
+INSERT INTO interpreta VALUES (568, 8191, 'Deke Slayton', 1.21);
+
+INSERT INTO interpreta VALUES (568, 8190, 'Jane Conrad', 0.7);
+
+INSERT INTO interpreta VALUES (568, 7219, 'Pete Conrad', 0.53);
+
+INSERT INTO interpreta VALUES (568, 8189, 'Mary Haise', 1.42);
+
+INSERT INTO interpreta VALUES (568, 8188, 'Blanch Lovell', 1.75);
+
+INSERT INTO interpreta VALUES (568, 8187, 'Jay Lovell', 1.09);
+
+INSERT INTO interpreta VALUES (568, 8186, 'Jeffrey Lovell', 0.3);
+
+INSERT INTO interpreta VALUES (568, 8185, 'Susan Lovell', 1.67);
+
+INSERT INTO interpreta VALUES (568, 8184, 'Barbara Lovell', 0.97);
+
+INSERT INTO interpreta VALUES (568, 8183, 'Marilyn Lovell', 0.93);
+
+INSERT INTO interpreta VALUES (568, 228, 'Gene Kranz', 0.09);
+
+INSERT INTO interpreta VALUES (568, 33, 'Ken Mattingly', 1.02);
+
+INSERT INTO interpreta VALUES (568, 4724, 'Jack Swigert', 1.49);
+
+INSERT INTO interpreta VALUES (568, 2053, 'Fred Haise', 0.85);
+
+INSERT INTO interpreta VALUES (568, 31, 'Jim Lovell', 0.71);
+
+INSERT INTO interpreta VALUES (9800, 31, 'Andrew Beckett - Main', 1.01);
+
+INSERT INTO interpreta VALUES (9800, 5292, 'Joe Mille', 1.89);
+
+INSERT INTO interpreta VALUES (9800, 3131, 'Miguel Alvarez', 1.38);
+
+INSERT INTO interpreta VALUES (9800, 59329, 'Crutches', 0.8);
+
+INSERT INTO interpreta VALUES (9800, 10362, 'Judge Tate', 1.38);
+
+INSERT INTO interpreta VALUES (497, 12834, 'Dean Stanton', 0.42);
+
+INSERT INTO interpreta VALUES (497, 2505, 'Warden Hal Moores', 1.77);
+
+INSERT INTO interpreta VALUES (497, 6807, '''Wild Bill'' Wharton', 0.54);
+
+INSERT INTO interpreta VALUES (497, 6806, 'Percy Wetmore', 0.15);
+
+INSERT INTO interpreta VALUES (497, 33, 'Lawyer Burt Hammersmith', 1.66);
+
+INSERT INTO interpreta VALUES (497, 6805, 'Old Paul Edgecomb', 1.05);
+
+INSERT INTO interpreta VALUES (497, 1276, 'Melinda Moores', 0.74);
+
+INSERT INTO interpreta VALUES (497, 6804, 'Arlen Bitterbuck', 1.02);
+
+INSERT INTO interpreta VALUES (497, 2169, 'Eduard Delacroix', 1.47);
+
+INSERT INTO interpreta VALUES (497, 52, 'Brutus "Brutal" Howell', 0.34);
+
+INSERT INTO interpreta VALUES (497, 5149, 'Jan Edgecomb', 1.31);
+
+INSERT INTO interpreta VALUES (497, 61981, 'John Coffey', 1.43);
+
+INSERT INTO interpreta VALUES (497, 31, 'Paul Edgecomb', 1.63);
+
+INSERT INTO interpreta VALUES (101, 1010, 'Mathilda''s Father', 0.46);
+
+INSERT INTO interpreta VALUES (101, 1008, '3 rd Stansfield man', 1.12);
+
+INSERT INTO interpreta VALUES (101, 1007, '2nd Stansfield man', 0.34);
+
+INSERT INTO interpreta VALUES (101, 1006, '1st Stansfield man', 1.58);
+
+INSERT INTO interpreta VALUES (101, 1005, 'Malky', 1.73);
+
+INSERT INTO interpreta VALUES (101, 1004, 'Tony', 0.66);
+
+INSERT INTO interpreta VALUES (101, 64, 'Stansfield', 0.44);
+
+INSERT INTO interpreta VALUES (101, 524, 'Mathilda', 1.93);
+
+INSERT INTO interpreta VALUES (101, 1003, 'Leon', 1.41);
+
+INSERT INTO interpreta VALUES (120, 1333, 'Gollum', 1.8);
+
+INSERT INTO interpreta VALUES (120, 1367, 'The Ring (voice)', 1.24);
+
+INSERT INTO interpreta VALUES (120, 1366, 'Sauron', 0.63);
+
+INSERT INTO interpreta VALUES (120, 1365, 'Lurtz', 0.86);
+
+INSERT INTO interpreta VALUES (120, 1332, 'Haldir', 1.52);
+
+INSERT INTO interpreta VALUES (120, 65, 'Bilbo Baggins', 1.57);
+
+INSERT INTO interpreta VALUES (120, 112, 'Galadriel', 0.38);
+
+INSERT INTO interpreta VALUES (120, 1331, 'Elrond', 1.25);
+
+INSERT INTO interpreta VALUES (120, 1330, 'Meriadoc ''Merry'' Brandybuck', 0.33);
+
+INSERT INTO interpreta VALUES (120, 1329, 'Peregrin ''Pippin'' Took', 1.95);
+
+INSERT INTO interpreta VALUES (120, 1328, 'Samwise ''Sam'' Gamgee', 0.89);
+
+INSERT INTO interpreta VALUES (120, 113, 'Saruman', 1.83);
+
+INSERT INTO interpreta VALUES (120, 48, 'Boromir', 1.46);
+
+INSERT INTO interpreta VALUES (120, 655, 'Gimli', 1.21);
+
+INSERT INTO interpreta VALUES (120, 114, 'Legolas', 0.52);
+
+INSERT INTO interpreta VALUES (120, 882, 'Arwen Evenstar', 1.05);
+
+INSERT INTO interpreta VALUES (120, 110, 'Aragorn', 0.28);
+
+INSERT INTO interpreta VALUES (120, 1327, 'Gandalf the Grey', 0.28);
+
+INSERT INTO interpreta VALUES (120, 109, 'Frodo Baggins', 1.43);
+
+INSERT INTO interpreta VALUES (121, 112, 'Galadriel', 0.48);
+
+INSERT INTO interpreta VALUES (121, 1372, 'Eomer', 1.44);
+
+INSERT INTO interpreta VALUES (121, 1371, 'Faramir', 1.44);
+
+INSERT INTO interpreta VALUES (121, 502, 'Eowyn', 0.61);
+
+INSERT INTO interpreta VALUES (121, 1370, 'Grima Wormtongue', 0.21);
+
+INSERT INTO interpreta VALUES (121, 1333, 'Gollum', 0.79);
+
+INSERT INTO interpreta VALUES (121, 1369, 'Theoden', 0.98);
+
+INSERT INTO interpreta VALUES (121, 1332, 'Haldir', 0.2);
+
+INSERT INTO interpreta VALUES (121, 1331, 'Elrond', 0.37);
+
+INSERT INTO interpreta VALUES (121, 1330, 'Meriadoc ''Merry'' Brandybuck', 0.11);
+
+INSERT INTO interpreta VALUES (121, 1329, 'Peregrin ''Pippin'' Took', 1.2);
+
+INSERT INTO interpreta VALUES (121, 1328, 'Sam Gamgee', 1.78);
+
+INSERT INTO interpreta VALUES (121, 113, 'Saruman', 0.43);
+
+INSERT INTO interpreta VALUES (121, 655, 'Gimli', 0.07);
+
+INSERT INTO interpreta VALUES (121, 114, 'Legolas', 1.41);
+
+INSERT INTO interpreta VALUES (121, 882, 'Arwen Evenstar', 1.63);
+
+INSERT INTO interpreta VALUES (121, 110, 'Aragorn', 1.93);
+
+INSERT INTO interpreta VALUES (121, 1327, 'Gandalf the White', 1.23);
+
+INSERT INTO interpreta VALUES (121, 109, 'Frodo Baggins', 0.68);
+
+INSERT INTO interpreta VALUES (122, 108, 'Mercenary On Boat', 1.39);
+
+INSERT INTO interpreta VALUES (122, 1383, 'Deagol', 0.19);
+
+INSERT INTO interpreta VALUES (122, 1382, 'King of the Dead', 0.8);
+
+INSERT INTO interpreta VALUES (122, 1365, 'Gothmog & Witchking of Angmar', 0.99);
+
+INSERT INTO interpreta VALUES (122, 112, 'Galadriel', 0.76);
+
+INSERT INTO interpreta VALUES (122, 65, 'Bilbo Baggins', 0.34);
+
+INSERT INTO interpreta VALUES (122, 1381, 'Denethor', 0.46);
+
+INSERT INTO interpreta VALUES (122, 1372, 'Eomer', 1.64);
+
+INSERT INTO interpreta VALUES (122, 1371, 'Faramir', 0.93);
+
+INSERT INTO interpreta VALUES (122, 502, 'Eowyn', 1.16);
+
+INSERT INTO interpreta VALUES (122, 1333, 'Gollum', 0.42);
+
+INSERT INTO interpreta VALUES (122, 1369, 'Theoden, King of Rohan', 1.43);
+
+INSERT INTO interpreta VALUES (122, 1331, 'Elrond', 0.66);
+
+INSERT INTO interpreta VALUES (122, 1330, 'Meriadoc ''Merry'' Brandybuck', 1.19);
+
+INSERT INTO interpreta VALUES (122, 1329, 'Peregrin ''Pippin'' Took', 1.82);
+
+INSERT INTO interpreta VALUES (122, 1328, 'Sam Gamgee', 1.99);
+
+INSERT INTO interpreta VALUES (122, 655, 'Gimli & Treebeard (Voice)', 0.09);
+
+INSERT INTO interpreta VALUES (122, 114, 'Legolas', 1.59);
+
+INSERT INTO interpreta VALUES (122, 882, 'Arwen Evenstar', 1.72);
+
+INSERT INTO interpreta VALUES (122, 110, 'Aragorn', 0.64);
+
+INSERT INTO interpreta VALUES (122, 1327, 'Gandalf the White', 0.77);
+
+INSERT INTO interpreta VALUES (122, 109, 'Frodo Baggins', 1.16);
+
+INSERT INTO interpreta VALUES (2, 54770, 'Riku', 1.76);
+
+INSERT INTO interpreta VALUES (2, 4826, 'Mikkonen', 1.52);
+
+INSERT INTO interpreta VALUES (2, 54769, 'Irmeli Katariina Pihlaja', 0.3);
+
+INSERT INTO interpreta VALUES (2, 54768, 'Taisto Olavi Kasurinen', 1.83);
+
+INSERT INTO interpreta VALUES (3, 4828, 'Melartin', 1.33);
+
+INSERT INTO interpreta VALUES (3, 5999, 'Ilona Rajamaki', 0.11);
+
+INSERT INTO interpreta VALUES (3, 4826, 'Nikander', 0.76);
+
+INSERT INTO interpreta VALUES (4, 38898, 'Este', 1.68);
+
+INSERT INTO interpreta VALUES (4, 24683, 'Hugo', 1.81);
+
+INSERT INTO interpreta VALUES (4, 38244, 'Carlos Ducas', 0.07);
+
+INSERT INTO interpreta VALUES (4, 27442, 'Captain Lopez', 0.12);
+
+INSERT INTO interpreta VALUES (4, 2565, 'Philip Michael Santore', 1.68);
+
+INSERT INTO interpreta VALUES (5, 3140, 'Sam the Bellhop', 0.23);
+
+INSERT INTO interpreta VALUES (5, 37336, 'Hooker', 0.18);
+
+INSERT INTO interpreta VALUES (5, 3137, 'Norman', 0.06);
+
+INSERT INTO interpreta VALUES (5, 3135, 'Juancho', 1.28);
+
+INSERT INTO interpreta VALUES (5, 3136, 'TV Dancing Girl', 1.49);
+
+INSERT INTO interpreta VALUES (5, 3138, 'Betty', 1.37);
+
+INSERT INTO interpreta VALUES (5, 3134, 'Wife', 1.69);
+
+INSERT INTO interpreta VALUES (5, 3141, 'Margaret', 1.33);
+
+INSERT INTO interpreta VALUES (5, 2555, 'Siegfried', 0.78);
+
+INSERT INTO interpreta VALUES (5, 3128, 'Kiva', 1.26);
+
+INSERT INTO interpreta VALUES (5, 3132, 'Sarah', 1.94);
+
+INSERT INTO interpreta VALUES (5, 3126, 'Eva', 1.28);
+
+INSERT INTO interpreta VALUES (5, 2545, 'Long Hair Yuppy Scum', 0.49);
+
+INSERT INTO interpreta VALUES (5, 3129, 'Ted the Bellhop', 0.12);
+
+INSERT INTO interpreta VALUES (5, 62, 'Leo', 1.87);
+
+INSERT INTO interpreta VALUES (5, 3125, 'Elspeth', 1.18);
+
+INSERT INTO interpreta VALUES (5, 3133, 'Corpse', 0.7);
+
+INSERT INTO interpreta VALUES (5, 3127, 'Raven', 1.21);
+
+INSERT INTO interpreta VALUES (5, 3124, 'Athena', 1.12);
+
+INSERT INTO interpreta VALUES (5, 3123, 'Diana', 1.04);
+
+INSERT INTO interpreta VALUES (5, 3122, 'Jezebel', 0.12);
+
+INSERT INTO interpreta VALUES (5, 3130, 'Angela', 0.71);
+
+INSERT INTO interpreta VALUES (5, 3131, 'Man', 0.83);
+
+INSERT INTO interpreta VALUES (5, 138, 'Chester Rush', 0.4);
+
+INSERT INTO interpreta VALUES (6, 52422, 'Teddy, the Kid', 1.32);
+
+INSERT INTO interpreta VALUES (6, 11803, 'Sykes', 1.43);
+
+INSERT INTO interpreta VALUES (6, 12799, 'Ray Cochran', 1.49);
+
+INSERT INTO interpreta VALUES (6, 5724, 'Fallon', 1.44);
+
+INSERT INTO interpreta VALUES (6, 9777, 'Mike Peterson', 1.5);
+
+INSERT INTO interpreta VALUES (6, 2880, 'Frank Wyatt', 0.5);
+
+INSERT INTO interpreta VALUES (9, 902, 'Er', 1.7);
+
+INSERT INTO interpreta VALUES (9, 901, 'Alexandra', 0.11);
+
+INSERT INTO interpreta VALUES (12, 5293, 'Gill', 1.97);
+
+INSERT INTO interpreta VALUES (12, 23, 'Phillip Sherman', 0.08);
+
+INSERT INTO interpreta VALUES (12, 22, 'Bruce', 1.06);
+
+INSERT INTO interpreta VALUES (12, 20, 'Coral', 0.89);
+
+INSERT INTO interpreta VALUES (12, 7, 'Crush', 0.26);
+
+INSERT INTO interpreta VALUES (12, 19, 'Peach', 0.79);
+
+INSERT INTO interpreta VALUES (12, 18, 'Bloat', 1.42);
+
+INSERT INTO interpreta VALUES (12, 14, 'Dory', 1.76);
+
+INSERT INTO interpreta VALUES (12, 13, 'Marlin', 0.05);
+
+INSERT INTO interpreta VALUES (12, 12, 'Nemo', 1.05);
+
+INSERT INTO interpreta VALUES (14, 8214, 'Brad Dupree', 0.17);
+
+INSERT INTO interpreta VALUES (14, 8213, 'Jim Berkley', 0.07);
+
+INSERT INTO interpreta VALUES (14, 19, 'Barbara Fitts', 0.77);
+
+INSERT INTO interpreta VALUES (14, 8212, 'Buddy Kane', 1.47);
+
+INSERT INTO interpreta VALUES (14, 2154, 'Jim Olmeyer', 0.63);
+
+INSERT INTO interpreta VALUES (14, 2955, 'Colonel Frank Fitts', 0.26);
+
+INSERT INTO interpreta VALUES (14, 8211, 'Angela Hayes', 1.59);
+
+INSERT INTO interpreta VALUES (14, 8210, 'Ricky Fitts', 1.61);
+
+INSERT INTO interpreta VALUES (14, 2155, 'Jane Burnham', 1.71);
+
+INSERT INTO interpreta VALUES (14, 516, 'Carolyn Burnham', 0.61);
+
+INSERT INTO interpreta VALUES (14, 1979, 'Lester Burnham', 0.85);
+
+INSERT INTO interpreta VALUES (15, 4077, 'Kane''s Father', 0.66);
+
+INSERT INTO interpreta VALUES (15, 11033, 'Raymond', 0.68);
+
+INSERT INTO interpreta VALUES (15, 11032, 'Kane als Kind', 1.57);
+
+INSERT INTO interpreta VALUES (15, 11031, 'Mr. Rawlston', 1.91);
+
+INSERT INTO interpreta VALUES (15, 11030, 'Jerry Thompson', 1.17);
+
+INSERT INTO interpreta VALUES (15, 11029, 'Susan Alexander Kane', 0.21);
+
+INSERT INTO interpreta VALUES (15, 11028, 'Mr. Thatcher', 1.31);
+
+INSERT INTO interpreta VALUES (15, 11027, 'Mr. Bernstein', 0.9);
+
+INSERT INTO interpreta VALUES (15, 11026, 'Emily Norton Kane', 1.98);
+
+INSERT INTO interpreta VALUES (15, 11025, 'Mutter', 1.44);
+
+INSERT INTO interpreta VALUES (15, 40, 'Charles Foster Kane', 1.67);
+
+INSERT INTO interpreta VALUES (15, 7664, 'Jedediah Leland', 1.4);
+
+INSERT INTO interpreta VALUES (16, 4458, 'Woman on Night Shift', 1.66);
+
+INSERT INTO interpreta VALUES (16, 1640, 'Doctor', 0.58);
+
+INSERT INTO interpreta VALUES (16, 6758, 'Detective', 0.31);
+
+INSERT INTO interpreta VALUES (16, 6757, 'Angry Man', 0.74);
+
+INSERT INTO interpreta VALUES (16, 6756, 'Suzan', 1.04);
+
+INSERT INTO interpreta VALUES (16, 6755, 'Defense Attorney', 0.19);
+
+INSERT INTO interpreta VALUES (16, 6754, 'Receptionist', 0.69);
+
+INSERT INTO interpreta VALUES (16, 6753, 'Judge', 1.15);
+
+INSERT INTO interpreta VALUES (16, 6121, 'Morty', 0.09);
+
+INSERT INTO interpreta VALUES (16, 1646, 'Dr. Porkorny', 1.63);
+
+INSERT INTO interpreta VALUES (16, 6752, 'District Attorney', 1.3);
+
+INSERT INTO interpreta VALUES (16, 6751, 'Brenda', 0.63);
+
+INSERT INTO interpreta VALUES (16, 6750, 'Samuel', 0.6);
+
+INSERT INTO interpreta VALUES (16, 1642, 'Norman', 0.71);
+
+INSERT INTO interpreta VALUES (16, 6749, 'Gene Jezkova', 0.65);
+
+INSERT INTO interpreta VALUES (16, 2617, 'Linda Houston', 1.5);
+
+INSERT INTO interpreta VALUES (16, 6748, 'Oldrich Novy', 1.0);
+
+INSERT INTO interpreta VALUES (16, 53, 'Jeff', 1.05);
+
+INSERT INTO interpreta VALUES (16, 52, 'Bill Houston', 0.3);
+
+INSERT INTO interpreta VALUES (16, 50, 'Kathy', 1.83);
+
+INSERT INTO interpreta VALUES (16, 47, 'Selma Jezkova', 0.65);
+
+INSERT INTO interpreta VALUES (17, 17140, 'Ebril', 1.96);
+
+INSERT INTO interpreta VALUES (17, 56, 'Sarah', 0.96);
+
+INSERT INTO interpreta VALUES (17, 55, 'Ebril', 1.83);
+
+INSERT INTO interpreta VALUES (17, 54, 'Dafydd', 1.86);
+
+INSERT INTO interpreta VALUES (17, 51, 'Rowan', 1.94);
+
+INSERT INTO interpreta VALUES (17, 49, 'Adele', 1.63);
+
+INSERT INTO interpreta VALUES (17, 48, 'James', 1.85);
+
+INSERT INTO interpreta VALUES (18, 8400, 'Mr. Kim', 0.27);
+
+INSERT INTO interpreta VALUES (18, 8399, 'Mactilburgh', 1.05);
+
+INSERT INTO interpreta VALUES (18, 2406, 'Mugger', 1.15);
+
+INSERT INTO interpreta VALUES (18, 8398, 'Professor Pacoli', 1.98);
+
+INSERT INTO interpreta VALUES (18, 8397, 'David', 1.57);
+
+INSERT INTO interpreta VALUES (18, 7400, 'Fog', 1.41);
+
+INSERT INTO interpreta VALUES (18, 8396, 'President Lindberg', 1.49);
+
+INSERT INTO interpreta VALUES (18, 591, 'General Munro', 0.72);
+
+INSERT INTO interpreta VALUES (18, 8395, 'Billy', 1.88);
+
+INSERT INTO interpreta VALUES (18, 66, 'Ruby Rhod', 1.29);
+
+INSERT INTO interpreta VALUES (18, 65, 'Victor Cornelius', 0.81);
+
+INSERT INTO interpreta VALUES (18, 64, 'Jean-Baptiste Emmanuel Zorg', 0.93);
+
+INSERT INTO interpreta VALUES (18, 63, 'Leeloo', 1.96);
+
+INSERT INTO interpreta VALUES (18, 62, 'Korben Dallas', 1.06);
+
+INSERT INTO interpreta VALUES (19, 73, 'Johann ''Joh'' Fredersen', 1.37);
+
+INSERT INTO interpreta VALUES (19, 20534, 'Frau im Wagen', 1.13);
+
+INSERT INTO interpreta VALUES (19, 20533, 'Zeremonienmeister', 1.81);
+
+INSERT INTO interpreta VALUES (19, 2350, 'Arbeiterfrau', 0.37);
+
+INSERT INTO interpreta VALUES (19, 83, 'Marinus', 0.82);
+
+INSERT INTO interpreta VALUES (19, 82, 'Jan', 1.46);
+
+INSERT INTO interpreta VALUES (19, 81, 'Grot', 0.1);
+
+INSERT INTO interpreta VALUES (19, 80, 'No. 11811', 0.2);
+
+INSERT INTO interpreta VALUES (19, 79, 'Josaphat - Joseph', 1.09);
+
+INSERT INTO interpreta VALUES (19, 78, 'Der Schmale', 0.53);
+
+INSERT INTO interpreta VALUES (19, 77, 'C.A. Rotwang, the inventor', 0.21);
+
+INSERT INTO interpreta VALUES (19, 75, 'Maria', 0.52);
+
+INSERT INTO interpreta VALUES (19, 74, 'Freder Fredersen', 1.26);
+
+INSERT INTO interpreta VALUES (19, 20535, 'Kreativer Mensch', 1.05);
+
+INSERT INTO interpreta VALUES (20, 658, 'Ann''s Father', 1.7);
+
+INSERT INTO interpreta VALUES (20, 2323, 'Camille Martinez', 1.29);
+
+INSERT INTO interpreta VALUES (20, 2322, 'Patsy', 0.35);
+
+INSERT INTO interpreta VALUES (20, 2321, 'Penny', 1.72);
+
+INSERT INTO interpreta VALUES (20, 2320, 'Dr. Thompson', 0.04);
+
+INSERT INTO interpreta VALUES (20, 2319, 'Hairdresser', 0.74);
+
+INSERT INTO interpreta VALUES (20, 103, 'Lee', 1.7);
+
+INSERT INTO interpreta VALUES (20, 102, 'Ann''s Mother', 1.42);
+
+INSERT INTO interpreta VALUES (20, 101, 'Neighbor Ann', 0.57);
+
+INSERT INTO interpreta VALUES (20, 100, 'Don', 1.78);
+
+INSERT INTO interpreta VALUES (20, 99, 'Laurie', 1.2);
+
+INSERT INTO interpreta VALUES (20, 98, 'Ann', 1.73);
+
+INSERT INTO interpreta VALUES (21, 188, 'himself', 1.35);
+
+INSERT INTO interpreta VALUES (21, 92, 'himself', 1.09);
+
+INSERT INTO interpreta VALUES (24, 4026, 'Nikki Bell', 1.45);
+
+INSERT INTO interpreta VALUES (24, 2540, 'Pai Mei', 1.63);
+
+INSERT INTO interpreta VALUES (24, 2544, 'Boss Ozawa', 2.0);
+
+INSERT INTO interpreta VALUES (24, 2542, 'Boss Koji', 0.51);
+
+INSERT INTO interpreta VALUES (24, 2541, 'Boss Tanaka', 0.4);
+
+INSERT INTO interpreta VALUES (24, 2539, 'Sofie Fatale', 1.49);
+
+INSERT INTO interpreta VALUES (24, 2537, 'Hattori Hanzo', 1.54);
+
+INSERT INTO interpreta VALUES (24, 2538, 'Go Go Yubari', 1.03);
+
+INSERT INTO interpreta VALUES (24, 2536, 'Earl McGraw', 0.97);
+
+INSERT INTO interpreta VALUES (24, 2535, 'Vernita Green', 0.81);
+
+INSERT INTO interpreta VALUES (24, 589, 'Elle Driver', 1.77);
+
+INSERT INTO interpreta VALUES (24, 147, 'Budd', 1.59);
+
+INSERT INTO interpreta VALUES (24, 141, 'Bill', 1.17);
+
+INSERT INTO interpreta VALUES (24, 140, 'O-Ren Ishii', 0.08);
+
+INSERT INTO interpreta VALUES (24, 139, 'The Bride', 1.7);
+
+INSERT INTO interpreta VALUES (25, 133, 'Troy', 0.6);
+
+INSERT INTO interpreta VALUES (25, 155, 'Kruger', 1.38);
+
+INSERT INTO interpreta VALUES (25, 132, 'D.I. Fitch', 0.01);
+
+INSERT INTO interpreta VALUES (25, 131, 'Anthony Swofford', 0.24);
+
+INSERT INTO interpreta VALUES (25, 134, 'Staff Sgt. Sykes', 0.61);
+
+INSERT INTO interpreta VALUES (26, 170, 'Alfred Himmelman', 1.94);
+
+INSERT INTO interpreta VALUES (26, 169, 'Axel''s Father', 1.09);
+
+INSERT INTO interpreta VALUES (26, 168, 'Axel''s Mother', 1.14);
+
+INSERT INTO interpreta VALUES (26, 167, 'Menachem', 1.1);
+
+INSERT INTO interpreta VALUES (26, 166, 'Pia Himmelman', 1.05);
+
+INSERT INTO interpreta VALUES (26, 165, 'Axel Himmelman', 1.08);
+
+INSERT INTO interpreta VALUES (26, 164, 'Eyal', 1.64);
+
+INSERT INTO interpreta VALUES (27, 10759, 'Himself', 1.26);
+
+INSERT INTO interpreta VALUES (27, 3694, 'Themselves', 0.62);
+
+INSERT INTO interpreta VALUES (27, 3692, 'Themselves', 0.6);
+
+INSERT INTO interpreta VALUES (27, 3691, 'Themselves', 1.01);
+
+INSERT INTO interpreta VALUES (27, 3690, 'Themselves', 1.17);
+
+INSERT INTO interpreta VALUES (27, 3689, 'Themselves', 1.1);
+
+INSERT INTO interpreta VALUES (27, 3688, 'Themselves', 1.95);
+
+INSERT INTO interpreta VALUES (27, 177, 'Lisa', 0.33);
+
+INSERT INTO interpreta VALUES (27, 176, 'Matt', 1.27);
+
+INSERT INTO interpreta VALUES (28, 8346, 'Jerry, Civilian', 1.13);
+
+INSERT INTO interpreta VALUES (28, 3173, 'General Corman', 0.74);
+
+INSERT INTO interpreta VALUES (28, 2778, 'Photojournalist', 0.8);
+
+INSERT INTO interpreta VALUES (28, 3, 'Colonel Lucas', 1.87);
+
+INSERT INTO interpreta VALUES (28, 8354, 'Chief Phillips', 1.79);
+
+INSERT INTO interpreta VALUES (28, 8351, 'Jay ''Chef'' Hicks', 1.34);
+
+INSERT INTO interpreta VALUES (28, 8350, 'Lance B. Johnson', 1.8);
+
+INSERT INTO interpreta VALUES (28, 2975, 'Tyrone ''Clean'' Miller', 1.85);
+
+INSERT INTO interpreta VALUES (28, 3087, 'Lieutenant Colonel Bill Kilgore', 1.69);
+
+INSERT INTO interpreta VALUES (28, 3084, 'Colonel Walter E. Kurtz', 0.77);
+
+INSERT INTO interpreta VALUES (28, 8349, 'Captain Benjamin L. Willard', 0.93);
+
+INSERT INTO interpreta VALUES (30, 20664, 'Miguel', 0.67);
+
+INSERT INTO interpreta VALUES (30, 20663, 'Eva', 0.91);
+
+INSERT INTO interpreta VALUES (30, 20662, 'Emily', 0.23);
+
+INSERT INTO interpreta VALUES (30, 20661, 'Heinz', 0.71);
+
+INSERT INTO interpreta VALUES (33, 192, 'Ned Logan', 0.57);
+
+INSERT INTO interpreta VALUES (33, 3715, 'Skinny Dubois', 2.0);
+
+INSERT INTO interpreta VALUES (33, 2843, 'Davey Bunting', 0.52);
+
+INSERT INTO interpreta VALUES (33, 3714, 'Quick Mike', 1.03);
+
+INSERT INTO interpreta VALUES (33, 3713, 'Strawberry Alice', 1.48);
+
+INSERT INTO interpreta VALUES (33, 3712, 'W.W. Beauchamp', 1.38);
+
+INSERT INTO interpreta VALUES (33, 3711, 'Delilah Fitzgerald', 0.87);
+
+INSERT INTO interpreta VALUES (33, 3710, 'The Schofield Kid', 1.55);
+
+INSERT INTO interpreta VALUES (33, 194, 'English Bob', 0.97);
+
+INSERT INTO interpreta VALUES (33, 193, 'Little Bill Daggett', 1.43);
+
+INSERT INTO interpreta VALUES (33, 190, 'Bill Munny', 0.98);
+
+INSERT INTO interpreta VALUES (35, 31, 'Himself', 0.18);
+
+INSERT INTO interpreta VALUES (35, 3266, 'Fat Tony', 0.26);
+
+INSERT INTO interpreta VALUES (35, 6036, 'Edna Krabappel', 1.93);
+
+INSERT INTO interpreta VALUES (35, 6009, 'Rod Flanders', 0.46);
+
+INSERT INTO interpreta VALUES (35, 23211, 'Colin', 0.05);
+
+INSERT INTO interpreta VALUES (35, 7090, 'Sideshow Bob', 0.51);
+
+INSERT INTO interpreta VALUES (35, 6008, 'Ned Flanders', 0.96);
+
+INSERT INTO interpreta VALUES (35, 5587, 'Moe Szyslak', 1.9);
+
+INSERT INTO interpreta VALUES (35, 5586, 'Lisa Simpson', 0.8);
+
+INSERT INTO interpreta VALUES (35, 200, 'Bart Simpson', 1.45);
+
+INSERT INTO interpreta VALUES (35, 199, 'Marge Simpson', 1.67);
+
+INSERT INTO interpreta VALUES (35, 198, 'Mayor Quimby''s Aide', 0.18);
+
+INSERT INTO interpreta VALUES (38, 77013, 'Hollis', 1.1);
+
+INSERT INTO interpreta VALUES (38, 221, 'Rollerblader', 1.07);
+
+INSERT INTO interpreta VALUES (38, 210, 'Young Bully', 0.69);
+
+INSERT INTO interpreta VALUES (38, 220, 'Young Clementine', 1.89);
+
+INSERT INTO interpreta VALUES (38, 217, 'Young Bully', 1.94);
+
+INSERT INTO interpreta VALUES (38, 216, 'Young Bully', 0.21);
+
+INSERT INTO interpreta VALUES (38, 214, 'Young Bully', 1.11);
+
+INSERT INTO interpreta VALUES (38, 213, 'Train Conducter', 0.84);
+
+INSERT INTO interpreta VALUES (38, 212, 'Rob', 1.34);
+
+INSERT INTO interpreta VALUES (38, 211, 'Joel''s mother', 0.24);
+
+INSERT INTO interpreta VALUES (38, 209, 'Carrie', 0.53);
+
+INSERT INTO interpreta VALUES (38, 208, 'Young Joel', 0.56);
+
+INSERT INTO interpreta VALUES (38, 207, 'Dr. Howard Mierzwiak', 0.96);
+
+INSERT INTO interpreta VALUES (38, 205, 'Mary', 1.59);
+
+INSERT INTO interpreta VALUES (38, 103, 'Stan', 1.72);
+
+INSERT INTO interpreta VALUES (38, 109, 'Patrick', 1.57);
+
+INSERT INTO interpreta VALUES (38, 206, 'Joel Barish', 1.35);
+
+INSERT INTO interpreta VALUES (38, 204, 'Clementine Kruczynski', 0.17);
+
+INSERT INTO interpreta VALUES (55, 260, 'Ramiro', 0.59);
+
+INSERT INTO interpreta VALUES (55, 272, 'Maru', 1.02);
+
+INSERT INTO interpreta VALUES (55, 271, 'Leonardo', 1.81);
+
+INSERT INTO interpreta VALUES (55, 270, 'Mama Octavio', 0.23);
+
+INSERT INTO interpreta VALUES (55, 269, 'Mama Susana', 1.71);
+
+INSERT INTO interpreta VALUES (55, 268, 'Tia Luisa', 0.21);
+
+INSERT INTO interpreta VALUES (55, 267, 'Mauricio', 0.77);
+
+INSERT INTO interpreta VALUES (55, 266, 'Jorge', 1.81);
+
+INSERT INTO interpreta VALUES (55, 265, 'Gustavo', 0.4);
+
+INSERT INTO interpreta VALUES (55, 264, 'Luis', 1.04);
+
+INSERT INTO interpreta VALUES (55, 263, 'El Chivo', 0.83);
+
+INSERT INTO interpreta VALUES (55, 262, 'Daniel', 1.78);
+
+INSERT INTO interpreta VALUES (55, 261, 'Valeria', 1.98);
+
+INSERT INTO interpreta VALUES (55, 259, 'Susana', 0.58);
+
+INSERT INTO interpreta VALUES (55, 258, 'Octavio', 0.98);
+
+INSERT INTO interpreta VALUES (59, 237, 'Charlie Roarke', 0.43);
+
+INSERT INTO interpreta VALUES (59, 236, 'Frank Mulligan', 1.52);
+
+INSERT INTO interpreta VALUES (59, 235, 'Charlotte', 0.67);
+
+INSERT INTO interpreta VALUES (59, 234, 'Mick', 0.97);
+
+INSERT INTO interpreta VALUES (59, 233, 'Judy Danvers', 0.02);
+
+INSERT INTO interpreta VALUES (59, 232, 'Bobby', 1.98);
+
+INSERT INTO interpreta VALUES (59, 231, 'Billy', 1.31);
+
+INSERT INTO interpreta VALUES (59, 230, 'Leland', 1.85);
+
+INSERT INTO interpreta VALUES (59, 229, 'Sheriff Sam Carney', 1.94);
+
+INSERT INTO interpreta VALUES (59, 228, 'Carl Fogerty', 0.54);
+
+INSERT INTO interpreta VALUES (59, 227, 'Richie Cusack', 1.08);
+
+INSERT INTO interpreta VALUES (59, 225, 'Jack Stall', 0.88);
+
+INSERT INTO interpreta VALUES (59, 226, 'Sarah Stall', 1.52);
+
+INSERT INTO interpreta VALUES (59, 49, 'Edie Stall', 1.68);
+
+INSERT INTO interpreta VALUES (59, 110, 'Tom Stall', 0.46);
+
+INSERT INTO interpreta VALUES (62, 252, 'Dr. Bill Michaels', 0.82);
+
+INSERT INTO interpreta VALUES (62, 251, 'Dr. Ralph Halvorsen', 0.26);
+
+INSERT INTO interpreta VALUES (62, 250, 'Elena', 0.39);
+
+INSERT INTO interpreta VALUES (62, 249, 'Dr. Andrei Smyslov', 1.12);
+
+INSERT INTO interpreta VALUES (62, 248, 'Moon-Watcher', 1.2);
+
+INSERT INTO interpreta VALUES (62, 247, 'Dr. Heywood R. Floyd', 1.92);
+
+INSERT INTO interpreta VALUES (62, 246, 'Dr. Frank Poole', 1.07);
+
+INSERT INTO interpreta VALUES (62, 253, 'HAL 9000 (voice)', 1.22);
+
+INSERT INTO interpreta VALUES (62, 245, 'Dr. Dave Bowman', 0.3);
+
+INSERT INTO interpreta VALUES (63, 288, 'Jose', 1.39);
+
+INSERT INTO interpreta VALUES (63, 292, 'L.J. Washington', 0.53);
+
+INSERT INTO interpreta VALUES (63, 291, 'Dr. Fletcher', 0.43);
+
+INSERT INTO interpreta VALUES (63, 52, 'Dr. Peters', 0.74);
+
+INSERT INTO interpreta VALUES (63, 290, 'Dr. Goines', 0.94);
+
+INSERT INTO interpreta VALUES (63, 289, 'Dr. Kathryn Railly', 0.68);
+
+INSERT INTO interpreta VALUES (63, 287, 'Jeffrey Goines', 1.21);
+
+INSERT INTO interpreta VALUES (63, 62, 'James Cole', 0.36);
+
+INSERT INTO interpreta VALUES (64, 1602, 'Alfredo', 1.07);
+
+INSERT INTO interpreta VALUES (64, 3627, 'Amparo', 0.12);
+
+INSERT INTO interpreta VALUES (64, 3626, 'Alicia''s Father', 0.65);
+
+INSERT INTO interpreta VALUES (64, 3482, 'Concierge', 1.38);
+
+INSERT INTO interpreta VALUES (64, 3625, 'Lydia''s Sister', 1.29);
+
+INSERT INTO interpreta VALUES (64, 3624, 'Nino de Valencia', 1.62);
+
+INSERT INTO interpreta VALUES (64, 2759, 'Matilde', 1.78);
+
+INSERT INTO interpreta VALUES (64, 3623, 'Angela', 0.63);
+
+INSERT INTO interpreta VALUES (64, 3621, 'Doctor', 0.99);
+
+INSERT INTO interpreta VALUES (64, 3620, 'Singer at Party', 0.66);
+
+INSERT INTO interpreta VALUES (64, 3619, 'Bailarine', 0.26);
+
+INSERT INTO interpreta VALUES (64, 402, 'Bailarine', 0.28);
+
+INSERT INTO interpreta VALUES (64, 400, 'Katerina Bilova', 0.51);
+
+INSERT INTO interpreta VALUES (64, 399, 'Rosa', 0.18);
+
+INSERT INTO interpreta VALUES (64, 3618, 'Marco', 1.08);
+
+INSERT INTO interpreta VALUES (64, 1610, 'Benigno', 1.41);
+
+INSERT INTO interpreta VALUES (64, 398, 'Lydia', 1.13);
+
+INSERT INTO interpreta VALUES (64, 101, 'Alicia', 1.37);
+
+INSERT INTO interpreta VALUES (65, 123457, 'Lily Smith', 1.14);
+
+INSERT INTO interpreta VALUES (65, 346, 'Shorty Mike', 1.77);
+
+INSERT INTO interpreta VALUES (65, 345, 'Battle DJ', 0.84);
+
+INSERT INTO interpreta VALUES (65, 344, 'Bouncer', 0.01);
+
+INSERT INTO interpreta VALUES (65, 343, 'Janeane', 0.04);
+
+INSERT INTO interpreta VALUES (65, 342, 'Wink', 0.61);
+
+INSERT INTO interpreta VALUES (65, 341, 'DJ Iz', 1.23);
+
+INSERT INTO interpreta VALUES (65, 338, 'Second Parking Lot Rapper', 0.17);
+
+INSERT INTO interpreta VALUES (65, 337, 'Lil'' Tic', 0.45);
+
+INSERT INTO interpreta VALUES (65, 336, 'Male Lunch Truck Rapper', 1.36);
+
+INSERT INTO interpreta VALUES (65, 335, 'Greg Buehl', 1.97);
+
+INSERT INTO interpreta VALUES (65, 334, 'Sol George', 0.68);
+
+INSERT INTO interpreta VALUES (65, 333, 'Cheddar Bob', 1.2);
+
+INSERT INTO interpreta VALUES (65, 328, 'Alex', 1.04);
+
+INSERT INTO interpreta VALUES (65, 326, 'Stephanie Smith', 0.05);
+
+INSERT INTO interpreta VALUES (65, 327, 'David ''Future'' Porter', 0.66);
+
+INSERT INTO interpreta VALUES (65, 325, 'Jimmy B. "Rabbit" Smith', 0.28);
+
+INSERT INTO interpreta VALUES (66, 5249, 'Walter Sullivan', 1.36);
+
+INSERT INTO interpreta VALUES (66, 404, 'Christy Sullivan', 0.08);
+
+INSERT INTO interpreta VALUES (66, 389, 'Art Student', 0.15);
+
+INSERT INTO interpreta VALUES (66, 352, 'Tim Collin', 1.45);
+
+INSERT INTO interpreta VALUES (66, 351, 'Gloria Russell', 0.21);
+
+INSERT INTO interpreta VALUES (66, 350, 'Kate Whitney', 0.63);
+
+INSERT INTO interpreta VALUES (66, 349, 'Bill Burton', 0.54);
+
+INSERT INTO interpreta VALUES (66, 228, 'Seth Frank', 0.1);
+
+INSERT INTO interpreta VALUES (66, 193, 'President Allen Richmond', 0.06);
+
+INSERT INTO interpreta VALUES (66, 190, 'Luther Whitney', 0.28);
+
+INSERT INTO interpreta VALUES (67, 77498, 'Suha', 1.28);
+
+INSERT INTO interpreta VALUES (67, 791, 'Abu Salim', 0.48);
+
+INSERT INTO interpreta VALUES (67, 766, 'Abu Karem', 1.36);
+
+INSERT INTO interpreta VALUES (67, 765, 'Said''s mother', 0.55);
+
+INSERT INTO interpreta VALUES (67, 764, 'Jamal', 1.03);
+
+INSERT INTO interpreta VALUES (67, 762, 'Khaled', 0.64);
+
+INSERT INTO interpreta VALUES (67, 761, 'Said', 1.9);
+
+INSERT INTO interpreta VALUES (68, 280, 'Smoking Man (uncredited)', 1.28);
+
+INSERT INTO interpreta VALUES (68, 388, 'Dr. Jaffe', 1.69);
+
+INSERT INTO interpreta VALUES (68, 387, 'Jill Layton', 1.21);
+
+INSERT INTO interpreta VALUES (68, 386, 'Mr. Helpmann', 1.74);
+
+INSERT INTO interpreta VALUES (68, 385, 'Mr. Warrenn', 0.81);
+
+INSERT INTO interpreta VALUES (68, 383, 'Jack Lint', 1.36);
+
+INSERT INTO interpreta VALUES (68, 382, 'Spoor', 1.24);
+
+INSERT INTO interpreta VALUES (68, 65, 'Mr. M. Kurtzmann', 1.06);
+
+INSERT INTO interpreta VALUES (68, 381, 'Mrs. Ida Lowry', 1.13);
+
+INSERT INTO interpreta VALUES (68, 380, 'Archibald ''Harry'' Tuttle', 1.07);
+
+INSERT INTO interpreta VALUES (68, 378, 'Sam Lowry', 0.79);
+
+INSERT INTO interpreta VALUES (69, 430, 'Rosanne Cash', 1.1);
+
+INSERT INTO interpreta VALUES (69, 431, 'Carlene Carter', 0.11);
+
+INSERT INTO interpreta VALUES (69, 429, 'Young Johnny Cash', 1.02);
+
+INSERT INTO interpreta VALUES (69, 428, 'Ezra Carter', 0.35);
+
+INSERT INTO interpreta VALUES (69, 427, 'Maybelle Carter', 0.43);
+
+INSERT INTO interpreta VALUES (69, 426, 'Marshall Grant', 0.87);
+
+INSERT INTO interpreta VALUES (69, 425, 'Luther Perkins', 1.09);
+
+INSERT INTO interpreta VALUES (69, 424, 'Sam Phillips', 0.5);
+
+INSERT INTO interpreta VALUES (69, 422, 'Jerry Lee Lewis', 0.54);
+
+INSERT INTO interpreta VALUES (69, 421, 'Waylon Jennings', 1.06);
+
+INSERT INTO interpreta VALUES (69, 420, 'Roy Orbison', 0.95);
+
+INSERT INTO interpreta VALUES (69, 419, 'Elvis Presley', 0.81);
+
+INSERT INTO interpreta VALUES (69, 418, 'Ray Cash', 0.21);
+
+INSERT INTO interpreta VALUES (69, 417, 'Vivian', 0.75);
+
+INSERT INTO interpreta VALUES (69, 368, 'June Carter', 1.31);
+
+INSERT INTO interpreta VALUES (69, 73421, 'Johnny Cash', 1.09);
+
+INSERT INTO interpreta VALUES (70, 192, 'Eddie Scrap-Iron Dupris', 1.45);
+
+INSERT INTO interpreta VALUES (70, 454, 'Omar', 1.37);
+
+INSERT INTO interpreta VALUES (70, 453, 'Mardell Fitzgerald', 0.06);
+
+INSERT INTO interpreta VALUES (70, 452, 'Earline Fitzgerald', 0.62);
+
+INSERT INTO interpreta VALUES (70, 451, 'Billie ''The Blue Bear''', 1.36);
+
+INSERT INTO interpreta VALUES (70, 450, 'Big Willie Little', 0.31);
+
+INSERT INTO interpreta VALUES (70, 449, 'Danger Barch', 1.83);
+
+INSERT INTO interpreta VALUES (70, 190, 'Frankie Dunn', 0.28);
+
+INSERT INTO interpreta VALUES (70, 448, 'Maggie Fitzgerald', 1.76);
+
+INSERT INTO interpreta VALUES (71, 487, 'Billy''s mother', 1.7);
+
+INSERT INTO interpreta VALUES (71, 483, 'Debbie Wilkinson', 0.67);
+
+INSERT INTO interpreta VALUES (71, 482, 'Michael Caffrey', 1.78);
+
+INSERT INTO interpreta VALUES (71, 481, 'Grandmother', 0.32);
+
+INSERT INTO interpreta VALUES (71, 480, 'Jackie Elliot', 1.7);
+
+INSERT INTO interpreta VALUES (71, 479, 'Tony Elliot', 0.76);
+
+INSERT INTO interpreta VALUES (71, 478, 'Billy Elliot', 0.88);
+
+INSERT INTO interpreta VALUES (71, 477, 'Mrs. Wilkinson', 0.24);
+
+INSERT INTO interpreta VALUES (73, 4134, 'Chris', 1.33);
+
+INSERT INTO interpreta VALUES (73, 4133, 'Jason', 1.6);
+
+INSERT INTO interpreta VALUES (73, 833, 'Mitch McCormick', 1.21);
+
+INSERT INTO interpreta VALUES (73, 832, 'Lawrence', 0.02);
+
+INSERT INTO interpreta VALUES (73, 831, 'Little Henry (as Jason Bose-Smith)', 1.9);
+
+INSERT INTO interpreta VALUES (73, 830, 'Rasmussen (as Joe Cortese)', 1.84);
+
+INSERT INTO interpreta VALUES (73, 829, 'Dennis Vinyard', 1.29);
+
+INSERT INTO interpreta VALUES (73, 828, 'Lamont', 0.76);
+
+INSERT INTO interpreta VALUES (73, 827, 'Murray', 1.12);
+
+INSERT INTO interpreta VALUES (73, 826, 'Stacey', 1.77);
+
+INSERT INTO interpreta VALUES (73, 825, 'Cameron Alexander', 0.92);
+
+INSERT INTO interpreta VALUES (73, 824, 'Seth Ryan', 1.56);
+
+INSERT INTO interpreta VALUES (73, 823, 'Davina Vinyard', 1.2);
+
+INSERT INTO interpreta VALUES (73, 822, 'Dr. Bob Sweeney', 0.84);
+
+INSERT INTO interpreta VALUES (73, 821, 'Doris Vinyard', 1.87);
+
+INSERT INTO interpreta VALUES (73, 820, 'Danny Vinyard', 0.82);
+
+INSERT INTO interpreta VALUES (73, 819, 'Derek Vinyard', 1.21);
+
+INSERT INTO interpreta VALUES (74, 192, 'Narrator (Voice)', 0.07);
+
+INSERT INTO interpreta VALUES (74, 506, 'Ferry Captain', 1.41);
+
+INSERT INTO interpreta VALUES (74, 505, 'News Producer', 0.0);
+
+INSERT INTO interpreta VALUES (74, 504, 'Harlan Ogilvy', 0.08);
+
+INSERT INTO interpreta VALUES (74, 503, 'Robbie Ferrier', 0.22);
+
+INSERT INTO interpreta VALUES (74, 502, 'Mary-Ann', 0.28);
+
+INSERT INTO interpreta VALUES (74, 501, 'Rachel Ferrier', 1.02);
+
+INSERT INTO interpreta VALUES (74, 500, 'Ray Ferrier', 0.71);
+
+INSERT INTO interpreta VALUES (75, 2230, 'Louise Williams', 1.82);
+
+INSERT INTO interpreta VALUES (75, 4774, 'Byron Williams', 1.31);
+
+INSERT INTO interpreta VALUES (75, 4452, 'Martian Girl', 1.6);
+
+INSERT INTO interpreta VALUES (75, 528, 'Grandma Florence Norris', 1.64);
+
+INSERT INTO interpreta VALUES (75, 526, 'Richie Norris', 0.49);
+
+INSERT INTO interpreta VALUES (75, 524, 'Taffy Dale', 1.62);
+
+INSERT INTO interpreta VALUES (75, 523, 'Himself', 0.48);
+
+INSERT INTO interpreta VALUES (75, 522, 'General Decker', 1.12);
+
+INSERT INTO interpreta VALUES (75, 521, 'Jason Stone', 0.72);
+
+INSERT INTO interpreta VALUES (75, 520, 'Nathalie Lake', 0.32);
+
+INSERT INTO interpreta VALUES (75, 519, 'Press Secretary Jerry Ross', 1.55);
+
+INSERT INTO interpreta VALUES (75, 518, 'Rude Gambler', 1.83);
+
+INSERT INTO interpreta VALUES (75, 517, 'Professor Donald Kessler', 0.63);
+
+INSERT INTO interpreta VALUES (75, 516, 'Barbara Land', 1.76);
+
+INSERT INTO interpreta VALUES (75, 515, 'First Lady Marsha Dale', 0.69);
+
+INSERT INTO interpreta VALUES (75, 514, 'President James Dale / Art Land', 1.32);
+
+INSERT INTO interpreta VALUES (76, 3739, 'Percussionist', 0.11);
+
+INSERT INTO interpreta VALUES (76, 3738, 'Bartender', 0.87);
+
+INSERT INTO interpreta VALUES (76, 3737, 'Guitar Player in Club', 0.75);
+
+INSERT INTO interpreta VALUES (76, 3736, 'Belly Dancer', 0.59);
+
+INSERT INTO interpreta VALUES (76, 3735, 'Street Poet', 1.63);
+
+INSERT INTO interpreta VALUES (76, 3722, 'Cafe Patron', 0.88);
+
+INSERT INTO interpreta VALUES (76, 575, 'Palm Reader', 1.4);
+
+INSERT INTO interpreta VALUES (76, 574, 'Guy on Bridge', 1.27);
+
+INSERT INTO interpreta VALUES (76, 573, 'Guy on Bridge', 1.04);
+
+INSERT INTO interpreta VALUES (76, 572, 'Husband on Train', 0.11);
+
+INSERT INTO interpreta VALUES (76, 571, 'Wife on Train', 1.35);
+
+INSERT INTO interpreta VALUES (76, 1146, 'Celine', 1.78);
+
+INSERT INTO interpreta VALUES (76, 569, 'Jesse', 0.34);
+
+INSERT INTO interpreta VALUES (77, 549, 'Motel Guest (uncredited)', 0.68);
+
+INSERT INTO interpreta VALUES (77, 544, 'Jimmy', 1.42);
+
+INSERT INTO interpreta VALUES (77, 543, 'Tattooist', 1.95);
+
+INSERT INTO interpreta VALUES (77, 542, 'Blonde', 0.04);
+
+INSERT INTO interpreta VALUES (77, 540, 'Dodd', 1.79);
+
+INSERT INTO interpreta VALUES (77, 539, 'Doctor', 0.77);
+
+INSERT INTO interpreta VALUES (77, 538, 'Mrs. Jankis', 1.67);
+
+INSERT INTO interpreta VALUES (77, 537, 'Sammy', 0.35);
+
+INSERT INTO interpreta VALUES (77, 536, 'Leonard''s Wife', 1.43);
+
+INSERT INTO interpreta VALUES (77, 535, 'Waiter', 0.2);
+
+INSERT INTO interpreta VALUES (77, 534, 'Burt', 0.67);
+
+INSERT INTO interpreta VALUES (77, 532, 'Teddy Gammell', 1.94);
+
+INSERT INTO interpreta VALUES (77, 530, 'Natalie', 1.31);
+
+INSERT INTO interpreta VALUES (77, 529, 'Leonard', 1.57);
+
+INSERT INTO interpreta VALUES (78, 593, 'Zhora', 0.99);
+
+INSERT INTO interpreta VALUES (78, 592, 'Eldon Tyrell', 1.55);
+
+INSERT INTO interpreta VALUES (78, 591, 'Leon Kowalski', 1.45);
+
+INSERT INTO interpreta VALUES (78, 590, 'J.F. Sebastian', 0.39);
+
+INSERT INTO interpreta VALUES (78, 589, 'Pris', 0.88);
+
+INSERT INTO interpreta VALUES (78, 588, 'Bryant', 1.08);
+
+INSERT INTO interpreta VALUES (78, 587, 'Gaff', 1.14);
+
+INSERT INTO interpreta VALUES (78, 586, 'Rachael', 1.85);
+
+INSERT INTO interpreta VALUES (78, 585, 'Roy Batty', 1.68);
+
+INSERT INTO interpreta VALUES (78, 3, 'Rick Deckard', 0.3);
+
+INSERT INTO interpreta VALUES (79, 1345, 'General', 0.05);
+
+INSERT INTO interpreta VALUES (79, 1344, 'Prime Minister', 0.15);
+
+INSERT INTO interpreta VALUES (79, 1343, 'Old Servant', 0.37);
+
+INSERT INTO interpreta VALUES (79, 1342, 'Scholar', 1.53);
+
+INSERT INTO interpreta VALUES (79, 1341, 'Sky', 1.33);
+
+INSERT INTO interpreta VALUES (79, 1340, 'King of Qin', 1.6);
+
+INSERT INTO interpreta VALUES (79, 1339, 'Moon', 0.58);
+
+INSERT INTO interpreta VALUES (79, 1338, 'Flying Snow', 0.31);
+
+INSERT INTO interpreta VALUES (79, 1337, 'Broken Sword', 1.94);
+
+INSERT INTO interpreta VALUES (79, 1336, 'Nameless', 1.65);
+
+INSERT INTO interpreta VALUES (80, 3731, 'Woman in Courtyard', 0.79);
+
+INSERT INTO interpreta VALUES (80, 3730, 'Man at Grill', 1.27);
+
+INSERT INTO interpreta VALUES (80, 3729, 'Boat Attendant', 1.47);
+
+INSERT INTO interpreta VALUES (80, 3728, 'Philippe', 1.83);
+
+INSERT INTO interpreta VALUES (80, 657, 'Waitress', 1.08);
+
+INSERT INTO interpreta VALUES (80, 654, 'Journalist #2', 0.78);
+
+INSERT INTO interpreta VALUES (80, 651, 'Journalist #1', 0.01);
+
+INSERT INTO interpreta VALUES (80, 649, 'Bookstore Manager', 1.61);
+
+INSERT INTO interpreta VALUES (80, 569, 'Jesse', 1.96);
+
+INSERT INTO interpreta VALUES (80, 1146, 'Celine', 1.81);
+
+INSERT INTO interpreta VALUES (81, 626, 'Commando (Voice)', 0.48);
+
+INSERT INTO interpreta VALUES (81, 625, 'Kurotowa (Voice)', 1.55);
+
+INSERT INTO interpreta VALUES (81, 624, 'Kushana (Voice)', 1.87);
+
+INSERT INTO interpreta VALUES (81, 623, 'Rastel (Voice)', 1.92);
+
+INSERT INTO interpreta VALUES (81, 622, 'Asbel (Voice)', 0.35);
+
+INSERT INTO interpreta VALUES (81, 621, 'Teto / Girl C (Voice)', 1.17);
+
+INSERT INTO interpreta VALUES (81, 620, 'Niga (Voice)', 1.03);
+
+INSERT INTO interpreta VALUES (81, 619, 'Gikkuri (Voice)', 0.85);
+
+INSERT INTO interpreta VALUES (81, 618, 'Goru (Voice)', 1.59);
+
+INSERT INTO interpreta VALUES (81, 617, 'Mito (Voice)', 1.87);
+
+INSERT INTO interpreta VALUES (81, 616, 'Yupa (Voice)', 1.45);
+
+INSERT INTO interpreta VALUES (81, 615, 'Oh-Baba (Voice)', 1.4);
+
+INSERT INTO interpreta VALUES (81, 614, 'Jihl (Voice)', 1.38);
+
+INSERT INTO interpreta VALUES (81, 613, 'Nausicaa (Voice)', 1.31);
+
+INSERT INTO interpreta VALUES (82, 72466, 'Detective James "Sonny" Crockett', 1.56);
+
+INSERT INTO interpreta VALUES (82, 65423, 'ER Doctor', 0.24);
+
+INSERT INTO interpreta VALUES (82, 65422, 'ER Doctor', 1.29);
+
+INSERT INTO interpreta VALUES (82, 16861, 'Alonzo Stevens', 0.77);
+
+INSERT INTO interpreta VALUES (82, 1665, 'Nicholas', 1.12);
+
+INSERT INTO interpreta VALUES (82, 17941, 'Switek', 1.28);
+
+INSERT INTO interpreta VALUES (82, 65421, 'Gina Calabrese', 0.96);
+
+INSERT INTO interpreta VALUES (82, 40543, 'Jose Yero', 1.96);
+
+INSERT INTO interpreta VALUES (82, 8785, 'FBI Agent Fujima', 0.48);
+
+INSERT INTO interpreta VALUES (82, 15009, 'Zito', 0.02);
+
+INSERT INTO interpreta VALUES (82, 2038, 'Trudy Joplin', 1.91);
+
+INSERT INTO interpreta VALUES (82, 16867, 'Montoya', 0.62);
+
+INSERT INTO interpreta VALUES (82, 643, 'Isabella', 0.56);
+
+INSERT INTO interpreta VALUES (82, 134, 'Detective Ricardo "Rico" Tubbs', 0.83);
+
+INSERT INTO interpreta VALUES (83, 1187, 'Seth', 1.42);
+
+INSERT INTO interpreta VALUES (83, 646, 'Daniel Kintner', 0.64);
+
+INSERT INTO interpreta VALUES (83, 644, 'Susan Watkins', 1.07);
+
+INSERT INTO interpreta VALUES (85, 149891, 'Thrill', 0.79);
+
+INSERT INTO interpreta VALUES (85, 658, 'Satipo', 0.78);
+
+INSERT INTO interpreta VALUES (85, 663, 'Major Eaton', 0.4);
+
+INSERT INTO interpreta VALUES (85, 662, 'Col. Musgrove', 1.63);
+
+INSERT INTO interpreta VALUES (85, 661, 'Barranca / Monkey Man', 0.72);
+
+INSERT INTO interpreta VALUES (85, 660, 'Gobler', 0.3);
+
+INSERT INTO interpreta VALUES (85, 659, 'Colonel Dietrich', 1.13);
+
+INSERT INTO interpreta VALUES (85, 656, 'Dr. Marcus Brody', 1.69);
+
+INSERT INTO interpreta VALUES (85, 655, 'Sallah', 1.56);
+
+INSERT INTO interpreta VALUES (85, 653, 'Major Toht', 1.24);
+
+INSERT INTO interpreta VALUES (85, 652, 'Dr. Rene Belloq', 1.46);
+
+INSERT INTO interpreta VALUES (85, 650, 'Marion Ravenwood', 0.67);
+
+INSERT INTO interpreta VALUES (85, 3, 'Indiana Jones', 0.29);
+
+INSERT INTO interpreta VALUES (86, 43170, 'Forscher 4', 0.56);
+
+INSERT INTO interpreta VALUES (86, 4215, 'Forscher 3', 0.94);
+
+INSERT INTO interpreta VALUES (86, 43169, 'Forscher 2', 0.3);
+
+INSERT INTO interpreta VALUES (86, 43168, 'Forscher 1', 0.26);
+
+INSERT INTO interpreta VALUES (86, 39863, 'Christoffersen', 0.51);
+
+INSERT INTO interpreta VALUES (86, 43167, 'Mann in Plattenbausiedlung', 0.39);
+
+INSERT INTO interpreta VALUES (86, 43166, 'Swingerclub-Frau', 1.6);
+
+INSERT INTO interpreta VALUES (86, 43165, 'Swingerclub-Kerl', 1.08);
+
+INSERT INTO interpreta VALUES (86, 39296, 'Kursleiter', 0.4);
+
+INSERT INTO interpreta VALUES (86, 20021, 'Krankenhausarzt', 0.86);
+
+INSERT INTO interpreta VALUES (86, 43164, 'Kates Lover', 1.74);
+
+INSERT INTO interpreta VALUES (86, 43163, 'Grossmutter', 1.16);
+
+INSERT INTO interpreta VALUES (86, 36442, 'Hippiefrau', 1.11);
+
+INSERT INTO interpreta VALUES (86, 36462, 'Ellen', 0.78);
+
+INSERT INTO interpreta VALUES (86, 4620, 'Hubert', 0.39);
+
+INSERT INTO interpreta VALUES (86, 23530, 'Uwe', 1.25);
+
+INSERT INTO interpreta VALUES (86, 43156, 'Hannelore', 0.15);
+
+INSERT INTO interpreta VALUES (86, 1081, 'Sollers', 1.57);
+
+INSERT INTO interpreta VALUES (86, 714, 'Annabelle''s Mother', 0.12);
+
+INSERT INTO interpreta VALUES (86, 697, 'Professor Fleisser', 1.49);
+
+INSERT INTO interpreta VALUES (86, 692, 'Johanna', 0.77);
+
+INSERT INTO interpreta VALUES (86, 688, 'Annabelle''s Father', 1.36);
+
+INSERT INTO interpreta VALUES (86, 685, 'Katja', 1.18);
+
+INSERT INTO interpreta VALUES (86, 684, 'Michael Young', 0.26);
+
+INSERT INTO interpreta VALUES (86, 683, 'Yogini', 1.08);
+
+INSERT INTO interpreta VALUES (86, 682, 'Bruno''s Father', 0.15);
+
+INSERT INTO interpreta VALUES (86, 681, 'Jane', 0.48);
+
+INSERT INTO interpreta VALUES (86, 680, 'Dr. Schafer', 0.76);
+
+INSERT INTO interpreta VALUES (86, 679, 'Annabelle', 0.57);
+
+INSERT INTO interpreta VALUES (86, 678, 'Christiane', 1.32);
+
+INSERT INTO interpreta VALUES (86, 677, 'Bruno', 1.97);
+
+INSERT INTO interpreta VALUES (86, 675, 'Michael', 0.71);
+
+INSERT INTO interpreta VALUES (87, 707, 'Earl Weber', 1.42);
+
+INSERT INTO interpreta VALUES (87, 702, 'Chief Henchman', 0.7);
+
+INSERT INTO interpreta VALUES (87, 701, 'Maitre d''', 1.07);
+
+INSERT INTO interpreta VALUES (87, 699, 'Chen', 0.18);
+
+INSERT INTO interpreta VALUES (87, 11397, 'Kao Kan', 1.65);
+
+INSERT INTO interpreta VALUES (87, 696, 'Wu Han', 0.42);
+
+INSERT INTO interpreta VALUES (87, 695, 'Lao Che', 0.93);
+
+INSERT INTO interpreta VALUES (87, 694, 'Captain Blumburtt', 0.58);
+
+INSERT INTO interpreta VALUES (87, 693, 'Chattar Lal', 1.62);
+
+INSERT INTO interpreta VALUES (87, 691, 'Mola Ram', 1.19);
+
+INSERT INTO interpreta VALUES (87, 690, 'Short Round', 1.23);
+
+INSERT INTO interpreta VALUES (87, 689, 'Wilhelmina "Willie" Scott', 1.51);
+
+INSERT INTO interpreta VALUES (87, 3, 'Indiana Jones', 0.51);
+
+INSERT INTO interpreta VALUES (88, 4213, 'Dirty Dancer', 0.63);
+
+INSERT INTO interpreta VALUES (88, 4212, 'Dirty Dancer', 1.62);
+
+INSERT INTO interpreta VALUES (88, 4211, 'Dirty Dancer', 1.91);
+
+INSERT INTO interpreta VALUES (88, 4210, 'Dirty Dancer', 1.26);
+
+INSERT INTO interpreta VALUES (88, 4209, 'Dirty Dancer', 0.21);
+
+INSERT INTO interpreta VALUES (88, 4208, 'Dirty Dancer', 1.71);
+
+INSERT INTO interpreta VALUES (88, 4207, 'Dirty Dancer', 1.27);
+
+INSERT INTO interpreta VALUES (88, 4206, 'Dirty Dancer', 0.49);
+
+INSERT INTO interpreta VALUES (88, 4205, 'Bus Boy', 0.42);
+
+INSERT INTO interpreta VALUES (88, 4204, 'Staff Kid', 1.02);
+
+INSERT INTO interpreta VALUES (88, 4203, 'Moe Pressman', 0.24);
+
+INSERT INTO interpreta VALUES (88, 4202, 'Vivian Pressman', 1.81);
+
+INSERT INTO interpreta VALUES (88, 4201, 'Stan', 1.42);
+
+INSERT INTO interpreta VALUES (88, 4200, 'Magician', 1.64);
+
+INSERT INTO interpreta VALUES (88, 4199, 'Billy Kostecki', 0.77);
+
+INSERT INTO interpreta VALUES (88, 4198, 'Tito Suarez', 1.85);
+
+INSERT INTO interpreta VALUES (88, 734, 'Mrs. Schumacher', 0.27);
+
+INSERT INTO interpreta VALUES (88, 733, 'Mr. Schumacher', 1.43);
+
+INSERT INTO interpreta VALUES (88, 730, 'Robbie Gould', 0.51);
+
+INSERT INTO interpreta VALUES (88, 729, 'Neil Kellerman', 0.01);
+
+INSERT INTO interpreta VALUES (88, 728, 'Marjorie Houseman', 0.24);
+
+INSERT INTO interpreta VALUES (88, 727, 'Lisa Houseman', 0.4);
+
+INSERT INTO interpreta VALUES (88, 726, 'Max Kellerman', 1.53);
+
+INSERT INTO interpreta VALUES (88, 725, 'Dr. Jake Houseman', 0.76);
+
+INSERT INTO interpreta VALUES (88, 724, 'Penny Johnson', 0.96);
+
+INSERT INTO interpreta VALUES (88, 723, 'Johnny Castle', 1.23);
+
+INSERT INTO interpreta VALUES (88, 722, 'Baby (Frances) Houseman', 0.54);
+
+INSERT INTO interpreta VALUES (89, 649, 'Butler', 1.84);
+
+INSERT INTO interpreta VALUES (89, 749, 'Mrs. Donovan', 1.01);
+
+INSERT INTO interpreta VALUES (89, 748, 'Panama Hat', 1.71);
+
+INSERT INTO interpreta VALUES (89, 746, 'Sultan', 1.94);
+
+INSERT INTO interpreta VALUES (89, 745, 'Fedora', 1.54);
+
+INSERT INTO interpreta VALUES (89, 744, 'Grail Knight', 0.84);
+
+INSERT INTO interpreta VALUES (89, 743, 'Kazim', 0.54);
+
+INSERT INTO interpreta VALUES (89, 742, 'Vogel', 0.2);
+
+INSERT INTO interpreta VALUES (89, 741, 'Young Indy', 1.66);
+
+INSERT INTO interpreta VALUES (89, 740, 'Walter Donovan', 0.26);
+
+INSERT INTO interpreta VALUES (89, 655, 'Sallah', 1.12);
+
+INSERT INTO interpreta VALUES (89, 739, 'Dr. Elsa Schneider', 0.91);
+
+INSERT INTO interpreta VALUES (89, 656, 'Dr. Marcus Brody', 0.09);
+
+INSERT INTO interpreta VALUES (89, 738, 'Professor Henry Jones', 0.43);
+
+INSERT INTO interpreta VALUES (89, 3, 'Indiana Jones', 1.65);
+
+INSERT INTO interpreta VALUES (90, 790, 'Casey', 1.82);
+
+INSERT INTO interpreta VALUES (90, 789, 'Det. McCabe', 0.19);
+
+INSERT INTO interpreta VALUES (90, 788, 'Det. Foster', 1.36);
+
+INSERT INTO interpreta VALUES (90, 787, 'Insp. Douglas Todd', 0.09);
+
+INSERT INTO interpreta VALUES (90, 786, 'Police Chief Hubbard', 0.85);
+
+INSERT INTO interpreta VALUES (90, 785, 'Mikey Tandino', 0.88);
+
+INSERT INTO interpreta VALUES (90, 4689, 'Serge', 1.91);
+
+INSERT INTO interpreta VALUES (90, 783, 'Zack, Maitland''s Thug', 1.19);
+
+INSERT INTO interpreta VALUES (90, 782, 'Victor Maitland', 0.38);
+
+INSERT INTO interpreta VALUES (90, 781, 'Jeffrey', 1.02);
+
+INSERT INTO interpreta VALUES (90, 780, 'Lt. Andrew Bogomil', 1.04);
+
+INSERT INTO interpreta VALUES (90, 779, 'Jeannette ''Jenny'' Summers', 0.39);
+
+INSERT INTO interpreta VALUES (90, 778, 'Det. Sgt. John Taggart', 0.72);
+
+INSERT INTO interpreta VALUES (90, 777, 'Det. William ''Billy'' Rosewood', 1.75);
+
+INSERT INTO interpreta VALUES (90, 776, 'Det. Axel Foley', 1.96);
+
+INSERT INTO interpreta VALUES (91, 174950, '(voice)', 1.81);
+
+INSERT INTO interpreta VALUES (91, 174923, '(voice)', 0.92);
+
+INSERT INTO interpreta VALUES (92, 812, '', 0.3);
+
+INSERT INTO interpreta VALUES (92, 807, '', 1.81);
+
+INSERT INTO interpreta VALUES (92, 806, '', 0.57);
+

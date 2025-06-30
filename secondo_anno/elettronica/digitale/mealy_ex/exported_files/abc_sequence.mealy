@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "name": "ABC sequence",
+    "description": "Mealy automaton with 4 states and 12 transitions",
+    "created": "2025-06-04T11:15:24.939Z",
+    "modified": "2025-06-04T11:15:24.939Z"
+  },
+  "machine": {
+    "states": [
+      {
+        "id": "q0",
+        "x": 170,
+        "y": 196,
+        "label": "S0",
+        "isInitial": true
+      },
+      {
+        "id": "q1",
+        "x": 440,
+        "y": 90,
+        "label": "A",
+        "isInitial": false
+      },
+      {
+        "id": "q2",
+        "x": 389,
+        "y": 390,
+        "label": "B",
+        "isInitial": false
+      },
+      {
+        "id": "q3",
+        "x": 688,
+        "y": 255,
+        "label": "C",
+        "isInitial": false
+      }
+    ],
+    "transitions": [
+      {
+        "id": "t0",
+        "from": "q0",
+        "to": "q1",
+        "input": "01",
+        "output": "1",
+        "curve": 0
+      },
+      {
+        "id": "t1",
+        "from": "q0",
+        "to": "q2",
+        "input": "10",
+        "output": "1",
+        "curve": 0
+      },
+      {
+        "id": "t2",
+        "from": "q0",
+        "to": "q3",
+        "input": "11",
+        "output": "1",
+        "curve": 0,
+        "controlX": 222,
+        "controlY": 200.39999389648438
+      },
+      {
+        "id": "t3",
+        "from": "q1",
+        "to": "q1",
+        "input": "01",
+        "output": "0",
+        "curve": 0,
+        "controlX": 446,
+        "controlY": 48.399993896484375
+      },
+      {
+        "id": "t4",
+        "from": "q1",
+        "to": "q2",
+        "input": "10",
+        "output": "1",
+        "curve": 0,
+        "controlX": 382,
+        "controlY": 105.39999389648438
+      },
+      {
+        "id": "t5",
+        "from": "q1",
+        "to": "q3",
+        "input": "11",
+        "output": "1",
+        "curve": 0,
+        "controlX": 554,
+        "controlY": 99.39999389648438
+      },
+      {
+        "id": "t6",
+        "from": "q2",
+        "to": "q1",
+        "input": "01",
+        "output": "1",
+        "curve": 0,
+        "controlX": 442,
+        "controlY": 312.3999938964844
+      },
+      {
+        "id": "t7",
+        "from": "q2",
+        "to": "q2",
+        "input": "10",
+        "output": "0",
+        "curve": 0,
+        "controlX": 359,
+        "controlY": 417.3999938964844
+      },
+      {
+        "id": "t8",
+        "from": "q2",
+        "to": "q3",
+        "input": "11",
+        "output": "1",
+        "curve": 0,
+        "controlX": 493,
+        "controlY": 397.3999938964844
+      },
+      {
+        "id": "t9",
+        "from": "q3",
+        "to": "q1",
+        "input": "01",
+        "output": "1",
+        "curve": 0,
+        "controlX": 621,
+        "controlY": 234.39999389648438
+      },
+      {
+        "id": "t10",
+        "from": "q3",
+        "to": "q2",
+        "input": "10",
+        "output": "1",
+        "curve": 0,
+        "controlX": 587,
+        "controlY": 269.3999938964844
+      },
+      {
+        "id": "t11",
+        "from": "q3",
+        "to": "q3",
+        "input": "11",
+        "output": "0",
+        "curve": 0,
+        "controlX": 706,
+        "controlY": 204.39999389648438
+      }
+    ],
+    "alphabet": [
+      "0",
+      "1"
+    ],
+    "outputs": [
+      "A",
+      "B"
+    ]
+  }
+}

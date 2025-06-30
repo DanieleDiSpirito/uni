@@ -1,0 +1,117 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "name": "2bit_sum",
+    "description": "Mealy automaton with 2 states and 8 transitions",
+    "created": "2025-06-08T12:02:39.869Z",
+    "modified": "2025-06-08T12:02:39.869Z"
+  },
+  "machine": {
+    "states": [
+      {
+        "id": "q0",
+        "x": 198,
+        "y": 226,
+        "label": "R0",
+        "isInitial": true
+      },
+      {
+        "id": "q1",
+        "x": 536,
+        "y": 228,
+        "label": "R1",
+        "isInitial": false
+      }
+    ],
+    "transitions": [
+      {
+        "id": "t0",
+        "from": "q0",
+        "to": "q0",
+        "input": "00",
+        "output": "0",
+        "curve": 0,
+        "controlX": 66,
+        "controlY": 213.8000030517578
+      },
+      {
+        "id": "t1",
+        "from": "q0",
+        "to": "q0",
+        "input": "01",
+        "output": "1",
+        "curve": 0,
+        "controlX": 133,
+        "controlY": 326.8000030517578
+      },
+      {
+        "id": "t2",
+        "from": "q0",
+        "to": "q0",
+        "input": "10",
+        "output": "1",
+        "curve": 0,
+        "controlX": 147,
+        "controlY": 115.80000305175781
+      },
+      {
+        "id": "t3",
+        "from": "q0",
+        "to": "q1",
+        "input": "11",
+        "output": "0",
+        "curve": 0,
+        "controlX": 266,
+        "controlY": 207.8000030517578
+      },
+      {
+        "id": "t4",
+        "from": "q1",
+        "to": "q0",
+        "input": "00",
+        "output": "1",
+        "curve": 0,
+        "controlX": 462,
+        "controlY": 245.8000030517578
+      },
+      {
+        "id": "t5",
+        "from": "q1",
+        "to": "q1",
+        "input": "01",
+        "output": "0",
+        "curve": 0,
+        "controlX": 661,
+        "controlY": 226.8000030517578
+      },
+      {
+        "id": "t6",
+        "from": "q1",
+        "to": "q1",
+        "input": "10",
+        "output": "0",
+        "curve": 0,
+        "controlX": 632,
+        "controlY": 331.8000030517578
+      },
+      {
+        "id": "t7",
+        "from": "q1",
+        "to": "q1",
+        "input": "11",
+        "output": "1",
+        "curve": 0,
+        "controlX": 642,
+        "controlY": 119.80000305175781
+      }
+    ],
+    "alphabet": [
+      "0",
+      "1"
+    ],
+    "outputs": [
+      "A",
+      "B"
+    ]
+  }
+}

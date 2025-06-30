@@ -1,0 +1,23 @@
+; finale consente di non vedere l'output/anteprima del comando
+
+Comandi:
+- zeros(M, N) # crea una matrice nulla MxN
+- start:step:end # -> range(start, step, end[incluso])
+- clear (= clearall) # elimina tutte le var
+- clear var1 var2... # elimina var1, va2 etc.
+- clc # -> clear console
+- magic(N) # crea una matrice di ordine N con somma di rige, diagonali e colonne uguale
+- sum(values)
+- a\b = b/a
+
+Array:
+- array(pos) # elemento in posizione pos
+- array(riga, colonna) # elemento in posizione riga, colonna
+- array(1, 1:n) # tutta la prima riga
+- array(1:n, 1) # tutta la prima colonna
+
+Funzioni:
+
+function return_value = functionName(param1, param2...)
+...
+end
