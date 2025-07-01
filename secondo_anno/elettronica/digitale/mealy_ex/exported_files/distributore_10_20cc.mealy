@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "metadata": {
+    "name": "distributore_10-20cc",
+    "description": "Mealy automaton with 4 states and 16 transitions",
+    "created": "2025-06-29T11:43:45.295Z",
+    "modified": "2025-06-29T11:43:45.295Z"
+  },
+  "machine": {
+    "states": [
+      {
+        "id": "q0",
+        "x": 66,
+        "y": 242,
+        "label": "S0",
+        "isInitial": true
+      },
+      {
+        "id": "q1",
+        "x": 418,
+        "y": 37,
+        "label": "S1",
+        "isInitial": false
+      },
+      {
+        "id": "q2",
+        "x": 419.5,
+        "y": 439,
+        "label": "S2",
+        "isInitial": false
+      },
+      {
+        "id": "q3",
+        "x": 750,
+        "y": 233,
+        "label": "S3",
+        "isInitial": false
+      }
+    ],
+    "transitions": [
+      {
+        "id": "t2",
+        "from": "q0",
+        "to": "q2",
+        "input": "01",
+        "output": "00",
+        "curve": 0,
+        "controlX": 337.4559669494629,
+        "controlY": 238.20314025878906
+      },
+      {
+        "id": "t1",
+        "from": "q0",
+        "to": "q1",
+        "input": "00",
+        "output": "00",
+        "curve": 0,
+        "controlX": 168.4559669494629,
+        "controlY": 22.203140258789062
+      },
+      {
+        "id": "t2",
+        "from": "q0",
+        "to": "q1",
+        "input": "10",
+        "output": "00",
+        "curve": 0,
+        "controlX": 337.4559669494629,
+        "controlY": 238.20314025878906
+      },
+      {
+        "id": "t3",
+        "from": "q0",
+        "to": "q2",
+        "input": "11",
+        "output": "00",
+        "curve": 0,
+        "controlX": 323.4559669494629,
+        "controlY": 308.20314025878906
+      },
+      {
+        "id": "t4",
+        "from": "q1",
+        "to": "q2",
+        "input": "00",
+        "output": "00",
+        "curve": 0,
+        "controlX": 474.4559669494629,
+        "controlY": 101.20314025878906
+      },
+      {
+        "id": "t5",
+        "from": "q1",
+        "to": "q2",
+        "input": "10",
+        "output": "00",
+        "curve": 0,
+        "controlX": 396.4559669494629,
+        "controlY": 73.20314025878906
+      },
+      {
+        "id": "t6",
+        "from": "q1",
+        "to": "q3",
+        "input": "01",
+        "output": "00",
+        "curve": 0,
+        "controlX": 647.4559669494629,
+        "controlY": 88.20314025878906
+      },
+      {
+        "id": "t7",
+        "from": "q1",
+        "to": "q3",
+        "input": "11",
+        "output": "00",
+        "curve": 0,
+        "controlX": 681.4559669494629,
+        "controlY": 30.203140258789062
+      },
+      {
+        "id": "t8",
+        "from": "q2",
+        "to": "q3",
+        "input": "00",
+        "output": "00",
+        "curve": 0
+      },
+      {
+        "id": "t9",
+        "from": "q2",
+        "to": "q3",
+        "input": "10",
+        "output": "00",
+        "curve": 0
+      },
+      {
+        "id": "t10",
+        "from": "q2",
+        "to": "q0",
+        "input": "01",
+        "output": "01",
+        "curve": 0,
+        "controlX": 123.45596694946289,
+        "controlY": 458.20314025878906
+      },
+      {
+        "id": "t11",
+        "from": "q2",
+        "to": "q0",
+        "input": "11",
+        "output": "11",
+        "curve": 0,
+        "controlX": 179.4559669494629,
+        "controlY": 410.20314025878906
+      },
+      {
+        "id": "t12",
+        "from": "q3",
+        "to": "q0",
+        "input": "00",
+        "output": "01",
+        "curve": 0,
+        "controlX": 622.4559669494629,
+        "controlY": 279.20314025878906
+      },
+      {
+        "id": "t13",
+        "from": "q3",
+        "to": "q0",
+        "input": "10",
+        "output": "11",
+        "curve": 0,
+        "controlX": 596.4559669494629,
+        "controlY": 223.20314025878906
+      },
+      {
+        "id": "t14",
+        "from": "q3",
+        "to": "q1",
+        "input": "01",
+        "output": "01",
+        "curve": 0,
+        "controlX": 563.4559669494629,
+        "controlY": 188.20314025878906
+      },
+      {
+        "id": "t15",
+        "from": "q3",
+        "to": "q1",
+        "input": "11",
+        "output": "11",
+        "curve": 0,
+        "controlX": 470.4559669494629,
+        "controlY": 205.20314025878906
+      }
+    ],
+    "alphabet": [
+      "0",
+      "1"
+    ],
+    "outputs": [
+      "A",
+      "B"
+    ]
+  }
+}
