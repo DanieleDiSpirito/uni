@@ -12,7 +12,7 @@ fc = 1/Tc; % sampling frequency [KHz]
 
 A = 5; % amplitude of no noise signal
 y_signal = A * (-1).^(floor(t/(T/2)));
-y_noise = randn(1, N);
+y_noise = sqrt(A) * randn(1, N);
 
 y = y_signal + y_noise;
 stem(t, y);
@@ -24,6 +24,14 @@ hold off;
 histogram(y_noise, "NumBins", 25, "Normalization", "pdf");
 pause;
 
-spectrum = abs(fft(y_noise));
-frequencies = linspace(0, fc, N);
-plot(frequencies, spectrum);
+spectrum = fft(y_noise);
+power = abs(spectrum/N).^2;
+power_positive_part = power(1:N/2+1);
+log10_power = 10 * log10(power_positive_part);
+frequencies = fc * (0:(N/2))/N;
+plot(frequencies, log10_power);
+hold on;
+grid on;
+pwelch(y_noise, [], [], [], fc);
+pwelch(y, [], [], [], fc);
+legend("Plot from fft", "pwelch noise", "pwelch signal with noise");
