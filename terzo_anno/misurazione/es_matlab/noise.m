@@ -1,6 +1,7 @@
 hold off;
 clear;
 rng shuffle;
+subplot(1, 1, 1);
 
 N = 1024; % number of points
 T = 1; % period [ms]
@@ -12,27 +13,30 @@ Tc = (M*T) / N; % sampling period [ms]
 fc = 1/Tc; % sampling frequency [KHz]
 
 A = 5; % amplitude of no noise signal
-y_signal = A * (-1).^(floor(t/(T/2)));
-y_noise = sqrt(A/3) * randn(1, N);
+y_signal = A * sin(2*pi*f*t);
+y_noise = (A/3) * randn(1, N);
 
 y = y_signal + y_noise;
-stem(t, y);
+plot(t, y);
 hold on;
-stem(t, y_signal);
+plot(t, y_signal);
 pause;
 hold off;
 
 histogram(y_noise, "NumBins", 25, "Normalization", "pdf");
 pause;
 
-spectrum = fft(y_noise);
-power = abs(spectrum/N).^2; % density
-power_positive_part = power(1:N/2+1);
-log10_power = 10 * log10(power_positive_part);
-frequencies = fc * (0:(N/2))/N;
-plot(frequencies, log10_power);
-hold on;
+spectrum = fft(y);
+B = abs(spectrum);
+frequencies = fc/N * (1:N/2);
+B = [B(1) 2*B(2:N/2)];
+subplot(2, 1, 1);
+plot(frequencies, B / N)
+title("Spectrum");
+
+subplot(2, 1, 2);
 grid on;
-pwelch(y_noise, [], [], [], fc);
+hold on;
 pwelch(y, [], [], [], fc);
+pwelch(y_noise, [], [], [], fc);
 legend("Plot from fft", "pwelch noise", "pwelch signal with noise");
