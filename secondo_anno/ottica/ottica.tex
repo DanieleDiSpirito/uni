@@ -1,0 +1,508 @@
+% Compilazione: pdflatex -jobname=ottica_tex ottica.tex
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\IfFileExists{italian.ldf}{\usepackage[italian]{babel}}{\usepackage[english]{babel}}
+\usepackage{amsmath,amssymb,geometry,graphicx,tikz}\geometry{margin=2cm}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\newcommand{\pagina}[1]{\clearpage}
+\newcommand{\vv}[1]{\vec{#1}}
+\begin{document}
+% Pagina originale 1
+\section*{Ottica -- Legenda}
+1. Onde elettromagnetiche: operatori differenziali; teoremi della divergenza e di Stokes; equazioni di Maxwell; dielettrici; fenomeni oscillatori e ondulatori; analisi di Fourier; fronte d'onda; onde sferiche e sonore; sovrapposizione di onde; ampiezza massima e minima di un'onda stazionaria; orecchio umano; effetto Doppler, autovelox ed eco Doppler; onde elettromagnetiche e loro proprietà; onde di propagazione generale e piane; onde nei dielettrici; vettore di Poynting; tipi e produzione di onde EM; polarizzazione; lamine polarizzatrici.
+
+2. Riflessione e rifrazione: riflessione; rifrazione; condizioni di raccordo; angolo limite; energia; incidenza normale; angolo di Brewster; passaggio nei materiali; principio di Fermat; attraversamento di lamina piana; effetti visivi della rifrazione; angolo di deviazione.
+
+3. Ottica geometrica: elemento ottico; specchi concavo e convesso; convenzione dei segni; costruzione dell'immagine; ingrandimento trasversale; specchio piano; diottro; costruzione dell'immagine; diottri piani; lenti; lente sottile; classificazione; lenti convergenti e divergenti; costruzione dell'immagine; ingrandimento; sistema di lenti; occhio; immagini reali e virtuali.
+
+4. Interferenza e diffrazione: interferenza; esperimento di Young; sorgenti incoerenti; effetto cromatico; lamina sottile; cuneo sottile; anelli di Newton; interferenza di $N$ sorgenti; caratteristiche; diffrazione; diffrazione di Fraunhofer da fenditura singola; apertura circolare; criterio di Rayleigh; interferenza e diffrazione; caso di $N$ sorgenti.
+
+5. Formule utili.
+% Pagina originale 2
+\pagina{2}\section*{Operatori differenziali}
+Sia $f:\mathbb R^n\to\mathbb R$ una funzione scalare ($n=3$ caso spaziale).
+\[\vv\nabla f=\operatorname{grad}f=\frac{\partial f}{\partial x}\hat u_x+\frac{\partial f}{\partial y}\hat u_y+\frac{\partial f}{\partial z}\hat u_z\in\mathbb R^n.\]
+Operatore nabla: $\vv\nabla=(\partial_x,\partial_y,\partial_z)$, con $n=3$.
+Sia $\vv F:\mathbb R^n\to\mathbb R^n$ una funzione vettoriale (campo).
+\[\vv\nabla\cdot\vv F=\frac{\partial F_x}{\partial x}+\frac{\partial F_y}{\partial y}+\frac{\partial F_z}{\partial z}\in\mathbb R\quad\text{(divergenza, scalare)}.\]
+\[\vv\nabla\times\vv F=\begin{vmatrix}\hat u_x&\hat u_y&\hat u_z\\\partial_x&\partial_y&\partial_z\\F_x&F_y&F_z\end{vmatrix}
+=\left(\partial_yF_z-\partial_zF_y,\partial_zF_x-\partial_xF_z,\partial_xF_y-\partial_yF_x\right)\in\mathbb R^3.\]
+Rotore: $\operatorname{rot}\vv F$. Teorema della divergenza:
+\[\oint_\Sigma\vv F\cdot d\vv\Sigma=\int_\tau(\vv\nabla\cdot\vv F)\,d\tau,\]
+$\Sigma$ superficie chiusa, $\tau$ volume racchiuso. Teorema di Stokes:
+\[\oint_s\vv F\cdot d\vv s=\int_\Sigma(\vv\nabla\times\vv F)\cdot d\vv\Sigma.\]
+$s$ contorno (circolazione), $\Sigma$ superficie, $d\vv\Sigma=\hat u_n d\Sigma$.
+\[\operatorname{rot}(\operatorname{grad}f)\in\mathbb R^3,\quad\operatorname{div}(\operatorname{grad}f)\in\mathbb R,\quad\operatorname{div}(\operatorname{rot}\vv F)\in\mathbb R,\quad\operatorname{grad}(\operatorname{div}\vv F)\in\mathbb R^3.\]
+$\vv\nabla\times(\vv\nabla\cdot\vv F)$ e $\vv\nabla(\vv\nabla\times\vv F)$ non hanno senso nelle operazioni indicate.
+\[\vv\nabla\cdot\vv\nabla f=\nabla^2f\quad\text{(laplaciano)},\qquad\vv\nabla\times\vv\nabla f=0,\qquad\vv\nabla\cdot(\vv\nabla\times\vv F)=0.\]
+\[\vv\nabla\times(\vv\nabla\times\vv F)=\vv\nabla(\vv\nabla\cdot\vv F)-\nabla^2\vv F.\]
+% Pagina originale 3
+\pagina{3}\section*{Equazioni di Maxwell}
+Campo elettrostatico conservativo:
+\[\oint_s\vv E\cdot d\vv s=0=\int_\Sigma(\vv\nabla\times\vv E)\cdot d\vv\Sigma\implies\vv\nabla\times\vv E=0.\]
+Legge di Gauss:
+\[\Phi_E=\oint_\Sigma\vv E\cdot d\vv\Sigma=\frac{q}{\epsilon_0}=\frac1{\epsilon_0}\int_\tau\rho\,d\tau.\]
+\[\oint_\Sigma\vv E\cdot d\vv\Sigma=\int_\tau(\vv\nabla\cdot\vv E)\,d\tau=\int_\tau\frac\rho{\epsilon_0}\,d\tau\implies\vv\nabla\cdot\vv E=\frac\rho{\epsilon_0}.\]
+Non esistono monopoli magnetici: $\vv\nabla\cdot\vv B=0$.
+Legge di Ampère:
+\[\oint_s\vv B\cdot d\vv s=\mu_0i=\mu_0\int_\Sigma\vv j\cdot d\vv\Sigma=\int_\Sigma(\vv\nabla\times\vv B)\cdot d\vv\Sigma\implies\vv\nabla\times\vv B=\mu_0\vv j.\]
+In condizioni stazionarie:
+\[\vv\nabla\cdot\vv E=\rho/\epsilon_0,\quad\vv\nabla\times\vv E=0,\quad\vv\nabla\cdot\vv B=0,\quad\vv\nabla\times\vv B=\mu_0\vv j.\]
+Legge di Faraday--Lenz:
+\[\mathcal E_i=-\frac{\partial\Phi_B}{\partial t}=-\frac\partial{\partial t}\int_\Sigma\vv B\cdot d\vv\Sigma=-\int_\Sigma\frac{\partial\vv B}{\partial t}\cdot d\vv\Sigma.\]
+\[\oint_s\vv E_i\cdot d\vv s=\int_\Sigma(\vv\nabla\times\vv E)\cdot d\vv\Sigma
+\implies\vv\nabla\times\vv E=-\frac{\partial\vv B}{\partial t}.\]
+In condizioni stazionarie $\oint_\Sigma\vv j\cdot d\vv\Sigma=0$; in condizioni non stazionarie $\oint_\Sigma\vv j\cdot d\vv\Sigma=-dq/dt$ (equazione di continuità).
+Schema del condensatore: in regime stazionario le correnti sui due lati sono $i,i$; in regime non stazionario $i\ne i'$, $i'=i+i_s$, con $i_s$ corrente di spostamento.
+% Pagina originale 4
+\pagina{4}
+\[i_s=\int_\Sigma\vv j_s\cdot d\vv\Sigma=\epsilon_0\frac{d\Phi_E}{dt},\qquad\vv J_{\rm tot}=\vv J+\epsilon_0\frac{\partial\vv E}{\partial t}.\]
+$\vv J$: densità di corrente ordinaria; $\vv J_s=\epsilon_0\partial_t\vv E$: densità di corrente di spostamento.
+Nuova legge di Ampère:
+\[\oint_s\vv B\cdot d\vv s=\mu_0(i+i_s)\implies\vv\nabla\times\vv B=\mu_0\left(\vv j+\epsilon_0\frac{\partial\vv E}{\partial t}\right).\]
+In condizioni non stazionarie:
+\[\vv\nabla\cdot\vv E=\rho/\epsilon_0,\quad\vv\nabla\times\vv E=-\partial_t\vv B,\quad\vv\nabla\cdot\vv B=0,\quad\vv\nabla\times\vv B=\mu_0(\vv j+\epsilon_0\partial_t\vv E).\]
+\section*{Dielettrici}
+Materiali non conduttori. $\Delta V<\Delta V_0$ (con il dielettrico rispetto al vuoto).
+\[k=\frac{\Delta V_0}{\Delta V}>1\quad\text{costante dielettrica relativa (permittività elettrica)}.\]
+\[\Delta E=E_0-E_k=\frac{\sigma_0}{\epsilon_0}-\frac{\sigma_0}{k\epsilon_0}=\frac{k-1}{k}\frac{\sigma_0}{\epsilon_0}=\frac\chi{\chi+1}\frac{\sigma_0}{\epsilon_0},\quad\chi=k-1.\]
+$\chi$: suscettività elettrica; $\epsilon=\epsilon_0k$.
+\[\vv P=\epsilon_0(k-1)\vv E=\epsilon_0\chi\vv E\quad\text{vettore polarizzazione};\]
+\[\vv D=\epsilon_0\vv E+\vv P=\epsilon_0(\chi+1)\vv E=\epsilon_0k\vv E=\epsilon\vv E\quad\text{induzione dielettrica}.\]
+\[\Delta B=B-B_0=(k_m-1)B_0=\chi_m B_0,\quad\vv M=\chi_mni,\quad\vv H=ni.\]
+$\vv M$: campo di magnetizzazione; $\vv H$: campo magnetico esterno; $k_m$ permittività magnetica, $\chi_m$ suscettività magnetica; negli appunti $k_m=B/B_0<1$.
+\[\vv B=\mu_0(\vv H+\vv M)=\mu_0(\chi_m+1)\vv H=\mu_0k_m\vv H=\mu\vv H.\]
+\[\vv\nabla\cdot\vv D=\rho_l,\quad\vv\nabla\times\vv E=-\partial_t\vv B,\quad\vv\nabla\cdot\vv B=0,\quad\vv\nabla\times\vv H=\vv j+\partial_t\vv D.\]
+% Pagina originale 5
+\pagina{5}\section*{Fenomeni oscillatori}
+Oscillazione: un movimento periodico di un sistema attorno ad una posizione di equilibrio.
+\[x(t)=A\cos(\omega t+\varphi),\quad\omega=2\pi f,\quad f=T^{-1}=1/T\ [\mathrm{Hz}].\]
+Oscillatore armonico semplice: il grafico sinusoidale ha ampiezza $A$ e periodo $T$; valore iniziale $A\cos\varphi$.
+Esempio, moto armonico semplice:
+\[-kx=m\frac{d^2x}{dt^2}\implies x(t)=A\sin(\omega t+\varphi),\]
+\[x'(t)=A\omega\cos(\omega t+\varphi)=v(t),\quad x''(t)=-A\omega^2\sin(\omega t+\varphi)=a(t)=-\omega^2x(t).\]
+L'energia nel moto armonico semplice senza smorzamento è costante: $E=E_p+E_k$.
+\[E_p=\tfrac12kx^2,\quad E_k=\tfrac12mv^2,\quad\omega=\sqrt{k/m},\quad k=m\omega^2.\]
+\[E=\tfrac12kA^2\sin^2(\omega t+\varphi)+\tfrac12m\omega^2A^2\cos^2(\omega t+\varphi)=\tfrac12kA^2[\sin^2(\omega t+\varphi)+\cos^2(\omega t+\varphi)]=\tfrac12kA^2.\]
+Vale il principio di sovrapposizione degli effetti (PSE):
+\[x_1=A_1\cos\omega t,\quad x_2=A_2\cos(\omega t+\varphi)\implies x=A\cos(\omega t+\psi),\]
+\[A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos\varphi}\quad\text{(teorema di Carnot)}.\]
+% Pagina originale 6
+\pagina{6}
+Più generalmente:
+\[x(t)=x_1(t)+x_2(t)=A_1\cos(\omega_1t+\varphi_1)+A_2\cos(\omega_2t+\varphi_2).\]
+Per ampiezze uguali e fasi nulle:
+\[x(t)=2A\cos\left(\frac{\omega_2-\omega_1}{2}t\right)\cos\left(\frac{\omega_1+\omega_2}{2}t\right)=2A\cos\Omega t\cos\omega t,\]
+\[\Omega=(\omega_2-\omega_1)/2,\qquad\omega=(\omega_1+\omega_2)/2.\]
+Grafico: ampiezza modulata con pulsazione $\Omega$, oscillazioni interne con pulsazione $\omega$.
+Con smorzamento: $f_{\rm att}=-\lambda v$, $A_2<A_1$, $A_i<A_{i-1}$ per ogni $i>0$.
+\[-kx-\lambda v=ma\implies\frac{d^2x}{dt^2}+\frac\lambda m\frac{dx}{dt}+\frac kmx=0.\]
+Definito il coefficiente di smorzamento $\gamma=\lambda/(2m)$:
+\[x''+2\gamma x'+\omega_0^2x=0,\qquad x(t)=c_1e^{z_1t}+c_2e^{z_2t}.\]
+\begin{align*}
+\Delta>0\ (\gamma^2>\omega_0^2):&\quad x=e^{-\gamma t}\left(c_1e^{\sqrt{\gamma^2-\omega_0^2}t}+c_2e^{-\sqrt{\gamma^2-\omega_0^2}t}\right),\\
+\Delta=0\ (\gamma^2=\omega_0^2):&\quad x=Ae^{-\gamma t}(c_1+c_2t),\\
+\Delta<0\ (\gamma^2<\omega_0^2):&\quad x=Ae^{-\gamma t}\cos\left(\sqrt{\omega_0^2-\gamma^2}t+\psi\right).
+\end{align*}
+Rispettivamente: smorzamento forte, critico, debole. Il grafico confronta decadimento monotono e oscillazioni smorzate fra gli inviluppi esponenziali.
+% Pagina originale 7
+\pagina{7}\section*{Fenomeni ondulatori}
+Sono perturbazioni prodotte da una sorgente caratterizzate da una propagazione di energia meccanica e quantità di moto senza trasferimento di materia.
+\[y(x,t)=A\cos(kx-\omega t+\varphi),\]
+$k$ numero d'onda; $\omega$ frequenza angolare; $\varphi$ sfasamento iniziale.
+Due tipi: meccaniche (si propagano solo in mezzi materiali) ed elettromagnetiche (si propagano anche nel vuoto).
+Per direzione: longitudinali (vibrazione parallela alla propagazione), trasversali (vibrazione perpendicolare alla propagazione).
+Unidimensionali: lungo una retta; bidimensionali: in un piano; tridimensionali: nello spazio.
+Tutti i fenomeni ondulatori soddisfano l'equazione di d'Alembert:
+\[\frac{\partial^2\xi}{\partial t^2}=v^2\frac{\partial^2\xi}{\partial x^2},\]
+$\xi$ perturbazione del punto materiale; $v$ velocità di propagazione dell'onda nel mezzo. Soluzione indicata: $\xi(x\pm vt)$. Verifica ponendo $u=x-vt$.
+% Pagina originale 8
+\pagina{8}
+\begin{align*}
+\partial_x\xi(x-vt)&=\frac{d\xi}{du}\partial_xu=\xi'(u),\\
+\partial_x^2\xi(x-vt)&=\frac{d\xi'}{du}\partial_xu=\xi''(u),\\
+\partial_t\xi(x-vt)&=\frac{d\xi}{du}\partial_tu=-v\xi'(u),\\
+\partial_t^2\xi(x-vt)&=-v\frac{d\xi'}{du}\partial_tu=v^2\xi''(u)=v^2\partial_x^2\xi.
+\end{align*}
+Onde progressive: impulso che avanza verso $+x$; regressive: verso $-x$.
+\begin{align*}v_x&=\frac{dx}{dt}\quad\text{velocità di propagazione dell'onda},\\ v_\xi&=\frac{\partial\xi}{\partial t}\quad\text{velocità di oscillazione delle particelle del mezzo}.\end{align*}
+Vale il PSE: $\xi(x,t)=a\xi_1(x,t)+b\xi_2(x,t)$.
+\[k=\omega/v=2\pi/\lambda,\quad v=\omega/k,\quad\lambda=2\pi/k,\quad T=2\pi/\omega,\quad\lambda=vT,\quad v=\lambda f.\]
+Nei grafici sinusoidali: $\lambda$ è il periodo spaziale e $T$ quello temporale.
+% Pagina originale 9
+\pagina{9}\section*{Analisi di Fourier}
+Ogni segnale in funzione del tempo può essere rappresentato come somma di seni aventi ampiezze e frequenze diverse:
+\[\sigma=\sum_i A_i\sin(\omega_it+\varphi_i).\]
+Una generica funzione $f$ periodica è rappresentabile come
+\[f(t)=a_0+\sum_{m=1}^\infty\left(a_m\sin m\omega t+b_m\cos m\omega t\right),\]
+$a_0$ valore medio nel periodo,
+\[a_m=\frac2T\int_0^Tf(t)\sin m\omega t\,dt,\qquad b_m=\frac2T\int_0^Tf(t)\cos m\omega t\,dt.\]
+\section*{Fronte d'onda}
+Luogo dei punti caratterizzati dal medesimo stato di vibrazione.
+\[\vv k=\frac{2\pi}\lambda\hat x,\qquad\vv k\cdot\vv r=kx,\qquad\vv k\parallel\vv v\perp\pi.\]
+$\pi$ piano del fronte d'onda. Equazione di d'Alembert nello spazio:
+\[\partial_t^2\xi=v^2(\partial_x^2\xi+\partial_y^2\xi+\partial_z^2\xi)=v^2\nabla^2\xi.\]
+% Pagina originale 10
+\pagina{10}\section*{Onde sferiche}
+\[\xi(r,t)=A(r)\sin(kr-\omega t),\]
+$r$ distanza dalla sorgente $S$; ampiezza variabile. L'intensità varia al variare di $r$:
+\[I(r)=cA(r)^2,\qquad I=P/\Sigma=\frac{\text{potenza}}{\text{superficie}}.\]
+\[P_m=I\Sigma=cA(r)^2\,4\pi r^2=\text{costante}\implies A(r)\propto1/r.\]
+\[A(r)=\xi_0/r\implies\xi(r,t)=\frac{\xi_0}r\sin(kr-\omega t),\qquad I(r)=cA(r)^2=I_0/r^2.\]
+\textit{Nota di trascrizione: nell'ultima uguaglianza degli appunti compare anche $\xi_0^2/r^2$, con la costante di proporzionalità sottintesa.}
+\section*{Onde sonore}
+Onde meccaniche, non si propagano nel vuoto.
+\[v_s=\sqrt{\beta/\rho},\]
+$\beta$ modulo di compressione $[\mathrm{Pa}]$, $\rho$ densità volumica $[\mathrm{kg/m^3}]$. Nell'aria $v_s$ è $330\div340\ \mathrm{m/s}$; dipende dal materiale (mezzo) e dalla temperatura.
+Esempi: a $0^\circ\mathrm C$, $331\ \mathrm{m/s}$; a $20^\circ\mathrm C$, $343\ \mathrm{m/s}$.
+L'orecchio è un recettore logaritmico:
+\[\mathrm{dB}=10\log_{10}(I/I_0),\qquad I_0=10^{-12}\ \mathrm{W/m^2}\quad\text{soglia di udibilità}.\]
+Esempio: $I=10^{-6}\ \mathrm{W/m^2}$ dà $10\log_{10}(I/I_0)=10\cdot6=60\ \mathrm{dB}$.
+% Pagina originale 11
+\pagina{11}
+Il livello sonoro non dipende dalla frequenza, che invece determina se il suono sia acuto o grave.
+\section*{Sovrapposizione di onde}
+Caso di onde solamente sfasate:
+\[\xi_1(x,t)=\xi_0\sin(kx-\omega t),\qquad\xi_2(x,t)=\xi_0\sin(kx-\omega t+\delta).\]
+\[\xi_s=\xi_1+\xi_2=\xi_{0s}\sin(kx-\omega t+\psi).\]
+Ricordando $\sin\alpha+\sin\beta=2\cos\frac{\alpha-\beta}2\sin\frac{\alpha+\beta}2$, otteniamo
+\[\xi_1+\xi_2=\xi_0[\sin(kx-\omega t)+\sin(kx-\omega t+\delta)]
+=2\xi_0\cos\frac\delta2\sin\left(kx-\omega t+\frac\delta2\right).\]
+$\xi_{0s}=2\xi_0\cos(\delta/2)$, $\psi=\delta/2$.
+\[I=cA(r)^2=4c\xi_0^2\cos^2(\delta/2)=4I_0\cos^2(\delta/2),\qquad I_0=c\xi_0^2.\]
+$\delta/2=m\pi$, $m\in\mathbb N$: $|I|=4|I_0|$; $\delta/2=(m+\tfrac12)\pi$: $I=0$.
+Caso di ampiezza uguale e frequenza diversa:
+\[\xi_1=\xi_0\sin(k_1x-\omega_1t),\quad\xi_2=\xi_0\sin(k_2x-\omega_2t),\]
+\[\xi_s=2\xi_0\cos\left(\frac{\Delta k}2x-\frac{\Delta\omega}2t\right)\sin(k_mx-\omega_mt).\]
+% Pagina originale 12
+\pagina{12}
+\[\Delta k=k_1-k_2,\quad\Delta\omega=\omega_1-\omega_2,\quad k_m=(k_1+k_2)/2,\quad\omega_m=(\omega_1+\omega_2)/2.\]
+\[A(x,t)=2\xi_0\cos\left(\frac{\Delta k}2x-\frac{\Delta\omega}2t\right).\]
+L'ampiezza varia nello spazio e nel tempo; velocità di propagazione dell'inviluppo $v_g=\Delta\omega/\Delta k$.
+Per un ascoltatore a distanza fissa $x=L$:
+\[\xi(L,t)=2\xi_0\cos\left(\frac{\Delta k}2L-\frac{\Delta\omega}2t\right)\sin(k_mL-\omega_mt).\]
+Ponendo $\varphi=\Delta kL/2$, $\psi=k_mL$:
+\[\xi(L,t)=2\xi_0\cos(\varphi-\Delta\omega t/2)\sin(\psi-\omega_mt).\]
+Caso particolare:
+\[\xi_1=\xi_0\sin(kx-\omega t),\quad\xi_2=\xi_0\sin(kx+\omega t),\quad\Delta k=0,\quad\omega_m=0,\]
+\[\xi(x,t)=2\xi_0\cos(\omega t)\sin(kx)\quad\text{onda stazionaria (OS)}.\]
+Ampiezza massima: $2\xi_0\sin(kx)=2\xi_0\sin(2\pi x/\lambda)$; derivando,
+\[2\xi_0\cos(2\pi x/\lambda)\frac{2\pi}\lambda=0\iff\frac{2\pi}\lambda x=(m+\tfrac12)\pi\implies x=(m+\tfrac12)\frac\lambda2.\]
+Ampiezza minima:
+\[2\xi_0\sin(2\pi x/\lambda)=0\iff\frac{2\pi}\lambda x=m\pi\implies x=m\frac\lambda2,\quad m=0,1,2,\ldots\]
+% Pagina originale 13
+\pagina{13}
+$N$: nodi; $V$: ventri. Distanza fra nodi $\lambda/2$; fra ventri $\lambda/2$; fra un nodo e il ventre adiacente $\lambda/4$.
+\begin{center}\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[->](-.2,0)--(7,0);\draw[->](0,-1.3)--(0,1.3);
+\draw[domain=0:6.3,samples=100]plot(\x,{sin(180*\x/2.1)});
+\draw[dashed,domain=0:6.3,samples=100]plot(\x,{-sin(180*\x/2.1)});
+\foreach \x in {0,2.1,4.2,6.3}\node[above] at(\x,0){$N$};
+\foreach \x in {1.05,3.15,5.25}\node[below]at(\x,-.3){$V$};
+\end{tikzpicture}\end{center}
+Ampiezza minima: $x=m\lambda/2$; massima: $x=(m+\tfrac12)\lambda/2$.
+Supponiamo gli estremi della corda fissi: $\xi(0)=0$, $\xi(L)=0$; gli estremi sono nodi.
+Per $m=1$, $L=\lambda/2$. In generale
+\[L=m\lambda/2\iff\lambda=2L/m,\quad m\ge1.\]
+Una lunghezza d'onda per ogni $m$:
+\[f_i=\frac v{\lambda_i}=\frac{vi}{2L}.\]
+$f_1$ ($m=1$) frequenza fondamentale (prima armonica); $f_2=2f_1$ seconda armonica; $f_n=nf_1$ $n$-esima armonica: frequenze armoniche.
+% Pagina originale 14
+\pagina{14}\section*{Orecchio umano}
+Sensibilità da $20\ \mathrm{Hz}$ a $20\,000\ \mathrm{Hz}$. Sotto $20\ \mathrm{Hz}$: infrasuoni; sopra $20\ \mathrm{kHz}$: ultrasuoni.
+La lunghezza d'onda varia fra $17.2\ \mathrm m$ e $1.72\ \mathrm{cm}$, ricordando $\lambda=v/f$.
+Nel canale auricolare si producono onde stazionarie con
+\[\lambda_m=\frac{4L}{2m+1},\qquad m=0,1,2,\ldots\]
+\section*{Effetto Doppler}
+Variazione apparente della frequenza di un'onda percepita da un osservatore in movimento rispetto alla sorgente.
+Sorgente e osservatore fermi: $f'=f$; moto relativo: $f'\ne f$, dove $f'$ è la frequenza percepita e $f$ quella effettiva.
+Caso 1: la sorgente si avvicina all'osservatore.
+\[\lambda'=\lambda-v_{\rm sorg}T=\frac{v_{\rm onda}}f-\frac{v_{\rm sorg}}f=\frac{v_{\rm onda}-v_{\rm sorg}}f.\]
+\[f'=\frac{v_{\rm onda}}{\lambda'}=f\frac{v_{\rm onda}}{v_{\rm onda}-v_{\rm sorg}}=\frac f{1-v_{\rm sorg}/v_{\rm onda}}>f.\]
+% Pagina originale 15
+\pagina{15}
+Caso 2: la sorgente si allontana dall'osservatore.
+\[\lambda'=\lambda+v_{\rm sorg}T=\frac{v_{\rm onda}+v_{\rm sorg}}f,\quad f'=\frac{v_{\rm onda}}{\lambda'}=f\frac{v_{\rm onda}}{v_{\rm onda}+v_{\rm sorg}}=\frac f{1+v_{\rm sorg}/v_{\rm onda}}<f.\]
+Generalmente, sorgente in movimento:
+\[f'=\frac f{1\pm v_{\rm sorg}/v_{\rm onda}},\]
+$+$ allontanamento, $-$ avvicinamento.
+Caso 3: l'osservatore si allontana dalla sorgente.
+\[v_r=v_{\rm onda}-v_{\rm oss},\quad N=\frac{v_r\Delta t}\lambda\quad\text{numero di fronti incontrati},\]
+\[f'=\frac N{\Delta t}=\frac{v_r}\lambda=\frac{v_{\rm onda}-v_{\rm oss}}{v_{\rm onda}}f=f\left(1-\frac{v_{\rm oss}}{v_{\rm onda}}\right)<f.\]
+Caso 4: l'osservatore si avvicina alla sorgente.
+\[v_r=v_{\rm onda}+v_{\rm oss},\quad N=\frac{v_r\Delta t}\lambda,\quad f'=\frac N{\Delta t}=\frac{v_r}\lambda=\frac{v_{\rm onda}+v_{\rm oss}}{v_{\rm onda}}f=f\left(1+\frac{v_{\rm oss}}{v_{\rm onda}}\right)>f.\]
+% Pagina originale 16
+\pagina{16}
+Caso 5: sorgente e osservatore si muovono.
+\[f'=f\frac{v_{\rm onda}\pm v_{\rm oss}}{v_{\rm onda}\mp v_{\rm sorg}}.\]
+Segni $+/-$: avvicinamento; $-/+$: allontanamento.
+Dove viene usato l'effetto Doppler? Autovelox, meteorologia, sirene antincendio.
+\section*{Effetto Doppler per gli autovelox}
+$f$ emessa; $f'$ riflessa; $f''$ misurata. $c$ velocità della luce, $v_m$ velocità della macchina.
+\[f'=f\frac{c-v_m}c=f(1-v_m/c),\qquad f''=\frac{f'}{1+v_m/c}.\]
+\[f''=f\frac{1-v_m/c}{1+v_m/c}=f\frac{(1-v_m/c)^2}{1-v_m^2/c^2}\simeq f(1-v_m/c)^2\simeq f(1-2v_m/c)=f-\frac{2v_m}\lambda,\]
+poiché $(v_m/c)^2\ll1$.
+\[\Delta f=|f''-f|=\left|-\frac{2v_m}\lambda\right|\implies v_m=\frac12\lambda\Delta f.\]
+$\Delta f$ differenza fra frequenza emessa e misurata; negli appunti è poi usata come differenza con segno: $\Delta f>0$ avvicinamento, $\Delta f<0$ allontanamento.
+Eco Doppler: effetto Doppler utilizzato nell'ecografia per visualizzare il movimento e la velocità degli oggetti in movimento (esempio: flusso del sangue).
+% Pagina originale 17
+\pagina{17}\section*{Onde elettromagnetiche}
+Sfruttando le equazioni di Maxwell:
+\begin{align*}
+\vv\nabla\times\vv E&=-\partial_t\vv B,\\
+\vv\nabla\times(\vv\nabla\times\vv E)&=-\vv\nabla\times\partial_t\vv B=-\partial_t(\vv\nabla\times\vv B),\\
+&=-\mu_0\epsilon_0\partial_t^2\vv E,\\
+\vv\nabla(\vv\nabla\cdot\vv E)-\nabla^2\vv E&=-\mu_0\epsilon_0\partial_t^2\vv E.
+\end{align*}
+Nel vuoto senza cariche $\vv\nabla\cdot\vv E=0$, dunque
+\[\nabla^2\vv E=\mu_0\epsilon_0\partial_t^2\vv E\implies\partial_t^2\vv E=\frac1{\mu_0\epsilon_0}\nabla^2\vv E=c^2\nabla^2\vv E,\quad c=\frac1{\sqrt{\epsilon_0\mu_0}}.\]
+Vale per ogni componente:
+\[\partial_t^2E_x=c^2\nabla^2E_x,\quad\partial_t^2E_y=c^2\nabla^2E_y,\quad\partial_t^2E_z=c^2\nabla^2E_z.\]
+Analogamente per $\vv B$ e ciascuna componente:
+\begin{align*}
+\vv\nabla\times\vv B&=\mu_0\epsilon_0\partial_t\vv E,\\
+\vv\nabla\times(\vv\nabla\times\vv B)&=\mu_0\epsilon_0\partial_t(\vv\nabla\times\vv E)=\mu_0\epsilon_0\partial_t(-\partial_t\vv B),\\
+\vv\nabla(\vv\nabla\cdot\vv B)-\nabla^2\vv B&=-\mu_0\epsilon_0\partial_t^2\vv B,\\
+\partial_t^2\vv B&=\frac1{\mu_0\epsilon_0}\nabla^2\vv B=c^2\nabla^2\vv B.
+\end{align*}
+Le due equazioni hanno come soluzione:
+% Pagina originale 18
+\pagina{18}
+\[\vv E=\vv E_0e^{i(\vv k\cdot\vv r-\omega t)},\qquad\vv B=\vv B_0e^{i(\vv k\cdot\vv r-\omega t)}.\]
+\[\vv k=k_x\hat u_x+k_y\hat u_y+k_z\hat u_z,\qquad c=\omega/|\vv k|=\omega/k.\]
+\[\partial_t^2E_x=\frac1{\mu_0\epsilon_0}(\partial_x^2E_x+\partial_y^2E_x+\partial_z^2E_x),\qquad E_x=E_{0x}e^{i(k_xx+k_yy+k_zz-\omega t)}.\]
+Osserviamo $\vv E=E_x\hat u_x+E_y\hat u_y+E_z\hat u_z$:
+\[\vv\nabla\cdot\vv E=\partial_xE_x+\partial_yE_y+\partial_zE_z=i(k_xE_x+k_yE_y+k_zE_z)=0\implies\vv k\cdot\vv E=0.\]
+Analogamente $\vv k\cdot\vv B=0$.
+Dalle componenti di $\vv\nabla\times\vv E=-\partial_t\vv B$:
+\[ik_yE_z-ik_zE_y=i\omega B_x,\quad ik_zE_x-ik_xE_z=i\omega B_y,\quad ik_xE_y-ik_yE_x=i\omega B_z.\]
+\[\vv k\times\vv E=\omega\vv B\implies kE=\omega B\implies E=(\omega/k)B=cB.\]
+$\vv E\cdot\vv B=0$: perpendicolari; $\vv E\perp\vv B$, entrambe perpendicolari alla propagazione.
+% Pagina originale 19
+\pagina{19}
+$\vv E\times\vv B$ indica la direzione di propagazione.
+\[\vv E\times\vv B=\frac1\omega\vv E\times(\vv k\times\vv E)=\frac1\omega[\vv k(\vv E\cdot\vv E)-\vv E(\vv E\cdot\vv k)]=\frac1\omega\vv kE^2=\frac{E^2}c\hat u_k=EB\hat u_k.\]
+Proprietà onde EM:
+\begin{enumerate}\item $\vv E$ e $\vv B$ si propagano alla velocità della luce.\item $B=E/c\iff E=Bc$.\item $\vv E\perp\vv B$.\item $\vv E\times\vv B$ fornisce il verso di propagazione $\hat u_k$.\end{enumerate}
+Caso di propagazione semplice in un solo asse ($x$):
+\[\vv E=E_0e^{i(kx-\omega t)}\hat u_y,\qquad\vv B=B_0e^{i(kx-\omega t)}\hat u_z.\]
+\section*{Onde di propagazione generale (onde piane)}
+Propagazione nell'asse $x$, campo elettrico e magnetico nel piano $yz$:
+\[\vv E=E_{0y}e^{i(kx-\omega t)}\hat u_y+E_{0z}e^{i(kx-\omega t)}\hat u_z,\]
+\[\vv B=B_{0y}e^{i(kx-\omega t)}\hat u_y+B_{0z}e^{i(kx-\omega t)}\hat u_z.\]
+% Pagina originale 20
+\pagina{20}
+Ricordando $\vv k\times\vv E=\omega\vv B$ e $\vv k=k\hat u_x$:
+\[-kE_z=\omega B_y,\quad kE_y=\omega B_z,\quad B_y=-E_z/c,\quad B_z=E_y/c,\quad E_z=-B_yc,\quad E_y=B_zc.\]
+\[\vv B=\hat u_zE_y/c-\hat u_yE_z/c,\quad\vv E=\hat u_yB_zc-\hat u_zB_yc,\]
+\[\vv E=(0,B_zc,-B_yc),\quad\vv B=(0,-E_z/c,E_y/c)=(0,B_y,B_z).\]
+\[\vv E\cdot\vv B=B_yB_zc-B_zB_yc=0.\]
+\[\vv E\times\vv B=\begin{vmatrix}\hat u_x&\hat u_y&\hat u_z\\0&B_zc&-B_yc\\0&B_y&B_z\end{vmatrix}=c(B_y^2+B_z^2)\hat u_x=cB^2\hat u_x=EB\hat u_x=\frac{E^2}c\hat u_x.\]
+\section*{Onde nei dielettrici}
+L'unica equazione di Maxwell che cambia è $\vv\nabla\times\vv B=\mu\epsilon\partial_t\vv E$, con $\mu\epsilon=1/v^2$.
+\[v=\frac1{\sqrt{\mu\epsilon}}=\frac1{\sqrt{\epsilon_0\mu_0}}\frac1{\sqrt{\mu_r\epsilon_r}}=\frac c{\sqrt{\mu_r\epsilon_r}}<c.\]
+Nella maggior parte dei mezzi ordinari $\mu_r=1$, quindi $v=c/\sqrt{\epsilon_r}=c/n$; $n$ indice di rifrazione del mezzo.
+\[Z_0=\sqrt{\mu_0/\epsilon_0}=377\ \Omega\quad\text{impedenza nel vuoto},\qquad Z=Z_0/n\quad\text{impedenza nel mezzo}.\]
+% Pagina originale 21
+\pagina{21}\section*{Vettore di Poynting}
+\[\vec S=\frac1{\mu_0}\vec E\times\vec B=\frac{EB}{\mu_0}\hat u_k,\qquad \vec S\parallel\hat u_k\parallel\vec k,\qquad |\vec S|=\frac{EB}{\mu_0}.\]
+Il modulo rappresenta l'energia elettromagnetica che passa in un secondo per ogni metro quadrato. Le onde EM trasportano energia e non solo: esse riescono a trasferire quantità di moto esercitando una pressione di ``radiazione''.
+\[p_{\rm rad}=\frac Ic\quad\text{(onda completamente assorbita)},\qquad p_{\rm rad}=\frac{2I}c\quad\text{(onda totalmente riflessa)}.\]
+Se l'onda è in parte riflessa e in parte assorbita,
+\[p_{\rm rad}\in(I/c,2I/c),\qquad p_{\rm rad}=\frac Ic(1+r_R),\]
+con $r_R$ coefficiente, percentuale di riflessione [simbolo manoscritto poco chiaro]. Se l'onda forma un angolo $\theta>0$ con la normale alla superficie $\Sigma$:
+\[p_{\rm rad}=\frac Ic\cos^2\theta\quad\text{(assorbimento)},\qquad p_{\rm rad}=\frac{2I}c\cos^2\theta\quad\text{(riflessione)}.\]
+Ricordiamo che $I=P/\Sigma$ e $I=\tfrac12\epsilon_0cE^2$, dove $\epsilon_0=8.85\cdot10^{-12}\,\mathrm{F/m}$ è la permittività del vuoto.
+% Pagina originale 22
+\pagina{22}\section*{Tipi di onde EM}
+\begin{center}\includegraphics[width=.95\linewidth]{ottica_tex_assets/b21_p22_spectrum.png}\end{center}
+\begin{center}\begin{tabular}{ll}Rosso&$780$--$622$ nm\\Arancione&$622$--$597$ nm\\Giallo&$597$--$577$ nm\\Verde&$577$--$492$ nm\\Azzurro&$492$--$455$ nm\\Violetto&$455$--$380$ nm\end{tabular}\end{center}
+I colori che vediamo sono la sovrapposizione delle onde EM riflesse dal materiale dell'oggetto. Il nero assorbe tutto. Il bianco riflette tutto.
+\section*{Produzione di onde EM}
+L'oscillazione di due cariche di segno opposto produce una perturbazione delle linee di campo che si propaga nello spazio. La coppia di cariche elettriche (detta dipolo oscillante) oscillanti è chiamata ``antenna''.
+\begin{center}\includegraphics[width=.23\linewidth]{ottica_tex_assets/b21_p22_dipole.png}\end{center}
+Si produce un campo elettrico $E$ per presenza di cariche elettriche; si produce un campo magnetico per presenza di cariche elettriche in movimento. Per produrre (e ricevere) un'onda EM si utilizza un circuito RLC.
+% Pagina originale 23
+\pagina{23}
+\begin{center}\includegraphics[width=.9\linewidth]{ottica_tex_assets/b21_p23_circuit.png}\end{center}
+Il campo elettrico generato dall'antenna è un'onda sferica:
+\[E=E_\theta=\frac{p_0\sin\theta}{4\pi\epsilon_0c^2}\frac{\omega^2}{r}\sin(kr-\omega t),\qquad r\gg\lambda\gg\text{dimensione del dipolo}.\]
+\[E\propto\frac1r\quad\text{come quasi sempre per le onde sferiche},\qquad E=0\text{ per }\theta=k\pi,\quad k=0,1,\ldots\]
+Il campo non c'è lungo l'asse del dipolo. L'intensità è calcolabile con la formula $I=\tfrac12\epsilon_0cE_0^2$. La potenza vale
+\[P=\frac{8\pi}{3}I_0,\qquad P=\int_\Sigma I(r,\theta)\,d\Sigma.\]
+\section*{Polarizzazione delle onde EM}
+\begin{center}\includegraphics[width=.85\linewidth]{ottica_tex_assets/b21_p23_polarization.png}\end{center}
+Onda piana non polarizzata; onda piana polarizzata rettilineamente.
+% Pagina originale 24
+\pagina{24}\section*{Polarizzazione rettilinea}
+\[\hat u_p=\hat u_E\quad\text{direzione di polarizzazione}.\]
+Il piano contenente $\vec E$ e $\vec k$ è il piano di propagazione.
+\begin{center}\includegraphics[width=.85\linewidth]{ottica_tex_assets/b21_p24_wave.png}\end{center}
+In generale
+\[E_y(x,t)=E_{0y}\cos(kx-\omega t+\delta),\qquad E_z(x,t)=E_{0z}\cos(kx-\omega t).\]
+Se $\delta=k\pi$ si ha una polarizzazione rettilinea. Se $\delta=\tfrac{2k+1}{2}\pi$ si ha una polarizzazione circolare.
+\begin{center}\includegraphics[width=.9\linewidth]{ottica_tex_assets/b21_p24_circular.png}\end{center}
+Nella polarizzazione circolare
+\[\frac{E_y^2}{E_{0y}^2}+\frac{E_z^2}{E_{0z}^2}=1.\]
+Nelle onde non polarizzate $\delta$ è variabile.
+\section*{Lamine polarizzatrici}
+Trasmettono solo la componente lungo la direzione dell'asse ottico.
+% Pagina originale 25
+\pagina{25}
+\begin{center}\includegraphics[width=.5\linewidth]{ottica_tex_assets/b21_p25_malus.png}\end{center}
+Viene trasmessa solo la componente parallela all'asse polarizzatore, $E_0\cos\theta$; la componente ortogonale è $E_0\sin\theta$.
+\[I'=I_0\cos^2\theta\qquad\text{(legge di Malus)}.\]
+Cambia l'intensità trasmessa. $I'=I_0/2$ nel caso di radiazione non polarizzata. Su questo effetto si basa il 3D (occhiali 3D).
+\section*{Riflessione e rifrazione}
+Riflessione: avviene all'interno dello stesso materiale ($n_1=n_2$, indice di rifrazione).
+\[\theta_1=\theta_2\quad\text{(prima legge)}.\]
+Il raggio incidente $i$, il riflesso $r$ e la normale $o$ sono complanari (seconda legge).
+Rifrazione: avviene quando l'onda cambia mezzo di trasmissione ($n_1\ne n_2$).
+\[n_1\sin\theta_1=n_2\sin\theta_2\quad\text{(prima legge, legge di Snell)}.\]
+Il raggio incidente $i$, il trasmesso (rifratto) $t$ e la normale $o$ sono complanari (seconda legge).
+\[n=\frac cv,\qquad n\ge1\quad\forall\text{ materiale}.\]
+\begin{center}\includegraphics[width=.46\linewidth]{ottica_tex_assets/b21_p25_reflection.png}\includegraphics[width=.46\linewidth]{ottica_tex_assets/b21_p25_refraction.png}\end{center}
+% Pagina originale 26
+\pagina{26}
+\begin{center}\includegraphics[width=.62\linewidth]{ottica_tex_assets/b21_p26_geometry.png}\end{center}
+\begin{align*}
+k_{i,y}=k_{r,y}&\implies k_i\sin\alpha=k_r\sin\beta\implies\frac\omega c n_1\sin\alpha=\frac\omega c n_1\sin\beta\implies\alpha=\beta,\\
+k_{i,y}=k_{t,y}&\implies k_i\sin\alpha=k_t\sin\beta\implies\frac\omega c n_1\sin\alpha=\frac\omega c n_2\sin\beta\implies n_1\sin\alpha=n_2\sin\beta.
+\end{align*}
+Leggi di Snell per riflessione e rifrazione.
+\section*{Condizioni di raccordo}
+\begin{align*}
+E_{1\parallel}=E_{2\parallel}&\implies D_{1\parallel}/\epsilon_1=D_{2\parallel}/\epsilon_2,\\
+D_{1\perp}=D_{2\perp}&\implies\epsilon_1E_{1\perp}=\epsilon_2E_{2\perp},\\
+H_{1\parallel}=H_{2\parallel}&\implies B_{1\parallel}/\mu_1=B_{2\parallel}/\mu_2,\\
+B_{1\perp}=B_{2\perp}&\implies\mu_1H_{1\perp}=\mu_2H_{2\perp}.
+\end{align*}
+Ricordiamo $D=\epsilon E$, $B=\mu H$. Possiamo esaminare due tipi di polarizzazione: $\sigma$ ($s$), ortogonale al piano di incidenza; $\pi$ ($p$), parallela al piano di incidenza. Ora troviamo le formule di raccordo di $E$ e $B$ nel passaggio da un materiale con indice di rifrazione $n_1$ a uno con indice $n_2\ne n_1$.
+% Pagina originale 27
+\pagina{27}\section*{Polarizzazione $\sigma$ rispetto a $E$}
+\begin{center}\includegraphics[width=.38\linewidth]{ottica_tex_assets/b21_p27_geometry.png}\end{center}
+\begin{align*}
+E_{1\parallel}=E_{2\parallel}&\implies E_i+E_r=E_t,\\
+H_{1\parallel}=H_{2\parallel}&\implies H_i'+H_r'=H_t',\\
+-H_i\cos\theta_i+H_r\cos\theta_r&=-H_t\cos\theta_t.
+\end{align*}
+Poiché $\theta_i=\theta_r$, $H_r-H_i=-\chi H_t$, con $\chi=\cos\theta_t/\cos\theta_i$.
+\[H=\frac B\mu=\frac E{\mu v}=\frac{E\sqrt{\epsilon\mu}}\mu=E\sqrt{\frac\epsilon\mu}=E\sqrt{\frac{\epsilon_0\epsilon_r}{\mu_0\mu_r}}=E\sqrt{\frac{\epsilon_0}{\mu_0}}\sqrt{\epsilon_r}=E\frac n{Z_0}.\]
+\[H_r-H_i=-\chi H_t\implies\frac{E_r}{Z_0}n_1-\frac{E_i}{Z_0}n_1=-\chi\frac{E_t}{Z_0}n_2\implies E_r-E_i=-\chi E_t\frac{n_2}{n_1}.\]
+Ponendo $\eta=n_2/n_1$:
+\[\begin{cases}E_i+E_r=E_t\\E_i-E_r=\chi\eta E_t\end{cases}\implies\begin{cases}E_r=\dfrac{1-\eta\chi}{1+\eta\chi}E_i\\E_t=\dfrac2{1+\eta\chi}E_i.\end{cases}\]
+\[r_\sigma=\frac{E_r}{E_i}=\frac{1-\eta\chi}{1+\eta\chi},\qquad t_\sigma=\frac{E_t}{E_i}=\frac2{1+\eta\chi}.\]
+$r_\sigma$ è il coefficiente di riflessione per polarizzazione $\sigma$; $t_\sigma$ è il coefficiente di trasmissione per polarizzazione $\sigma$.
+% Pagina originale 28
+\pagina{28}\section*{Polarizzazione $\pi$ rispetto a $E$}
+\begin{center}\includegraphics[width=.38\linewidth]{ottica_tex_assets/b21_p28_geometry.png}\end{center}
+\begin{align*}
+H_{1\parallel}=H_{2\parallel}&\implies H_i-H_r=H_t,\\
+E_{1\parallel}=E_{2\parallel}&\implies E_i\cos\theta_i+E_r\cos\theta_r=E_t\cos\theta_t\implies E_i+E_r=\chi E_t.
+\end{align*}
+$H=En/Z_0$, come visto nella precedente dimostrazione:
+\[E_i\frac{n_1}{Z_0}-E_r\frac{n_1}{Z_0}=E_t\frac{n_2}{Z_0}\implies E_i-E_r=\eta E_t.\]
+\[\begin{cases}E_i+E_r=\chi E_t\\E_i-E_r=\eta E_t\end{cases}\implies\begin{cases}E_r=\dfrac{\chi-\eta}{\chi+\eta}E_i\\E_t=\dfrac2{\chi+\eta}E_i.\end{cases}\]
+\[r_\pi=\frac{E_r}{E_i}=\frac{\chi-\eta}{\chi+\eta},\qquad t_\pi=\frac{E_t}{E_i}=\frac2{\chi+\eta},\qquad\eta=\frac{n_2}{n_1},\quad\chi=\frac{\cos\theta_t}{\cos\theta_i}.\]
+$r_\pi$ è il coefficiente di riflessione per polarizzazione $\pi$; $t_\pi$ è il coefficiente di trasmissione per polarizzazione $\pi$.
+\section*{Angolo limite}
+Esiste $\theta_0$, detto ``angolo limite'', con
+\[\theta_0=\arcsin\frac{n_2}{n_1},\qquad n_1>n_2.\]
+Se si forma un angolo $\theta>\theta_0$ non ci sarà trasmissione ma solo riflessione. $n_1$: sorgente; $n_2$: destinazione. Se $n_1<n_2$ non esiste un angolo limite; ogni $\theta\in[0,\pi/2)$ è disponibile per la rifrazione.
+% Pagina originale 29
+\pagina{29}
+$t_\sigma$ e $t_\pi$ sono sempre positivi. $r_\sigma$ e $r_\pi$ sono sempre positivi quando $n_1>n_2$, sempre negativi quando $n_1<n_2$ [affermazione trascritta dall'originale]. $r$ e $t$ sono chiamati coefficienti di Fresnel.
+\section*{Energia}
+\[W=I\Sigma_0\cos\theta,\qquad I=\tfrac12\epsilon v E^2.\]
+\begin{align*}
+W_i&=\frac12\frac c{\sqrt{\epsilon_{r1}}}\epsilon_{r1}\epsilon_0|E_i|^2\Sigma_0\cos\theta_i,\\
+W_r&=\frac12\frac c{\sqrt{\epsilon_{r1}}}\epsilon_{r1}\epsilon_0|E_r|^2\Sigma_0\cos\theta_i,\\
+W_t&=\frac12\frac c{\sqrt{\epsilon_{r2}}}\epsilon_{r2}\epsilon_0|E_t|^2\Sigma_0\cos\theta_t.
+\end{align*}
+\[R_\sigma=\frac{W_r}{W_i}=\frac{|E_r|^2}{|E_i|^2}=r_\sigma^2,\qquad T_\sigma=\frac{W_t}{W_i}=\frac{|E_t|^2}{|E_i|^2}\sqrt{\frac{\epsilon_{r2}}{\epsilon_{r1}}}\chi=\eta\chi t_\sigma^2.\]
+\[R_\pi=r_\pi^2,\qquad T_\pi=\eta\chi t_\pi^2,\qquad\sqrt{\epsilon_{r2}/\epsilon_{r1}}=n_2/n_1=\eta.\]
+\begin{align*}
+R_\sigma+T_\sigma=1&\iff r_\sigma^2+\eta\chi t_\sigma^2=1\\
+&\iff\frac{(1-\eta\chi)^2}{(1+\eta\chi)^2}+\eta\chi\frac4{(1+\eta\chi)^2}=1\\
+&\iff(1-\eta\chi)^2+4\eta\chi=(1+\eta\chi)^2\\
+&\iff-2\eta\chi+4\eta\chi=2\eta\chi.
+\end{align*}
+\section*{Caso di incidenza normale}
+Non è più definibile il piano di incidenza $\pi$.
+\[r_\sigma=\frac{1-\eta\chi}{1+\eta\chi},\quad t_\sigma=\frac2{1+\eta\chi},\qquad r_\pi=\frac{\chi-\eta}{\chi+\eta},\quad t_\pi=\frac2{\chi+\eta},\quad\chi=1.\]
+% Pagina originale 30
+\pagina{30}
+Poiché $\theta_i=\theta_r=\theta_t=0$, $\chi=1$:
+\[r_\sigma=r_\pi=\frac{1-\eta}{1+\eta},\qquad t_\sigma=t_\pi=\frac2{1+\eta}.\]
+$\sigma$ e $\pi$ coincidono. Se $n_1<n_2$ (aria $\to$ vetro), $r_\sigma<0$, $t_\sigma>0$. Se $n_1>n_2$ (vetro $\to$ aria), $r_\sigma>0$, $t_\sigma>0$.
+\begin{center}\includegraphics[width=.45\linewidth]{ottica_tex_assets/b21_p30_signs.png}\end{center}
+\section*{Angolo di Brewster}
+\[\exists\theta_B\in(0,\pi/2):R_\pi=0,\qquad R_\pi=r_\pi^2=\frac{\tan^2(\theta_i-\theta_t)}{\tan^2(\theta_i+\theta_t)}.\]
+\begin{center}\includegraphics[width=.45\linewidth]{ottica_tex_assets/b21_p30_graph.png}\end{center}
+Se $\theta_i+\theta_t=\pi/2$, allora $R_\pi=0\implies r_\pi^2=0\implies r_\pi=0\implies E_r=0$: non c'è riflessione. Calcoliamo $\theta_B$:
+\[\theta_B+\theta_t=\pi/2,\qquad\frac{n_2}{n_1}=\frac{\sin\theta_i}{\sin\theta_t}=\frac{\sin\theta_B}{\sin(\pi/2-\theta_B)}=\frac{\sin\theta_B}{\cos\theta_B}=\tan\theta_B.\]
+\[\tan\theta_B=\eta\implies\theta_B=\arctan\eta.\]
+% Pagina originale 31
+\pagina{31}
+L'angolo di Brewster e l'angolo critico/limite,
+\[\theta_B=\arctan\eta,\qquad\theta_0=\arcsin\eta,\]
+sono angoli particolari, dove c'è totale rifrazione o totale riflessione (cioè $r_\pi(\theta_B)=0$ e $t_\pi(\theta_0)=0$). Con $\theta_i=\theta_B$ non c'è riflessione. Con $\theta_i\ge\theta_0$ non c'è rifrazione.
+\section*{Passaggio nei materiali}
+Le caratteristiche delle onde che cambiano da un materiale a un altro sono:
+\begin{align*}
+v&=\frac c{\sqrt{\epsilon_r}}=\frac cn,&v_0&=c,&\frac v{v_0}&=\frac1n,\\
+k&=\frac\omega v=\frac\omega c n,&k_0&=\frac\omega c,&\frac k{k_0}&=n,\\
+\lambda&=\frac{2\pi}k=\frac{2\pi c}{\omega n},&\lambda_0&=\frac{2\pi c}\omega,&\frac\lambda{\lambda_0}&=\frac1n.
+\end{align*}
+$f$ e $\omega=2\pi f$ rimangono invariati:
+\[f=\frac v\lambda=\frac v\lambda\frac{v_0}v\frac\lambda{\lambda_0}=\frac v\lambda\frac1n n=f_0=f.\]
+\[n=\frac cv=\frac k{k_0}=\frac{\lambda_0}\lambda=\sqrt{\epsilon_r}.\]
+% Pagina originale 32
+\pagina{32}\section*{Principio di Fermat}
+Cammino geometrico: $L_g=\overline{PQ}+\overline{QP'}$. Cammino ottico: $L_n=n_1\overline{PQ}+n_2\overline{QP'}$.
+\subsection*{Riflessione}
+\begin{center}\includegraphics[width=.4\linewidth]{ottica_tex_assets/b21_p32_reflection.png}\end{center}
+\[L=\sqrt{a^2+x^2}+\sqrt{b^2+(D-x)^2},\qquad t=L/c.\]
+\begin{align*}
+\frac{\partial t}{\partial x}=0&\implies\frac1c\frac{dL}{dx}=\frac1{2c}(a^2+x^2)^{-1/2}2x-\frac1{2c}[b^2+(D-x)^2]^{-1/2}2(D-x)=0\\
+&\implies\frac x{\sqrt{a^2+x^2}}=\frac{D-x}{\sqrt{b^2+(D-x)^2}}\\
+&\implies\sin\theta_i=\sin\theta_r\implies\boxed{\theta_i=\theta_r}.
+\end{align*}
+\subsection*{Rifrazione}
+\begin{center}\includegraphics[width=.4\linewidth]{ottica_tex_assets/b21_p32_refraction.png}\end{center}
+\[L=n_1\underbrace{\sqrt{a^2+x^2}}_{L_1}+n_2\underbrace{\sqrt{b^2+(D-x)^2}}_{L_2},\qquad t=L/c=n_1L_1/c+n_2L_2/c=t_{AP}+t_{PB}.\]
+\[\frac{\partial t}{\partial x}=0\implies n_1\frac x{\sqrt{a^2+x^2}}=n_2\frac{D-x}{\sqrt{b^2+(D-x)^2}}\implies\boxed{n_1\sin\theta_i=n_2\sin\theta_t}\quad\text{legge di Snell}.\]
+% Pagina originale 33
+\pagina{33}\section*{Attraversamento di lamina piana}
+\begin{center}\includegraphics[width=.38\linewidth]{ottica_tex_assets/b21_p33_slab.png}\end{center}
+Se $n_1=n_3$ (stesso materiale), allora $\theta_1=\theta_3$. Dimostrazione:
+\[n_1\sin\theta_1=n_2\sin\theta_2=n_3\sin\theta_3\implies n_1\sin\theta_1=n_1\sin\theta_3\implies\theta_1=\theta_3.\]
+L'angolo con il quale è entrato il raggio sarà lo stesso con il quale esce.
+\section*{Effetti visivi della rifrazione}
+\begin{center}\includegraphics[width=.4\linewidth]{ottica_tex_assets/b21_p33_apparent.png}\end{center}
+L'immagine che vediamo è più vicina (apparente) e meno obliqua, come in figura.
+\section*{Angolo di deviazione}
+Consideriamo un prisma. In questo caso l'attraversamento di un oggetto porta a una deviazione dell'onda perché cambiano il primo e il secondo normale ($o_1\not\parallel o_2$).
+\begin{center}\includegraphics[width=.42\linewidth]{ottica_tex_assets/b21_p33_prism.png}\end{center}
+\[\delta=(i_1-r_1)+(i_2-r_2),\qquad\alpha=\pi-[(\pi/2-r_1)+(\pi/2-r_2)]=r_1+r_2\implies\delta=i_1+i_2-\alpha.\]
+% Pagina originale 34
+\pagina{34}
+\[\begin{cases}\delta=i_1+i_2-\alpha\\\alpha=r_1+r_2\\\sin i_1=n\sin r_1\\n\sin r_2=\sin i_2\end{cases}\implies\begin{cases}\dfrac{d\delta}{di_1}=1+\dfrac{di_2}{di_1}\\dr_1+dr_2=0\quad(\alpha\text{ costante})\\\cos i_1\,di_1=n\cos r_1\,dr_1\\n\cos r_2\,dr_2=\cos i_2\,di_2.\end{cases}\]
+Per trovare $\delta_{\min}$ annulliamo $d\delta/di_1$, quindi $di_2/di_1=-1$ [nel manoscritto il rapporto appare invertito, equivalente qui]. Con alcuni passaggi geometrici arriviamo a
+\[\sin^2i_1=\sin^2i_2\implies i_1=i_2=i,\qquad r_1=r_2=r.\]
+\[\begin{cases}\delta_{\min}=2i-\alpha\\\alpha=2r\end{cases}\qquad n=\frac{\sin i_1}{\sin r_1}=\frac{\sin i}{\sin r}=\frac{\sin\dfrac{\alpha+\delta_{\min}}2}{\sin\dfrac\alpha2}.\]
+\section*{Ottica geometrica}
+Oggetto: corpo che emette luce propria o diffonde luce di un altro corpo. Strumento ottico: apparato che riflette o rifrange la luce emessa da un oggetto. Immagine: luce emessa dall'oggetto trasformata da uno strumento ottico e raccolta su uno schermo. Ottica geometrica: materia che studia la formazione di immagini mediante strumenti ottici.
+Nell'ottica geometrica non entra in gioco la natura ondulatoria della luce poiché la lunghezza d'onda è di molto inferiore alle superfici degli strumenti ottici.
+% Pagina originale 35
+\pagina{35}\section*{Elemento ottico}
+\begin{center}\includegraphics[width=.4\linewidth]{ottica_tex_assets/b21_p35_element.png}\end{center}
+$C$: centro; $R$: raggio di curvatura; $V$: intersezione fra asse e superficie, vertice.
+Una superficie che presenta solo riflessione è detta superficie catottrica (specchio). Una superficie che presenta rifrazione è detta superficie diottrica (diottro). Una lente è l'insieme di due diottri opportunamente disposti. Un elemento è stigmatico se trasforma un punto oggetto in un unico punto immagine.
+\section*{Specchio concavo}
+\begin{center}\includegraphics[width=.43\linewidth]{ottica_tex_assets/b21_p35_mirror.png}\end{center}
+\[\theta+i=\alpha,\qquad\theta'=\alpha+r\implies\theta+\theta'=2\alpha,\qquad i=r=\widehat{CNQ}.\]
+\begin{align*}y&=NV\simeq NH\quad\text{distanza trasversale},\\p&=PV\simeq PH\quad\text{distanza dell'oggetto da }V,\\q&=QV\simeq QH\quad\text{distanza dell'immagine da }V.\end{align*}
+In ottica gaussiana $HV\simeq0$, quindi $\tan\theta\simeq\sin\theta\simeq\theta$.
+
+\input{ottica_tex_assets/blocco_36_61.tex}
+\end{document}

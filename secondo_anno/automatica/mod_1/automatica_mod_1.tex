@@ -1,0 +1,311 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\IfFileExists{italian.ldf}{\usepackage[italian]{babel}}{\usepackage[english]{babel}}\usepackage{amsmath,amssymb,geometry,tikz,graphicx}\geometry{margin=2cm}\usetikzlibrary{arrows.meta,positioning}
+\newcommand{\pagina}[1]{\clearpage}
+\newcommand{\autfig}[2]{\begin{center}\includegraphics[width=.78\linewidth,height=.32\textheight,keepaspectratio]{automatica_mod_1_tex_assets/fig_#1_#2.png}\end{center}}
+\begin{document}\title{Automatica --- Modulo 1}\maketitle
+% Pagina originale 1
+\section*{Legenda}
+\subsection*{1. Introduzione}
+\begin{itemize}
+\item Cos’è un sistema
+\item Orientamento del modello
+\item Segnale
+\item Riferimento
+\item Controllo ad anello aperto
+\item Controllo ad anello chiuso
+\item Retroazione
+\item Schema a blocchi di un sistema di controllo
+\item Tassonomia dei sistemi: statico, dinamico, causali, non causali, tempo invarianti, tempo varianti, lineare, non lineare, tempo continuo, tempo discreto
+\item PSE
+\item Risposta libera
+\item Risposta forzata
+\end{itemize}
+\subsection*{2. SEGNALI CAUSALI}
+\begin{itemize}
+\item Segnali canonici: impulso di durata finita, delta di Dirac, gradino unitario, rampa unitaria, rampa parabolica
+\item Relazione tra segnali canonici
+\item Risposta all’impulso
+\item Integrale di convoluzione
+\end{itemize}
+\subsection*{3. TRASFORMATA DI LAPLACE}
+\begin{itemize}
+\item Proprietà della trasformata
+\item Esempi di trasformata
+\item Th. valor finale
+\item Th. valor iniziale
+\item Trasformata della convoluzione
+\item Trovare $G(s)$ senza conoscere $g(t)$
+\item Proprietà FDT
+\item Poli e zeri
+\item Rappresentazione della f.d.t.
+\item Mappa poli-zeri
+\item Velocità del sistema
+\item Antitrasformata di Laplace
+\item Calcolo di $k_i$
+\item Caso di poli complessi coniugati
+\item Poli con molteplicità $>1$
+\item Calcolare la risposta forzata a $\delta(t)$ conoscendo $G(s)$
+\item Th. dei residui
+\item Schema a blocchi
+\end{itemize}
+\subsection*{4. SISTEMI DI PRIMO/SECONDO ORDINE}
+\begin{itemize}
+\item Sistema del primo ordine
+\item Analisi sistema primo ordine privo di zeri
+\item Analisi della risposta
+\item Tempo di assestamento
+\item Tempo di salita
+\item Tempo di ritardo
+\item Risposta alla rampa
+\item Sistemi del primo ordine con uno zero
+\item Sistema del secondo ordine
+\item Risposta al gradino di un sistema del secondo ordine privo di zeri
+\item Inviluppi
+\item Massimi e minimi locali
+\item Tempo di picco
+\item Tempo di salita
+\item Tempo di assestamento
+\item Luoghi a $\delta$ e $\omega_n$ costante
+\item Massima sovraelongazione percentuale
+\item Sistemi del secondo ordine con uno zero
+\end{itemize}
+\subsection*{5. STABILITÀ}
+\begin{itemize}
+\item Semplicemente stabile
+\item Asintoticamente stabile
+\item Instabile
+\item Classificazione della stabilità in base ai poli di $G(s)$
+\item Analisi stabilità sistema ad anello chiuso
+\item Lemma di Routh
+\item Criterio di Routh-Hurwitz
+\item Th. Routh-Hurwitz
+\item Stabilità di un sistema con parametri
+\end{itemize}
+% Pagina originale 2
+\pagina{2}
+\subsection*{6. ERRORI E DISTURBI}
+\begin{itemize}
+\item Precisione di sistemi di controllo a regime permanente
+\item Errore di posizione
+\item Errore di velocità
+\item Errore di accelerazione
+\item Errore a regime permanente nei sistemi di controllo a retroazione unitaria
+\item Reiezione dei disturbi a regime
+\item Disturbi sul ramo di retroazione
+\item Tecnica di precompensazione dei disturbi
+\item Sensibilità alle variazioni parametriche
+\end{itemize}
+\subsection*{7. LUOGO DELLE RADICI}
+\begin{itemize}
+\item Regola delle fasi
+\item Eq. di taratura
+\item Regole di Evans
+\end{itemize}
+\input{automatica_mod_1_tex_assets/blocco_automa_3_22_integrale.tex}
+% Pagina originale 23
+\pagina{23}
+\subsection*{Sistemi del primo ordine, $n=1$}
+\[a_1y'+a_0y=b_1u'+b_0u,\quad a_1\ne0.\]
+Risposta forzata (C.I. nulle):
+\begin{align*}
+a_1sY(s)+a_0Y(s)&=b_1sU(s)+b_0U(s),\\
+Y(s)[a_1s+a_0]&=U(s)[b_1s+b_0],\\
+\frac{Y(s)}{U(s)}&=\frac{b_1s+b_0}{a_1s+a_0}=\frac{b_1}{a_1}\frac{s+b_0/b_1}{s+a_0/a_1}.
+\end{align*}
+\[p=-\frac{a_0}{a_1},\quad z=-\frac{b_0}{b_1},\quad b_1=0\Longleftrightarrow\text{non ci sono zeri},\quad k_0=\frac{b_1}{a_1},\quad G(s)=k_0\frac{s-z}{s-p}.\]
+\[G(s)=\frac{b_0}{a_0}\frac{1+(b_1/b_0)s}{1+(a_1/a_0)s},\quad G(0)=\frac{b_0}{a_0}=k_1\quad\text{(guadagno statico)}.\]
+\[\tau=\frac{a_1}{a_0},\quad \alpha\tau=\frac{b_1}{b_0},\quad \alpha=\frac{b_1a_0}{b_0a_1}=\left(-\frac1z\right)(-p)=\frac pz,\quad G(s)=k_1\frac{1+\alpha\tau s}{1+\tau s}.\]
+Se $b_1=0$, sistema del primo ordine privo di zeri:
+\[G(s)=\frac{k_1}{1+\tau s},\quad\alpha=0.\]
+\subsection*{Analisi del sistema del primo ordine privo di zeri}
+\[Y_f(s)=\frac{G(s)}s=\frac{k}{s(1+\tau s)}=\frac{k_1}s+\frac{k_2}{1+\tau s}.\]
+\[y_f(t)=\left(k_1+\frac{k_2}\tau e^{-t/\tau}\right)1(t)=\left(k-ke^{-t/\tau}\right)1(t).\]
+$k_1=k$ e $k_2/\tau=-k$ per il teorema dei residui.
+% Pagina originale 24
+\pagina{24}
+\[y_f(t)=k(1-e^{-t/\tau})1(t).\]
+\begin{enumerate}
+\item $\tau>0\Rightarrow p<0$: $y_f(\infty)=k$.
+\item $\tau<0\Rightarrow p>0$: diverge, $y_f(\infty)=-\infty$ se $k>0$, $+\infty$ se $k<0$ (segni riportati come nell'originale).
+\item $\tau\to\infty\Rightarrow p\to0$.
+\end{enumerate}
+\[a_1y'+a_0y=b_0u,\quad p=-a_0/a_1,\quad p\to0\Rightarrow a_0\to0,\quad a_1y'=b_0u.\]
+\[G(s)=\frac{b_0}{a_1s}=\frac{b_0}{a_1}\frac1s=\frac ks,\quad Y(s)=\frac{k}{s^2},\quad y_f(t)=kt1(t).\]
+\subsection*{Analisi della risposta ($\tau>0$)}
+\[y(0)=0,\quad y(\infty)=k=G(0),\quad y(\tau)=0.63k,\quad y(2\tau)=0.86k,\quad y(3\tau)=0.95k,\quad y(5\tau)\simeq k.\]
+Non esiste $\bar t$ tale che $y(\bar t)>y(\infty)=k$. Funzione monotona crescente con asintoto $y=k$.
+\[\frac{dy(t)}{dt}=g(t),\qquad g(t)=\frac k\tau e^{-t/\tau}1(t).\]
+$k/\tau$ è la risposta all'impulso $\delta(t)$ in $t=0$.
+\autfig{24}{1}
+% Pagina originale 25
+\pagina{25}
+\subsection*{Tempo di assestamento $t_{s,\varepsilon\%}$ (settling time)}
+Esiste $t_{s,\varepsilon\%}$ tale che per ogni $t>t_{s,\varepsilon\%}$:
+\[|y(t)-y(\infty)|\le\frac{\varepsilon}{100}y(\infty),\quad (1-\varepsilon/100)y(\infty)\le y(t)\le(1+\varepsilon/100)y(\infty).\]
+\begin{align*}
+\frac{y(t)}{y(\infty)}&\ge1-\frac\varepsilon{100},&y(t)&\ge k\left(1-\frac\varepsilon{100}\right),\\
+k(1-e^{-t/\tau})1(t)&\ge k(1-\varepsilon/100)1(t),&e^{-t/\tau}&\le\frac\varepsilon{100},\\
+\frac t\tau&\ge-\log\frac\varepsilon{100},&t&\ge-\tau\log\frac\varepsilon{100}.
+\end{align*}
+\[t_{s,\varepsilon\%}=\tau\left(-\log\frac\varepsilon{100}\right)\quad\text{(sistema primo ordine senza zeri)}.\]
+\subsection*{Tempo di salita $t_r$ (rise time)}
+\[t_r=t_2-t_1=t_{s,10\%}-t_{s,90\%}\simeq2.2\tau.\]
+Tempo per passare dal 10\% al 90\%.
+\subsection*{Tempo di ritardo $t_d$ (delay time)}
+\[t_d=t_{s,50\%}=-\tau\log0.5\simeq0.7\tau.\]
+\autfig{25}{1}\autfig{25}{2}
+\subsection*{Risposta alla rampa $u(t)=t1(t)$}
+\[Y(s)=G(s)U(s)=\frac{k}{1+\tau s}\frac1{s^2}=\frac k\tau\frac1{s^2(s+1/\tau)}=\frac{k_{11}}{s^2}+\frac{k_{12}}s+\frac{k_{21}}{s+1/\tau}.\]
+\[y_f(t)=kt1(t)-k\tau1(t)+k\tau e^{-t/\tau}1(t)=k[t-\tau(1-e^{-t/\tau})]1(t).\]
+% Pagina originale 26
+\pagina{26}
+\subsection*{Sistemi del primo ordine con uno zero}
+\[G(s)=k\frac{1+\alpha\tau s}{1+\tau s},\quad z=-\frac1{\alpha\tau},\quad p=-\frac1\tau.\]
+\autfig{26}{1}
+\[Y(s)=G(s)U(s)=\frac{G(s)}s=k\alpha\frac{s+1/(\alpha\tau)}{s+1/\tau}\frac1s=\frac{k_1}s+\frac{k_2}{s+1/\tau}.\]
+\[k_1=G(0)=k,\quad k_1+k_2=\frac{b_n}{a_n}=k\alpha,\quad k_2=k\alpha-k=k(\alpha-1).\]
+\[y(t)=k[1+(\alpha-1)e^{-t/\tau}]1(t)=k[1-(1-\alpha)e^{-t/\tau}]1(t).\]
+\[y(\infty)=k\quad\forall\alpha,\ \tau>0,\qquad y(0_+)=k\alpha.\]
+Determino la risposta all'impulso $g(t)$:
+\[g(t)=\frac d{dt}y(t)=\frac k\tau(1-\alpha)e^{-t/\tau}1(t)+k\alpha\delta(t),\quad g(0_+)=\frac k\tau(1-\alpha).\]
+\[T(t)=k\alpha+\frac k\tau(1-\alpha)t,\quad T(\tau)=k\alpha+\frac k\tau(1-\alpha)\tau=k(\alpha+1-\alpha)=k.\]
+Sono speculari: $\alpha_1+\alpha_2=2$.
+\autfig{26}{2}
+% Pagina originale 27
+\pagina{27}
+\[t_{s,\varepsilon\%}=-\tau\log\frac\varepsilon{100}+\tau\log|1-\alpha|.\]
+Se $\log|1-\alpha|>0$ lo zero rallenta il sistema:
+\[\log|1-\alpha|>0\Rightarrow\begin{cases}1-\alpha>1,\\1-\alpha<-1\end{cases}\Rightarrow\begin{cases}\alpha<0,\\\alpha>2.\end{cases}\]
+Per $\alpha\in(0,2)$ lo zero velocizza l'assestamento.
+\subsection*{Sistemi del secondo ordine senza zeri}
+\[\frac{d^2y}{dt^2}+2\delta\omega_n\frac{dy}{dt}+\omega_n^2y=\omega_n^2u,\qquad G(s)=k\frac{\omega_n^2}{s^2+2\delta\omega_ns+\omega_n^2},\quad G(0)=k.\]
+Al variare di $\delta$ e $\omega_n$ cambia la posizione dei due poli. $\delta$ è il fattore di smorzamento, adimensionale; $\omega_n$ è la pulsazione naturale [rad/s].
+\[s^2+2\delta\omega_ns+\omega_n^2=0\Rightarrow p_{1,2}=-\delta\omega_n\pm\omega_n\sqrt{\delta^2-1}.\]
+In base al segno di $\delta^2-1$ abbiamo:
+% Pagina originale 28
+\pagina{28}
+\begin{enumerate}
+\item Sovrasmorzato: $\delta^2>1\Rightarrow|\delta|>1$.
+\item Smorzamento critico: $\delta^2=1\Rightarrow|\delta|=1$.
+\item Sottosmorzato: $\delta^2<1\Rightarrow|\delta|<1$.
+\end{enumerate}
+\[\omega_d=\omega_n\sqrt{1-\delta^2}\le\omega_n\quad\text{pulsazione smorzata, presente nei sistemi sottosmorzati}.\]
+\autfig{28}{1}
+Il sistema del secondo ordine si ottiene come: serie di due sistemi del primo ordine privi di zeri con $\tau$ diversi (sovrasmorzato); serie di due sistemi del primo ordine privi di zeri con $\tau$ uguali (smorzamento critico); retroazione con ramo diretto pari a una serie di due sistemi del primo ordine privi di zeri (sottosmorzato).
+\[U(s)\longrightarrow\boxed{\frac1{1+\tau_1s}}\longrightarrow\boxed{\frac1{1+\tau_2s}}\longrightarrow Y(s).\]
+\begin{align*}
+G(s)&=\frac1{(1+\tau_1s)(1+\tau_2s)}=\frac1{\tau_1\tau_2s^2+(\tau_1+\tau_2)s+1}\\
+&=\frac1{\tau_1\tau_2}\frac1{s^2+\frac{\tau_1+\tau_2}{\tau_1\tau_2}s+\frac1{\tau_1\tau_2}}=\frac{\omega_n^2}{s^2+2\delta\omega_ns+\omega_n^2}.
+\end{align*}
+% Pagina originale 29
+\pagina{29}
+\[\begin{cases}\omega_n=\sqrt{\frac1{\tau_1\tau_2}},\\2\delta\omega_n=\frac{\tau_1+\tau_2}{\tau_1\tau_2}\end{cases}\Rightarrow\delta=\frac{\tau_1+\tau_2}{2\sqrt{\tau_1\tau_2}}.\]
+\subsection*{Risposta al gradino di un sistema del secondo ordine privo di zeri: sovrasmorzato}
+\[G(s)=\frac1{(1+\tau_1s)(1+\tau_2s)}=\frac1{\tau_1\tau_2}\frac1{(s+1/\tau_1)(s+1/\tau_2)},\quad\tau_1>\tau_2>0.\]
+\[Y(s)=\frac{k_1}s+\frac{k_2}{s+1/\tau_1}+\frac{k_3}{s+1/\tau_2}.\]
+\[k_1=G(0)=1,\quad k_2=-\frac{\tau_1}{\tau_1-\tau_2}=\frac{\tau_1}{\tau_2-\tau_1}<0,\quad k_3=\frac{\tau_2}{\tau_1-\tau_2}>0.\]
+\[y(t)=\left[1-\frac{\tau_1}{\tau_1-\tau_2}e^{-t/\tau_1}+\frac{\tau_2}{\tau_1-\tau_2}e^{-t/\tau_2}\right]1(t),\quad y(0_+)=0.\]
+\[g(t)=\frac d{dt}y(t)=\frac1{\tau_1-\tau_2}e^{-t/\tau_1}-\frac1{\tau_1-\tau_2}e^{-t/\tau_2}=\frac{e^{-t/\tau_1}-e^{-t/\tau_2}}{\tau_1-\tau_2}.\]
+Somma algebrica delle tre funzioni:
+\[y_1(t)=1(t),\quad y_2(t)=-\frac{\tau_1}{\tau_1-\tau_2}e^{-t/\tau_1}1(t),\quad y_3(t)=\frac{\tau_2}{\tau_1-\tau_2}e^{-t/\tau_2}1(t).\]
+Forma a sigmoide.
+\autfig{29}{1}\autfig{29}{2}
+% Pagina originale 30
+\pagina{30}
+\subsection*{Smorzamento critico}
+\[G(s)=\frac{\omega_n^2}{(s+\omega_n)^2},\quad Y(s)=\frac{\omega_n^2}{s(s+\omega_n)^2}=\frac{k_1}s+\frac{k_{21}}{(s+\omega_n)^2}+\frac{k_{22}}{s+\omega_n}.\]
+\[k_1=G(0)=1,\quad k_{22}=-1\text{ per il teorema dei residui},\quad k_{21}=-\omega_n.\]
+\[y(t)=[1-e^{-\omega_nt}(\omega_nt+1)]1(t),\quad y(0_+)=0,\quad y'(0_+)=0,\quad\omega_n>0.\]
+\autfig{30}{1}
+\subsection*{Sottosmorzati}
+\[p_{1,2}=-\delta\omega_n\pm j\omega_d,\quad |p_1|=|p_2|=\sqrt{\delta^2\omega_n^2+\omega_d^2}=|\omega_n|=\omega_n.\]
+\[\theta=\arctan\frac{\omega_n\sqrt{1-\delta^2}}{\delta\omega_n}=\arctan\frac{\sqrt{1-\delta^2}}\delta=\arccos\delta=\arcsin\sqrt{1-\delta^2}.\]
+\[Y(s)=G(s)U(s)=\frac{G(s)}s=\frac{\omega_n^2}{(s+\delta\omega_n)^2+\omega_d^2}\frac1s=\frac{k_1}s+\frac{\alpha s+\beta}{(s+\delta\omega_n)^2+\omega_d^2}.\]
+\[k_1=G(0)=1,\qquad \left.(\alpha s+\beta)\right|_{s=-\delta\omega_n+j\omega_d}=\left.\frac{\omega_n^2}s\right|_{s=-\delta\omega_n+j\omega_d}.\]
+% Pagina originale 31
+\pagina{31}
+\[\begin{cases}-\alpha\delta\omega_n+\beta=-\delta\omega_n,\\j\omega_d\alpha=-j\omega_d\end{cases}\Rightarrow\begin{cases}\alpha=-1,\\\beta=-2\delta\omega_n.\end{cases}\]
+\[y(t)=\left[1-\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}\sin(\omega_dt+\theta)\right]1(t).\]
+Se $\delta=0$:
+\[y(t)=[1-\sin(\omega_nt+\pi/2)]1(t)=[1-\cos(\omega_nt)]1(t).\]
+\[\lim_{t\to\infty}y(t)=1,\quad y(0_+)=1-\frac{\sin\theta}{\sqrt{1-\delta^2}}=0.\]
+\paragraph{Nota di lettura, pagina 31} In due denominatori della scansione il segno sotto radice sembra $+$; si è riportato $\sqrt{1-\delta^2}$ coerentemente con le altre righe della stessa derivazione.
+Massimi e minimi si trovano a $k\pi/\omega_d$.
+\autfig{31}{1}
+\subsection*{Inviluppi}
+\[\left|\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}\sin(\omega_dt+\theta)\right|=|y(t)-1|=|1-y(t)|.\]
+\[\left|\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}\right||\sin(\omega_dt+\theta)|\le\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}.\]
+\[y(t)\in\left[1-\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}},\ 1+\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}\right].\]
+Tocca gli inviluppi quando $|\sin(\omega_dt+\theta)|=1$:
+\[\omega_dt+\theta=(k+1/2)\pi\Rightarrow \bar t=\frac{\pi(k+1/2)-\theta}{\omega_d},\quad k\in\mathbb N.\]
+% Pagina originale 32
+\pagina{32}
+\subsection*{Massimi e minimi locali}
+\begin{align*}
+\frac{dy(t)}{dt}=0&\Rightarrow\frac d{dt}\left[\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}\sin(\omega_dt+\theta)\right]=0\\
+&\Rightarrow\frac{\omega_ne^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}[\delta\sin(\omega_dt+\theta)-\sqrt{1-\delta^2}\cos(\omega_dt+\theta)]=0\\
+&\Rightarrow\frac{\omega_ne^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}\sin(\omega_dt+\theta-\theta)=0\\
+&\Rightarrow\sin(\omega_dt)=0\Rightarrow\omega_dt=k\pi\Rightarrow\bar t=\frac{k\pi}{\omega_d}.
+\end{align*}
+\subsection*{Tempo di picco (peak time)}
+\[t_p=t_{\max}-t_0=\left.\frac{k\pi}{\omega_d}\right|_{k=1}-\left.\frac{k\pi}{\omega_d}\right|_{k=0}=\frac\pi{\omega_d}.\]
+\[t_1<t_3\Longleftrightarrow e^{-\delta\omega_nt_1}>e^{-\delta\omega_nt_3}\Rightarrow\max_{k=1}>\max_{k=3}.\]
+Tutti i sistemi del secondo ordine hanno $y(0_+)=y'(0_+)=0$.
+\autfig{32}{1}
+\subsection*{Tempo di salita (rise time)}
+Differentemente dal tempo di salita nei sistemi del primo ordine, $t_r$ è il tempo minimo che ci mette il sistema a raggiungere $y(\infty)$.
+\[y(t_r)=y(\infty)=1,\quad 1-\frac{e^{-\delta\omega_nt_r}}{\sqrt{1-\delta^2}}\sin(\omega_dt_r+\theta)=1.\]
+\[\omega_dt_r+\theta=k\pi\Rightarrow t_r=\frac{k\pi-\theta}{\omega_d},\quad|t_r-t_p|=\frac\theta{\omega_d},\quad t_r<t_p.\]
+% Pagina originale 33
+\pagina{33}
+\subsection*{Tempo di assestamento $t_{s,\varepsilon\%}$}
+Considero gli inviluppi, $y(\infty)=1$:
+\begin{align*}
+1+\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}&=y(\infty)\left(1+\frac\varepsilon{100}\right),\\
+\frac{e^{-\delta\omega_nt}}{\sqrt{1-\delta^2}}&=\frac\varepsilon{100},\\
+-\delta\omega_nt&=\log\frac{\varepsilon\sqrt{1-\delta^2}}{100},\\
+t_{s,\varepsilon\%}&=-\frac{\log[\varepsilon\sqrt{1-\delta^2}/100]}{\delta\omega_n}=-\tau\log\frac{\varepsilon\sqrt{1-\delta^2}}{100},\quad\tau=\frac1{\delta\omega_n}.
+\end{align*}
+\[\delta\ll1\Rightarrow t_{s,\varepsilon\%}\simeq-\tau\log\frac\varepsilon{100}=-\frac1{\delta\omega_n}\log\frac\varepsilon{100}.\]
+Ricorda che $-\delta\omega_n=\operatorname{Re}(p_1)$, $\omega_d=\operatorname{Im}(p_1)$. In base alla posizione dei poli posso calcolare i tempi di salita, di picco, minimi e massimi, ecc.
+\subsection*{Luoghi a $\delta$ e $\omega_n$ costante}
+\[\delta_1=\cos\theta_1=0,\quad\theta_1=\pi/2;\qquad \delta_3=1=\cos\theta_3,\quad\theta_3=0;\qquad\delta_2=\sqrt2/2=\cos\theta_2,\quad\theta_2=\pi/4.\]
+\autfig{33}{1}
+% Pagina originale 34
+\pagina{34}
+\subsection*{Massima sovraelongazione percentuale $M_{p\%}$}
+\[M_{p\%}=\frac{y(t_p)-y(\infty)}{y(\infty)}100.\]
+$y(\infty)$ è il valore a valle, $y(t_p)$ il massimo assoluto.
+\begin{align*}
+y(t_p)=y(\pi/\omega_d)&=1-\frac{e^{-\delta\omega_n\pi/\omega_d}}{\sqrt{1-\delta^2}}\sin(\pi+\theta)\\
+&=1+e^{-\delta\omega_n\pi/\omega_d}\frac{\sin\theta}{\sqrt{1-\delta^2}}=1+e^{-\cot\theta\,\pi},\\
+M_{p\%}&=\frac{1+e^{-\cot\theta\,\pi}-1}1\,100=100e^{-\cot\theta\,\pi}.
+\end{align*}
+$M_{p\%}=100\%$ per $\delta=0$; $M_{p\%}\to0$ per $\delta\to1$.
+\autfig{34}{1}
+\subsection*{Sistemi del secondo ordine con uno zero}
+\[G(s)=\frac{\omega_n^2(1+\tau s)}{s^2+2\delta\omega_ns+\omega_n^2},\quad G(0)=1=k,\quad z=-1/\tau.\]
+\[G(s)=\frac{\omega_n^2}{s^2+2\delta\omega_ns+\omega_n^2}+\frac{\tau s\omega_n^2}{s^2+2\delta\omega_ns+\omega_n^2}=\bar G(s)+\tau s\bar G(s).\]
+\[\mathcal L^{-1}\{\tau s\bar Y(s)\}=\tau\frac{d\bar y}{dt}=\tau\bar y'(t),\quad y(t)=\bar y(t)+\tau\bar y'(t).\]
+Più grande è $\tau$ più sarà influenzato dallo zero il sistema (più grande è $\tau$, più vicino a zero è $z$).
+\autfig{34}{2}
+% Pagina originale 35
+\pagina{35}
+$\tau>0\Rightarrow z<0$. Nota: parte con pendenza positiva; $M_{p\%,1}>M_{p\%,0}$; $t_{p,1}<t_{p,0}$; $y_1(t)=y_0(t)$ quando $t=k\pi/\omega_d$; $t_{s,\varepsilon\%}$ aumenta.
+$\tau<0\Rightarrow z>0$: $y_1'(0_+)<0$ e c'è una sottoelongazione.
+\autfig{35}{1}\autfig{35}{2}
+\subsection*{Stabilità}
+Un sistema è:
+\begin{enumerate}
+\item semplicemente stabile se $\forall u(t)\in\mathcal S_\ell\ \exists M_y>0$ tale che $|y(t)|\le M_y$ per ogni $t$;
+\item asintoticamente stabile se è semplicemente stabile e $\lim_{t\to\infty}y(t)=0$;
+\item instabile se esistono C.I. tali che l'uscita $y(t)$ diverge.
+\end{enumerate}
+$\mathcal S_\ell$ contiene tutti i segnali a supporto limitato: $u(t)=f(t)$ per $0\le t\le\tau$, zero altrove.
+Trovo l'espressione in fratti semplici di $Y_\ell(s)$:
+\[Y_\ell(s)=\left(\sum_{i=1}^n a_i\sum_{j=0}^{i-1}s^jD^{(i-j-1)}y(0)\right)\left(\sum_{i=0}^na_is^i\right)^{-1}=\frac{N(s)}{a(s)}.\]
+\[y_\ell(t)=\sum_{i=1}^\ell\sum_{j=1}^{\nu_i}R_{ij}t^{\nu_i-j}e^{p_it},\quad R_{ij}=\frac{k_{ij}}{(\nu_i-j)!}.\]
+\[y_\ell(t)=\sum_{i=1}^\ell m_i(t)e^{p_it},\qquad m_i(t)=\sum_{j=1}^{\nu_i}R_{ij}t^{\nu_i-j}.\]
+
+\input{automatica_mod_1_tex_assets/blocco_36_51.tex}
+\end{document}

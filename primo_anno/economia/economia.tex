@@ -1,0 +1,416 @@
+% Compilazione: pdflatex -jobname=economia_tex economia.tex
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}\IfFileExists{italian.ldf}{\usepackage[italian]{babel}}{\usepackage{babel}}
+\usepackage{amsmath,amssymb,graphicx,geometry,enumitem,longtable}
+\geometry{margin=2cm}\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\graphicspath{{economia_tex_assets/}}
+\newcommand{\orig}[1]{\clearpage}
+\newcommand{\fig}[2][.48]{\par\noindent\includegraphics[width=#1\linewidth]{#2}\par}
+\setlength{\emergencystretch}{3em}
+\begin{document}
+% Pagina originale 1
+\section*{Legenda}
+\subsection*{1. Microeconomia}
+Curva d'indifferenza; utilità totale; utilità marginale; massimizzazione dell'utilità; saggio marginale di sostituzione; curva di domanda; somma di domande; spostamento della curva per cause esterne; curva di offerta; spostamento della curva per cause esterne; punto di equilibrio; rendita e ricavo; comportamenti del mercato; concorrenza perfetta; massimizzazione del profitto; punto di pareggio; punto di chiusura; concorrenza imperfetta; ricavo marginale; elasticità della curva di domanda; massimizzazione del profitto; elasticità della domanda; elasticità incrociata; beni inferiori; elasticità dell'offerta; frontiera delle possibilità produttive; funzione produzione; saggio marginale di sostituzione tecnica; rendimenti in scala; costi.
+\subsection*{2. Macroeconomia}
+Disoccupazione; inflazione; indice dei prezzi al consumo; PIL (Prodotto Interno Lordo); valore aggiunto; metodo del reddito; metodo della spesa; PIN (Prodotto Interno Netto); PNL (Prodotto Nazionale Lordo); domanda aggregata.
+\subsection*{3. Contabilità}
+Bilancio; concetti contabili di base: 1. Omogeneità; 2. Entità giuridica; 3. Continuità di funzionamento; 4. Duplice aspetto; 5. Costo; 6. Periodicità della misurazione; 7. Prudenza; 8. Realizzazione dei ricavi; 9. Competenza; 10. Continuità dei criteri di valutazione; 11. Significatività e rilevanza.
+Stato patrimoniale; liquidità; esigibilità; rimanenze; ratei e risconti; patrimonio netto; TFR (Trattamento di Fine Rapporto); conto economico; valore della produzione; costo della produzione; conto economico riclassificato; indici di bilancio: 1. Indici patrimoniali; 2. Indici di liquidità; 3. Indici operativi; 4. Indici di redditività.
+% Pagina originale 2
+\orig{2}\subsection*{Curva di indifferenza}
+\[U(P_1)=U(P_2),\qquad \forall P_1,P_2\in C_U:\ U(P_1)=U(P_2).\]
+\fig{p2_1.png}
+\subsection*{Utilità totale $U_T$ e utilità marginale $U_M$}
+\fig[.44]{p2_2.png}\fig[.44]{p2_3.png}
+\subsection*{Massimizzazione dell'utilità}
+\[\frac{UM_1}{P_1}=\frac{UM_2}{P_2}=\cdots=\frac{UM_n}{P_n}\qquad\forall n\in\mathbb N.\]
+\subsection*{Saggio marginale di sostituzione}
+\[SMS_{xy}(x_0,y_0)=-\left.\frac{\Delta y}{\Delta x}\right|_{x_0,y_0}.\]
+SMS indica il coefficiente angolare della retta della rendita (retta di bilancio).
+\fig[.4]{p2_4.png}
+% Pagina originale 3
+\orig{3}
+\[u=f(x,y),\qquad u:\mathbb R_+^2\to\mathbb R,\qquad du=\frac{\partial u}{\partial x}dx+\frac{\partial u}{\partial y}dy.\]
+\[du=0\ \Longrightarrow\ -\frac{dy}{dx}=\frac{\partial u/\partial x}{\partial u/\partial y}.\]
+\subsection*{Curva di domanda}Ha pendenza negativa.
+\fig[.4]{p3_1.png}
+\subsection*{Somma di domande}\fig[.52]{p3_2.png}
+\subsection*{Spostamento della curva per cause esterne}
+Esempio: aumenta il reddito medio delle famiglie. A parità di prezzo $\bar P_1$, nella prima curva si ha $q_1<\bar Q$: domanda iniziale inferiore.
+\fig[.4]{p3_3.png}
+% Pagina originale 4
+\orig{4}\subsection*{Curva di offerta}Ha pendenza positiva.
+\fig[.4]{p4_1.png}
+\subsection*{Spostamento della curva per cause esterne}
+Esempio: l'utilizzo delle macchine diventa più oneroso e inquinante $\Rightarrow$ aumenta il costo del bene.
+A parità di prezzo la quantità offerta finale $\bar Q_f$ è decisamente minore della quantità iniziale.
+\fig[.4]{p4_2.png}
+\subsection*{Punto di equilibrio}
+$e_o$: eccesso di offerta; $e_d$: eccesso di domanda; $E$: punto di equilibrio.
+\fig[.4]{p4_3.png}
+% Pagina originale 5
+\orig{5}\subsection*{Rendita e ricavo}
+\[R=pq,\qquad S_p=pq\quad\text{(spesa)}.\]
+\fig[.42]{p5_1.png}\fig[.42]{p5_2.png}
+\[R_c=\tfrac12(A-B)C,\qquad R_p=\tfrac12(B-D)C,\qquad D_p=S_p+R_c.\]
+$R_c$: rendita del consumatore; $R_p$: rendita del produttore; $D_p$: disponibilità a pagare; $S_p$: spesa.
+\subsection*{Comportamenti del mercato}
+Mercato concorrenziale perfetto. Concorrenza imperfetta: monopolio, oligopolio, concorrenza monopolistica.
+\subsection*{Concorrenza perfetta}
+\begin{enumerate}\item Numero elevato di piccole imprese.\item Prodotti identici.\item Prezzi non influenzati dall'impresa.\item Curva di domanda perfettamente orizzontale.\item $P_n=P$.\end{enumerate}
+% Pagina originale 6
+\orig{6}\fig[.4]{p6_1.png}
+\subsection*{Massimizzazione del profitto}
+\[CM=P\qquad\text{(costo marginale = prezzo)}.\]
+\[C_{\rm tot}=C_UQ,\qquad C_{V\rm tot}=C_{VU}Q,\qquad C_{\rm tot}=C_{V\rm tot}+C_F.\]
+\fig[.57]{p6_2.png}\fig[.3]{p6_3.png}
+Nel grafico: costo totale $C_UQ$; ricavo $\alpha Q$; $CM=C_{\rm offerta}$; $C_U$; $C_{VU}$; domanda; punto di pareggio; punto di chiusura.
+\subsection*{Punto di pareggio}
+\[C_{\rm tot}=R_T.\]
+Il ricavo pareggia il costo. Il profitto è 0.
+\subsection*{Punto di chiusura}
+\[C_{V\rm tot}=\min C_{\rm off}(Q)\cdot Q.\]
+Costi variabili totali. Il livello minimo del prezzo per coprire i costi variabili.
+% Pagina originale 7
+\orig{7}\subsection*{Concorrenza imperfetta}
+Il livello di concorrenza del prezzo varia da industria a industria. I singoli venditori hanno controllo sul prezzo dei prodotti.
+\fig[.85]{p7_1.png}
+Monopolio: un unico produttore. Oligopolio: pochi produttori, poca differenza tra i prodotti. Concorrenza monopolistica: molti produttori, molte differenze tra i prodotti.
+\subsection*{Ricavo marginale}
+Incremento del ricavo totale derivante dalla vendita di un'unità in più. È la derivata del ricavo.
+\subsection*{Elasticità della curva di domanda}
+Elastico: $R_A<R_B$. Elasticità unitaria: $R_A=R_B$. Anelastica: $R_A>R_B$.
+\fig[.9]{p7_2.png}
+% Pagina originale 8
+\orig{8}
+Se $RM>0$, curva di domanda elastica. Se $RM=0$, curva di domanda con elasticità unitaria. Se $RM<0$, curva di domanda anelastica.
+\fig[.48]{p8_1.png}
+\[RM=P\left(1-\frac{\Delta p}{\Delta q}\frac q p\right)\ \Longrightarrow\ RM=P\left(1-\frac1{\eta}\right),\qquad \eta=-\frac{dq}{dp}\frac p q.\]
+\subsection*{Massimizzazione del profitto}
+\[RM=CM.\]
+Incontro tra $RM$ e $CM$. Nel grafico dei totali: tangenti parallele, $RM\parallel CM$; profitto $\pi_T=RT-CT$.
+\fig[.9]{p8_2.png}
+% Pagina originale 9
+\orig{9}\subsection*{Elasticità domanda}
+\[\eta_d=-\frac{dQ/Q}{dp/p}=-\frac{dQ}{dp}\frac p Q>0.\]
+$\eta_d>1$: domanda elastica. $\eta_d=1$: domanda con elasticità unitaria. $\eta_d<1$: domanda anelastica.
+\[\eta_R=\frac{dQ}{dR}\frac R Q\qquad\text{elasticità del reddito}.\]
+Domanda elastica: $P\downarrow\Rightarrow RT\uparrow$. Domanda anelastica: $P\downarrow\Rightarrow RT\downarrow$. Domanda ad elasticità unitaria: $P\uparrow\downarrow\Rightarrow RT=K$.
+\[RT=K\quad\forall P\ \Longrightarrow\ RT=PQ\ \Longrightarrow\ PQ=K\quad\text{(iperbole)}.\]
+\[P=\frac K Q,\qquad Q=\frac{K'}P,\qquad K'=K^{-1}.\]
+\textit{Nota di trascrizione: l'ultima relazione tra $K$ e $K'$ è riportata come nel manoscritto.}
+\subsection*{Elasticità incrociata}
+\[\eta_{ij}=\frac{dQ_j}{dP_i}\frac{P_i}{Q_j}.\]
+$\eta_{ij}>0$ se $i$ e $j$ sono sostitutivi; $\eta_{ij}<0$ se $i$ e $j$ sono complementari.
+% Pagina originale 10
+\orig{10}\subsection*{Beni inferiori}
+\[P_b>P_a,\qquad Q_b<Q_a.\]
+Pesce bianco, pesce azzurro (bene inferiore); curve di indifferenza e retta di bilancio.
+\fig[.44]{p10_1.png}
+\[P_a<P_b<P_c,\qquad Q_a<Q_b<Q_c.\]
+Per beni non correlati (carne, cibo).
+\fig[.44]{p10_2.png}
+\subsection*{Elasticità dell'offerta}
+\[\eta_o=\frac{dQ}{dP}\frac P Q>0.\]
+\subsection*{Frontiera delle possibilità produttive (FPP)}
+Punti non efficienti; punti impossibili; punti efficienti sulla frontiera. Assi: Bene A, Bene B.
+\fig[.45]{p10_3.png}
+% Pagina originale 11
+\orig{11}
+FPP: nazione ricca e nazione povera; beni di lusso e beni di prima necessità.
+\fig[.42]{p11_1.png}\fig[.42]{p11_2.png}
+La rendita si massimizza quando per ogni bene
+\[\frac{UM_x}{P_x}=\frac{UM_y}{P_y}.\]
+\subsection*{Funzione produzione}
+$Q$: output; $L$: lavoro e terra; $K$: capitale.
+\[f(A)=f(B)\ \Longrightarrow\ A,B\in\text{isoquanto};\qquad f(C)=f(D)\ \Longrightarrow\ C,D\in\text{isoquanto}.\]
+\fig[.42]{p11_3.png}\fig[.42]{p11_4.png}
+La curva di livello della funzione produzione è detta isoquanto ($Q$ costante).
+\[\forall P\in I:\ f(P)=K\qquad\text{curva dell'isoquanto}.\]
+% Pagina originale 12
+\orig{12}\subsection*{Saggio marginale di sostituzione tecnica}
+\[SMST_{LT}=\frac{PM_L}{PM_T},\qquad SMS_{LT}(L_0,T_0)=-\left.\frac{\Delta T}{\Delta L}\right|_{L_0,T_0}.\]
+La quantità di $L$ che va aggiunta se si toglie una quantità $K$ di $T$ (è necessario che siano quantità invertibili).
+\subsection*{Rendimenti in scala}
+\begin{align*}
+\text{Costanti: }& cf(L,K,\ldots)=f(cL,cK,\ldots),\\
+\text{Crescenti: }& cf(L,K,\ldots)<f(cL,cK,\ldots),\\
+\text{Decrescenti: }& cf(L,K,\ldots)>f(cL,cK,\ldots).
+\end{align*}
+\fig[.55]{p12_1.png}
+\subsection*{Costi}
+\[C_T=C_F+C_V,\qquad C_V=C_{VU}Q,\qquad C_U=\frac{C_T}Q=\frac{C_F}Q+C_{VU}.\]
+\[CT(Q=0)=C_F,\qquad CM=\frac{\Delta CT}{\Delta Q}=\frac{dCT}{dQ}.\]
+% Pagina originale 13
+\orig{13}\fig[.42]{p13_1.png}
+\subsection*{Disoccupazione}
+\[T_{\rm dis}=\frac{\text{disoccupati}}{\text{forza lavoro}}\cdot100.\]
+Forza lavoro = occupati + disoccupati (non volontari).
+\subsection*{Inflazione}
+È la diminuzione del potere d'acquisto di una moneta.
+\[T_{\rm inf}=\frac{P(t)-P(t-1)}{P(t-1)},\qquad t:\text{anno di riferimento}.\]
+Il fenomeno opposto è la deflazione.
+\subsection*{Indice dei prezzi al consumo (IPC)}
+Indica il prezzo totale dei beni e dei servizi acquistati dai consumatori. In Italia è affidato all'ISTAT.
+\begin{itemize}\item NIC: misura l'inflazione dell'intero sistema economico.\item FOI: si riferisce alle famiglie di lavoratori dipendenti.\item IPCA: armonizzato, comparabile a livello europeo.\end{itemize}
+% Pagina originale 14
+\orig{14}
+IPC si calcola con una media ponderata dove il peso di un bene coincide con la sua importanza.
+\subsection*{PIL (Prodotto Interno Lordo)}
+È la somma del valore di mercato di tutti i prodotti finiti e servizi realizzati in un paese nel corso di un anno.
+Il PIL può essere nominale (ricavo a prezzi del mercato in quell'anno) o reale (in base ai prezzi costanti).
+L'aumento del PIL reale indica la crescita economica di un paese.
+Il PIL potenziale rappresenta la quantità massima che l'economia può produrre.
+\fig[.6]{p14_1.png}
+\[PIL=C+I+G+X.\]
+$C$: consumi; $I$: investimenti fissi; $G$: spesa pubblica; $X$: esportazioni nette.
+% Pagina originale 15
+\orig{15}
+Il PIL per la spesa si trova nel conto economico e nella dichiarazione dei redditi.
+Il PIL esclude i prodotti intermedi (i prodotti utilizzati da altre imprese per produrre altri beni), per evitare i doppi conteggi.
+\subsection*{Valore aggiunto}
+È la differenza tra le vendite effettuate e gli acquisti di materiali e servizi da altre imprese.
+\begin{center}\begin{tabular}{lrrr}
+Fase di produzione&Vendite&Acquisto&VA\\\hline
+Produce e vende grano&25&0&25\\
+Produce e vende farina&65&25&40\\
+Produce e vende pane&150&65&85
+\end{tabular}\end{center}
+\subsection*{Metodo del reddito e metodo della spesa}
+\[\sum\text{redditi}=\text{salari}+\text{profitti},\qquad \sum P_{\rm beni}=V_{\rm mercato,tot}.\]
+\fig[.75]{p15_1.png}
+Mugnaio: 40 euro di farina venduta alle famiglie; 10 euro di farina al fornaio; 10 euro salari e 40 euro profitti. Fornaio: 100 euro pane alle famiglie; 40 euro salari e 50 euro profitti.
+\[S_p=40+100=140\text{ euro},\qquad R=(10+40)+(40+50)=140\text{ euro}.\]
+% Pagina originale 16
+\orig{16}
+\[VA=50+(100-10)=140\text{ euro}.\]
+Spesa: 40 euro per la farina + 100 euro pane; dalle famiglie ai lavoratori (aziende). Reddito: salari + profitti, per ogni azienda; dalle aziende alle famiglie.
+VA: 40 euro farina dalle famiglie + 100 euro pane dalle famiglie; i 10 euro farina dal fornaio e i 10 euro farina per il mugnaio sono prodotto intermedio e si escludono.
+\fig[.78]{p16_1.png}
+Secondo esempio: costruttore, mugnaio, fornaio e famiglie. Costruttore: 30 salari, 10 profitto; investimento 25 euro al mugnaio e 15 euro al fornaio. Mugnaio: 10 salari, 35 profitti, 5 reddito; 40 euro farina alle famiglie e 10 euro farina al fornaio. Fornaio: 40 salari, 40 profitti, 10 reddito; 100 euro pane alle famiglie.
+\[R=180\text{ euro},\qquad S_p=180\text{ euro},\qquad VA=180\text{ euro}.\]
+\[\text{Bilancio imprese: }190-230=-40\quad\text{(investimenti)}.\]
+\[\text{Bilancio famiglie: }180-140=+40\quad\text{(risparmi)}.\]
+Entrate: $(30+10)+(10+35+5)+(40+40+10)$, rispettivamente costruttore, mugnaio, fornaio. Uscite: $40+100$, mugnaio e fornaio. Differenza: saldo.
+% Pagina originale 17
+\orig{17}
+Il PIL nominale a causa dell'inflazione cresce più rapidamente.
+\fig[.5]{p17_1.png}
+1000 quintali l'anno 1 al prezzo di 1 euro/quintale; 1010 quintali l'anno 2 al prezzo di 2 euro/quintale.
+\[PQ_1=1000\cdot1=1000\text{ euro},\qquad PQ_2=1010\cdot2=2020\text{ euro}.\]
+\[Q_2=\frac{PQ_2}{q_2}=\frac{2020}{2}=1010.\]
+$PQ$ cresciuto del 102\% (PIL nominale); $Q$ cresciuto dell'1\% (PIL reale).
+\subsection*{PIN (Prodotto Interno Netto)}
+\[PIN=PIL-\text{ammortamento}.\]
+\subsection*{PNL (Prodotto Nazionale Lordo)}
+Conta solamente la produzione di proprietà di residenti in un paese. Bosch in Italia è inclusa nel PIL ma non nel PNL perché di proprietà tedesca.
+% Pagina originale 18
+\orig{18}\subsection*{Domanda aggregata}
+$C$: consumi; $I$: investimenti; $G$: spesa; $X$: esportazioni.
+\fig[.58]{p18_1.png}
+\subsection*{Contabilità}
+Ha la funzione di individuare la posizione creditrice/debitrice dell'impresa nei confronti di clienti, fornitori, banche, amministrazione finanziaria e costituisce un supporto per formulare previsioni di breve termine in merito alla solvibilità.
+\subsection*{Bilancio}
+È il documento attraverso il quale l'impresa descrive la propria situazione finanziaria e patrimoniale.
+Bilancio ordinario: in un determinato periodo annuo. Bilancio straordinario: redatto in particolari momenti dell'impresa.
+% Pagina originale 19
+\orig{19}
+Bilancio preventivo: la previsione di un periodo economico successivo. Bilancio consuntivo: riguarda il periodo appena concluso.
+\subsection*{Concetti contabili di base}
+\subsubsection*{1. Omogeneità}
+La contabilità riporta soltanto i risultati di eventi passati esprimibili in termini monetari. L'unità di misura nei resoconti finanziari è la moneta a valore nominale costante.
+\subsubsection*{2. Entità giuridica}
+È applicato a qualsiasi società, si riferisce all'azienda e non al suo proprietario.
+\subsubsection*{3. Continuità di funzionamento}
+Il bilancio si diversifica in relazione alla presenza di volontà dell'azienda di interrompere entro breve periodo la propria attività. Se l'attività rimane in vita per un periodo di tempo indeterminato prende il nome di bilancio di esercizio.
+Il principio di continuità di funzionamento assume che l'azienda continui a funzionare per un periodo di tempo indeterminato.
+% Pagina originale 20
+\orig{20}\subsubsection*{4. Duplice aspetto}
+\[\text{Attività}=\text{Passività}+\text{Capitale netto}.\]
+Mario Rossi produce in un anno 40\,000 euro con la sua attività: 40\,000 euro in cassa. Accende un debito con la banca di 15\,000 euro: 55\,000 euro in cassa, 40\,000 euro capitale netto, 15\,000 euro passività.
+\[\text{Capitale netto}=\text{Attivo}-\text{Passivo}.\]
+\subsubsection*{5. Costo}
+Le risorse economiche di un'azienda sono definite attività o asset o elementi patrimoniali.
+Le attività possono essere monetarie (c'è un'informazione oggettiva sul loro valore di mercato) o non monetarie.
+Un'attività è rilevata con il suo prezzo d'acquisto (il costo storico), book value, diverso dal fair value, il costo al quale le attività potrebbero essere vendute.
+% Pagina originale 21
+\orig{21}
+Un'impresa investe in azioni Unicredit, precisamente 100\,000 azioni da 2 euro l'una. Il book value è di 200\,000 euro. Qualche anno dopo il valore di una singola azione è cresciuto fino a 3,47 euro, quindi il fair value è di 347\,000 euro.
+Il principio del costo storico afferma che bisogna interessarsi esclusivamente del book value.
+\subsubsection*{Avviamento}
+È il valore che differenzia il totale prezzo di acquisto di un'impresa dal suo fair value.
+\[\text{Avviamento}=\text{Prezzo d'acquisto}-\text{Fair value}.\]
+\subsubsection*{6. Periodicità della misurazione}
+La contabilità misura il risultato (reddito) derivante dallo svolgimento delle attività in un determinato periodo di tempo (denominato periodo amministrativo o esercizio).
+\[UN=R-C_T,\qquad UN:\text{utile netto},\quad R:\text{ricavi},\quad C_T:\text{costi}.\]
+% Pagina originale 22
+\orig{22}\subsubsection*{7. Prudenza}
+Riconoscere i ricavi solo quando ragionevolmente certi. Riconoscere i costi solo quando ragionevolmente possibili.
+Il ricavo può essere riconosciuto:
+\begin{itemize}
+\item prima del periodo dell'incasso (credito);
+\item contestualmente all'incasso;
+\item dopo il periodo dell'incasso (anticipi).
+\end{itemize}
+\subsubsection*{8. Realizzazione dei ricavi}
+Ogni ricavo deve essere riconosciuto nel periodo della sua realizzazione, cioè:
+\begin{itemize}
+\item l'azienda ha ottenuto un diritto misurabile e [\textit{parola incerta nell'originale, pagina 22: ``fonte'' o ``forte''}] delle risorse;
+\item l'azienda abbia compiuto tutto quello che doveva essere fatto per avere diritto al ricavo.
+\end{itemize}
+Quanto ricavo riconoscere? Quello che con ragionevole certezza il cliente pagherà.
+% Pagina originale 23
+\orig{23}\subsubsection*{9. Competenza}
+I costi e i ricavi di gestione devono essere attribuiti all'esercizio nel quale si manifestano gli eventi che li hanno generati.
+Costi e ricavi determinati da uno stesso evento devono essere riconosciuti nello stesso periodo.
+\subsubsection*{10. Continuità dei criteri di valutazione}
+C'è bisogno di costanza dei criteri contabili adottati, non modificabili da un esercizio all'altro.
+\subsubsection*{11. Significatività e rilevanza}
+Si possono trascurare le transazioni irrilevanti. Deve, invece, indicare ogni transazione rilevante.
+Una transazione è considerata rilevante se una sua omissione modificherebbe il bilancio e la sua valutazione con la sua presenza/assenza.
+Il bilancio nel corso del tempo viene sempre più standardizzato.
+% Pagina originale 24
+\orig{24}\subsection*{Stato patrimoniale}
+\begin{itemize}
+\item Attività: risorse che possiede l'azienda durante lo svolgimento delle attività.
+\item Passività: gli obblighi contratti dall'azienda nei confronti dei terzi dai quali ha ricevuto le risorse.
+\item Patrimonio netto: capitale versato direttamente dai soci e risorse di utili relative ai profitti prodotti dall'azienda.
+\end{itemize}
+\subsection*{Liquidità}
+Si riferisce alla rapidità con il quale un bene può essere trasformato in denaro.
+\subsection*{Esigibilità}
+È la velocità di un prestito con la quale questo viene riscosso da parte del creditore.
+\begin{center}\begin{tabular}{p{.43\linewidth}|p{.43\linewidth}}
+\textbf{Attivo}&\textbf{Passivo}\\\hline
+Crediti verso soci&Patrimonio netto\\
+Immobilizzazioni&Fondo per rischi e oneri\\
+Attivo circolante&Trattamento di fine rapporto\\
+Ratei e risconti attivi&Debiti\\
+&Ratei e risconti passivi
+\end{tabular}\end{center}
+% Pagina originale 25
+\orig{25}
+Più specificatamente abbiamo:
+\begin{center}\begin{tabular}{p{.45\linewidth}|p{.45\linewidth}}
+\textbf{Attivo}&\textbf{Passivo}\\\hline
+A) Crediti verso soci per versamenti ancora dovuti&A) Patrimonio netto\\
+B) Immobilizzazioni: I. immateriali; II. materiali; III. finanziarie&B) Fondi per rischi e oneri\\
+C) Attivo circolante: I. rimanenze; II. crediti; III. attività finanziarie; IV. disponibilità liquide&C) Trattamento fine rapporto (TFR)\\
+D) Ratei e risconti&D) Debiti\\
+&E) Ratei e risconti
+\end{tabular}\end{center}
+\[\text{Utilizzo durevole}\longrightarrow\text{Immobilizzazioni},\qquad
+\text{Utilizzo temporaneo}\longrightarrow\text{Attivo circolante}.\]
+L'attivo circolante è composto da beni convertibili in liquidità entro un anno.
+% Pagina originale 26
+\orig{26}\subsection*{Rimanenze}
+Rappresentano i componenti con minore liquidità tra le attività correnti.
+\subsection*{Ratei e risconti}
+Particolari tipi di crediti che a causa della loro natura non rientrano tra gli attivi circolanti.
+\begin{align*}
+\text{Rateo}&\Rightarrow\text{bene finanziario dopo quello economico},\\
+\text{Risconto}&\Rightarrow\text{bene finanziario prima quello economico}.
+\end{align*}
+\subsection*{Patrimonio netto}
+Fonti di finanziamento proprie della società. Suddiviso in capitale, riserve e utili.
+\[\text{Capitale versato}+\text{Riserve di utili}=\text{Capitale netto}.\]
+\subsection*{TFR}
+Corrisponde alla somma di denaro che l'azienda deve sborsare al lavoratore nel momento della cessazione dell'attività lavorativa (indipendentemente dalla causa della cessazione).
+% Pagina originale 27
+\orig{27}\subsection*{Conto economico}
+Si divide in ricavi e costi di competenza.
+Ricavi: flussi in ingresso che risultano dalla vendita di beni e servizi. Costi di competenza: flussi in uscita.
+\[\text{Ricavi}-\text{Costi di competenza}=\text{Reddito}.\]
+\begin{center}\begin{tabular}{lp{.73\linewidth}}
+A)&Valore della produzione\\
+B)&Costi della produzione\\\hline
+&Utile operativo $(A-B)$: gestione operativa\\
+C)&Proventi e oneri finanziari\\
+D)&Rettifiche di valore di attività finanziarie\\\hline
+&Risultato prima delle imposte (utile lordo)\\
+E)&Imposte sul reddito\\\hline
+&Utile dell'esercizio
+\end{tabular}\end{center}
+C e D: gestione finanziaria. Risultato prima delle imposte meno imposte sul reddito: gestione fiscale.
+Quando l'utile dell'esercizio è negativo si parla di perdita dell'esercizio.
+\[\text{Gestione operativa}+\text{Gestione finanziaria}=\text{Gestione ordinaria}.\]
+% Pagina originale 28
+\orig{28}\subsection*{Valore della produzione}
+\begin{enumerate}
+\item Ricavi delle vendite e delle prestazioni.
+\item Variazioni delle rimanenze di prodotti in [\textit{voce lasciata incompleta nell'originale}].
+\item Variazione dei lavori in corso su ordinazione.
+\item Incrementi di immobilizzazioni.
+\item Altri ricavi e proventi.
+\end{enumerate}
+\subsection*{Costi della produzione}
+\begin{enumerate}[start=6]
+\item Per materie prime, sussidiarie, di consumo e di merci.
+\item Per servizi.
+\item Per godimento di beni di terzi.
+\item Per il personale.
+\item Ammortamenti e svalutazioni.
+\item Variazione delle rimanenze di materie prime\ldots
+\item Accantonamento per rischi.
+\item Altri accantonamenti.
+\item Oneri diversi di gestione.
+\end{enumerate}
+% Pagina originale 29
+\orig{29}\subsection*{Conto economico riclassificato}
+\begin{enumerate}
+\item Ricavi netti.
+\item Rimanenze iniziali $-$ rimanenze finali.
+\item Acquisti.
+\item Consumi $(2+3)$.
+\item Costi industriali.
+\item Costo del lavoro industriale.
+\item Ammortamento industriale.
+\item Costruzioni interne capitalizzate.
+\item Costo del venduto $(4+5+6+7-8)$.
+\item Risultato lordo industriale $(1-9)$.
+\item Costi R\&S $\to$ ricerca e sviluppo.
+\item Costi commerciali.
+\item Costi amministrativi.
+\item Reddito operativo caratteristico $(10-11-12-13)$.
+\item Proventi e oneri (proventi $-$ oneri).
+\item Reddito operativo globale $(14+15)$.
+\item Oneri finanziari.
+\item Reddito di competenza $(16-17)$: reddito pre-imposte.
+\item Imposte e tasse.
+\item Reddito netto $(18-19)$.
+\end{enumerate}
+La riclassificazione consiste anche nella suddivisione tra costi variabili e costi fissi.
+% Pagina originale 30
+\orig{30}\subsection*{Indici di bilancio}
+\subsubsection*{Indici patrimoniali}
+\begin{align*}
+\text{Indebitamento}&=\frac{\text{Passività totali}}{\text{Capitale totale investito}},\\
+\text{Indice finanziario (indipendenza)}&=\frac{\text{Patrimonio netto}}{\text{Capitale totale investito}},\\
+\text{Copertura immobilizzazioni}&=\frac{CN+\text{Passività medio/lungo termine}}{\text{Immobilizzazioni}},\\
+\text{Garanzia debiti medio/lungo termine}&=\frac{\text{Immobilizzazioni}}{\text{Passività medio/lungo termine}}.
+\end{align*}
+\subsubsection*{Indici di liquidità}
+\[\text{Current ratio}=\frac{\text{Attività correnti}}{\text{Passività correnti}},\qquad
+\text{Quick ratio}=\frac{\text{Attività correnti}-\text{Rimanenze}}{\text{Passività correnti}}.\]
+\subsubsection*{Indici operativi}
+\begin{align*}
+\text{Rotazione crediti}&=\frac{\text{Crediti commerciali}}{\text{Ricavi}}\cdot365,\\
+\text{Rotazione debiti}&=\frac{\text{Debiti commerciali}}{\text{Acquisti}}\cdot365,\\
+\text{Copertura scorte}&=\frac{\text{Scorte}}{\text{Costo del venduto}}\cdot365.
+\end{align*}
+% Pagina originale 31
+\orig{31}\subsubsection*{Indici di redditività}
+\begin{align*}
+\text{Turnover capitale investito (CTI)}&=\frac{\text{Ricavi}}{\text{Capitale totale investito}},\\
+\text{Turnover capitale circolante (CC)}&=\frac{\text{Ricavi}}{\text{Attività correnti}-\text{Passività correnti}},\\
+ROS\ (\text{Return on Sales})&=\frac{\text{Utile operativo}}{\text{Ricavi}},\\
+ROI\ (\text{Return on Investment})&=\frac{\text{Utile operativo}}{\text{Capitale totale investito}},\\
+ROE\ (\text{Return on Equity})&=\frac{\text{Utile netto}}{\text{Patrimonio netto}},\\
+ROD\ (\text{Return on Debts})&=\frac{\text{Oneri finanziari}}{\text{Debiti}}.
+\end{align*}
+\[ROI=\frac{U_O}{CTI}=\frac{U_O}{\text{Ricavi}}\cdot\frac{\text{Ricavi}}{CTI}
+=ROS\cdot\text{turnover del capitale investito}.\]
+\[ROE=ROI\cdot\frac{\text{Capitale investito}}{\text{Patrimonio netto}}.\]
+\textit{Nota di trascrizione (pagina 31): nell'ultima formula sono riportate le relazioni dell'originale senza correggerne le ipotesi economiche; CTI è usato nell'originale anche come abbreviazione del capitale totale investito.}
+\end{document}

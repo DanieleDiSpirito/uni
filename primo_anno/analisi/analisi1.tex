@@ -1,0 +1,20 @@
+% Compilazione: pdflatex -jobname=analisi1_tex analisi1.tex
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\IfFileExists{italian.ldf}{\usepackage[italian]{babel}}{}
+\usepackage{amsmath,amssymb,mathtools,geometry,tikz,hyperref}
+\geometry{margin=2cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\newcommand{\R}{\mathbb R}\newcommand{\C}{\mathbb C}\newcommand{\Q}{\mathbb Q}\newcommand{\N}{\mathbb N}\newcommand{\Z}{\mathbb Z}
+\newcommand{\pagina}[1]{\clearpage}
+\newcommand{\tit}[1]{\subsection*{#1}}
+\newcommand{\nota}[1]{\textit{Nota di trascrizione: #1}}
+\begin{document}
+\begin{center}\LARGE Analisi 1\end{center}
+Trascrizione degli appunti.
+\input{analisi1_tex_assets/indice.tex}
+\input{analisi1_tex_assets/testo.tex}
+\input{analisi1_tex_assets/blocco_51_86.tex}
+\end{document}
